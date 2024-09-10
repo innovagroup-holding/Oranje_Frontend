@@ -5,7 +5,7 @@
       href="#"
       :class="menuItemActive('portfolio', currentRouteName) && 'active'"
     >
-      Portfolio
+      Categories
       <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
     </a>
     <div class="dropdown-menu dropdown-menu-center dropdown-menu-size-xl p-3">
@@ -16,7 +16,9 @@
               <img :src="portfolioList1Img" class="card-img" alt="" />
               <b-card-body class="px-0 text-start pb-0">
                 <h6><a href="#">Ceremony Worthy of Time</a></h6>
-                <p class="mb-2 small">We help our customers better manage their web presence.</p>
+                <p class="mb-2 small">
+                  We help our customers better manage their web presence.
+                </p>
                 <router-link
                   :to="{ name: 'portfolio.case-study.v1' }"
                   class="icon-link icon-link-hover stretched-link mb-0"
@@ -31,7 +33,9 @@
               <img :src="portfolioList2Img" class="card-img" alt="" />
               <b-card-body class="px-0 text-start pb-0">
                 <h6><a href="#">Brushstrokes and Beyond</a></h6>
-                <p class="mb-2 small">We help our customers better manage their web presence.</p>
+                <p class="mb-2 small">
+                  We help our customers better manage their web presence.
+                </p>
                 <router-link
                   :to="{ name: 'portfolio.case-study.v2' }"
                   class="icon-link icon-link-hover stretched-link mb-0"
@@ -70,21 +74,21 @@
 </template>
 
 <script lang="ts" setup>
-import router from '@/router'
-import type { MenuItemType } from '@/helpers/menu'
-import { menuItemActive } from '@/components/topbar/AppMenu/getActiveClass'
+import router from "@/router";
+import type { MenuItemType } from "@/helpers/menu";
+import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 
-import { BIconArrowRight } from 'bootstrap-icons-vue'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { BIconArrowRight } from "bootstrap-icons-vue";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
-import portfolioList1Img from '@/assets/images/portfolio/list/01.jpg'
-import portfolioList2Img from '@/assets/images/portfolio/list/02.jpg'
+import portfolioList1Img from "@/assets/images/portfolio/list/01.jpg";
+import portfolioList2Img from "@/assets/images/portfolio/list/02.jpg";
 
 type PortfolioMenuDropdownProps = {
-  menuItems: MenuItemType[]
-}
+  menuItems: MenuItemType[];
+};
 
-defineProps<PortfolioMenuDropdownProps>()
+defineProps<PortfolioMenuDropdownProps>();
 
-const currentRouteName = router.currentRoute.value.name
+const currentRouteName = router.currentRoute.value.name;
 </script>

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <section class="pt-0">
     <b-container>
       <div class="inner-container-small text-center mb-4 mb-sm-5">
@@ -8,33 +8,56 @@
       <Swiper
         :modules="[Autoplay, Pagination]"
         :autoplay="{
-          delay: 2000
+          delay: 2000,
         }"
         :loop="false"
         :spaceBetween="30"
         :pagination="{
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
         }"
         :breakpoints="{
           576: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
-          992: { slidesPerView: 3 }
+          992: { slidesPerView: 3 },
         }"
       >
         <SwiperSlide v-for="(blog, idx) in blogs" :key="idx">
           <BlogCard :blog="blog" />
         </SwiperSlide>
 
-        <div class="swiper-pagination swiper-pagination-primary position-relative mt-4"></div>
+        <div
+          class="swiper-pagination swiper-pagination-primary position-relative mt-4"
+        ></div>
       </Swiper>
     </b-container>
   </section>
 </template>
 
 <script lang="ts" setup>
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Autoplay } from 'swiper/modules'
-import { Pagination } from 'swiper/modules'
-import BlogCard from '@/views/demos/DigitalAgency/components/BlogCard.vue'
-import { blogs } from '@/views/demos/DigitalAgency/data'
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Autoplay } from "swiper/modules";
+import { Pagination } from "swiper/modules";
+import BlogCard from "@/views/demos/DigitalAgency/components/BlogCard.vue";
+import { blogs } from "@/views/demos/DigitalAgency/data";
+</script> -->
+
+<template>
+  <section>
+    <b-container>
+      <div class="inner-container text-center mb-4 mb-sm-6">
+        <h2 class="mb-0">Explore Our Categories</h2>
+      </div>
+
+      <b-row class="g-4 g-lg-5">
+        <b-col md="3" v-for="(blog, idx) in blogs" :key="idx">
+          <BlogCard :blog="blog" />
+        </b-col>
+      </b-row>
+    </b-container>
+  </section>
+</template>
+
+<script lang="ts" setup>
+import BlogCard from "@/views/demos/DigitalAgency/components/BlogCard.vue";
+import { blogs } from "@/views/demos/DigitalAgency/data";
 </script>

@@ -7,7 +7,7 @@ const setTitle = (pageName?: string) => {
 const demoRoutes = [
   {
     path: '/',
-    redirect: { name: 'demos.classic' },
+    redirect: { name: 'demos.agency.digital' },
     name: 'index'
   },
   {
@@ -27,7 +27,7 @@ const demoRoutes = [
     component: () => import('@/views/demos/CreativeAgency/index.vue')
   },
   {
-    path: '/demos/agency/digital',
+    path: '/',
     name: 'demos.agency.digital',
     meta: {
       title: setTitle('Digital Agency')

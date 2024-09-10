@@ -8,11 +8,11 @@
       :speed="1000"
       :autoplay="{
         delay: 3000,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       }"
       :pagination="{
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       }"
     >
       <SwiperSlide>
@@ -23,23 +23,36 @@
         >
           <div class="bg-overlay bg-linear-overlay"></div>
 
-          <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+          <div
+            class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9"
+          >
             <b-container>
               <b-row>
                 <b-col sm="11" lg="8" xl="7" class="text-center m-auto">
-                  <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2"
+                  <span
+                    class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2"
                     >🚀 #World's best software agency</span
                   >
                   <h1 class="text-white display-4 my-4">
-                    Leading the Way in <span class="text-primary">software</span> innovation
+                    Leading the Way in
+                    <span class="text-primary">software</span> innovation
                   </h1>
                   <p class="text-white mb-5">
-                    Whether you're a gaming enthusiast or simply seeking an extraordinary escape
-                    from reality, our Virtual VR product is your portal to endless excitement.
+                    Whether you're a gaming enthusiast or simply seeking an
+                    extraordinary escape from reality, our Virtual VR product is
+                    your portal to endless excitement.
                   </p>
-                  <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="#"
-                    >Get started now<BIconArrowRight class="bi" />
-                  </a>
+                  <router-link
+                    class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
+                    :to="{ name: 'contact.v1' }"
+                  >
+                    Get a Quote<BIconArrowRight class="bi" />
+                  </router-link>
+                  <!-- <a
+                    class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
+                    href="#"
+                    >Get a Quote<BIconArrowRight class="bi" />
+                  </a> -->
                 </b-col>
               </b-row>
             </b-container>
@@ -55,21 +68,32 @@
         >
           <div class="bg-overlay bg-linear-overlay"></div>
 
-          <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9">
+          <div
+            class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9"
+          >
             <b-container>
               <b-row>
-                <b-col sm="11" lg="8" class="mt-auto">
+                <b-col sm="11" lg="8" class="m-auto text-center">
                   <h1 class="text-white display-4 mb-4">
                     Empower Your <span class="fw-light">Business</span> with
                     <span class="fw-light">Innovation</span>
                   </h1>
                   <p class="text-white mb-5">
-                    Whether you're a gaming enthusiast or simply seeking an extraordinary escape
-                    from reality, our Virtual VR product is your portal to endless excitement.
+                    Whether you're a gaming enthusiast or simply seeking an
+                    extraordinary escape from reality, our Virtual VR product is
+                    your portal to endless excitement.
                   </p>
-                  <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="#"
-                    >Explore Our Services<BIconArrowRight class="bi" />
-                  </a>
+                  <!-- <a
+                    class="btn btn-lg btn-primary icon-link icon-link-hover mb-0"
+                    href="#"
+                    >Get a Quote<BIconArrowRight class="bi" />
+                  </a> -->
+                  <router-link
+                    class="btn btn-lg btn-primary icon-link icon-link-hover mb-0"
+                    :to="{ name: 'contact.v1' }"
+                  >
+                    Get a Quote<BIconArrowRight class="bi" />
+                  </router-link>
                 </b-col>
               </b-row>
             </b-container>
@@ -77,16 +101,18 @@
         </b-card>
       </SwiperSlide>
 
-      <div class="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"></div>
+      <div
+        class="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"
+      ></div>
     </Swiper>
   </section>
 </template>
 
 <script lang="ts" setup>
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { EffectFade, Autoplay, Pagination } from 'swiper/modules'
-import { BIconArrowRight } from 'bootstrap-icons-vue'
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { EffectFade, Autoplay, Pagination } from "swiper/modules";
+import { BIconArrowRight } from "bootstrap-icons-vue";
 
-import backgroundImg9 from '@/assets/images/bg/09.jpg'
-import backgroundImg10 from '@/assets/images/bg/10.jpg'
+import backgroundImg9 from "@/assets/images/bg/09.jpg";
+import backgroundImg10 from "@/assets/images/bg/10.jpg";
 </script>

@@ -30,26 +30,25 @@ export const quickLinks: FooterLinkType[] = [
     link: 'contact.v1'
   },
   {
-    name: 'Career',
+    name: 'Categories',
     link: 'career',
-    badge: '2 Job'
   },
   {
-    name: 'Career detail',
+    name: 'Privacy Policy',
     link: 'career.single'
   },
   {
-    name: 'Become a partner',
+    name: 'Terms of Service',
     link: 'contact.v1'
   },
-  {
-    name: 'Sign in',
-    link: 'auth.sign-in'
-  },
-  {
-    name: 'Sign up',
-    link: 'auth.sign-up'
-  }
+  // {
+  //   name: 'Sign in',
+  //   link: 'auth.sign-in'
+  // },
+  // {
+  //   name: 'Sign up',
+  //   link: 'auth.sign-up'
+  // }
 ]
 
 export const communityLinks: FooterLinkType[] = [
@@ -80,7 +79,7 @@ export const communityLinks: FooterLinkType[] = [
 export const followOnIcons = [
   { icon: faFacebookF, variant: 'bg-facebook' },
   { icon: faInstagram, variant: 'bg-instagram' },
-  { icon: faTwitter, variant: 'bg-twitter' },
+  // { icon: faTwitter, variant: 'bg-twitter' },
   { icon: faLinkedinIn, variant: 'bg-linkedin' },
   { icon: faYoutube, variant: 'bg-youtube' }
 ]
@@ -106,15 +105,8 @@ export const footerQuickLinks3: FooterLinkType[] = [
     name: 'Services',
     link: 'services.v1'
   },
-  {
-    name: 'Career',
-    link: 'career',
-    badge: '2 Job'
-  },
-  {
-    name: 'Career detail',
-    link: 'career.single'
-  },
+ 
+ 
   {
     name: 'Case studies',
     link: 'portfolio.showcase'

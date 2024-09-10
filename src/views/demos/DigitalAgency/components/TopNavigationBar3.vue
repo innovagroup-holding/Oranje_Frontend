@@ -6,7 +6,9 @@
 
         <AppMenu showContactUs ul-class="mx-auto" />
 
-        <ul class="nav align-items-center dropdown-hover ms-sm-2">
+        <!-- <ul
+          class="nav align-items-center dropdown-hover ms-sm-2"
+        >
           <ThemeToggleDropdown />
 
           <b-dropdown
@@ -38,6 +40,51 @@
           <li class="nav-item">
             <MobileNavbarToggler />
           </li>
+        </ul> -->
+
+        <ul class="nav align-items-center dropdown-hover ms-sm-2">
+          <ThemeToggleDropdown />
+          <li class="d-lg-none d-sm-block">
+            <b-dropdown
+              variant="link"
+              no-caret
+              menu-class="shadow rounded p-2"
+              end
+              toggleClass="btn-light border btn-round mb-0 flex-centered"
+              class="nav nav-item nav-search px-1 px-lg-3"
+            >
+              <template #button-content>
+                <BIconSearch />
+              </template>
+              <form class="input-group">
+                <input
+                  class="form-control border-primary"
+                  type="search"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+                <button class="btn btn-primary m-0" type="submit">
+                  Search
+                </button>
+              </form>
+            </b-dropdown>
+          </li>
+          <li class="d-none d-lg-block">
+            <form class="input-group">
+              <input
+                class="form-control border-primary"
+                type="search"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+              <button class="btn btn-primary m-0" type="submit">
+                <BIconSearch />
+              </button>
+            </form>
+          </li>
+          <li class="nav-item">
+            <MobileNavbarToggler />
+          </li>
         </ul>
       </b-container>
     </nav>
@@ -45,10 +92,10 @@
 </template>
 
 <script lang="ts" setup>
-import StickyHeader from '@/components/topbar/StickyHeader.vue'
-import LogoBox from '@/components/topbar/LogoBox.vue'
-import ThemeToggleDropdown from '@/components/topbar/ThemeToggleDropdown.vue'
-import MobileNavbarToggler from '@/components/topbar/MobileNavbarToggler.vue'
-import { BIconSearch } from 'bootstrap-icons-vue'
-import AppMenu from '@/components/topbar/AppMenu/index.vue'
+import StickyHeader from "@/components/topbar/StickyHeader.vue";
+import LogoBox from "@/components/topbar/LogoBox.vue";
+import ThemeToggleDropdown from "@/components/topbar/ThemeToggleDropdown.vue";
+import MobileNavbarToggler from "@/components/topbar/MobileNavbarToggler.vue";
+import { BIconSearch } from "bootstrap-icons-vue";
+import AppMenu from "@/components/topbar/AppMenu/index.vue";
 </script>

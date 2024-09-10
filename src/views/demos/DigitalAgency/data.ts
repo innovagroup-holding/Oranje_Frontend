@@ -166,51 +166,40 @@ export const testimonials: TestimonialType[] = [
 
 export const blogs: BlogType[] = [
   {
-    title: 'Sleek and Responsive - Designing with Bootstrap and Mizzle',
-    category: 'Technology',
-    publishedAt: {
-      date: 15,
-      month: 'April',
-      year: 2024
-    },
-    publishedBy: {
-      avatar: avatar2,
-      firstName: 'Emma',
-      lastName: 'Watson'
-    },
+    title: 'Fine Fragrance ',
+    category: 'Discover our premium fine fragrances designed to delight.',
+   
     image: blogImg3,
     route: { name: 'blog.single.v2' }
   },
   {
-    title: 'Mastering HTML Website Templates - Unleash Your Creativity with Bootstrap',
-    category: 'Research',
-    publishedAt: {
-      date: 12,
-      month: 'April',
-      year: 2024
-    },
-    publishedBy: {
-      avatar: avatar4,
-      firstName: 'Louis',
-      lastName: 'Ferguson'
-    },
+    title: 'Personal Care ',
+    category: 'Explore fragrances that harmonize with your personal care products',
+   
     image: blogImg8,
     route: { name: 'blog.single.v2' }
   },
   {
-    title: 'Effortless Web Design with Mizzle - Unlock Your Creative Potential',
-    category: 'Design',
-    publishedAt: {
-      date: 8,
-      month: 'April',
-      year: 2024
-    },
-    publishedBy: {
-      avatar: avatar9,
-      firstName: 'Allen',
-      lastName: 'Smith'
-    },
+    title: 'Air Care ',
+    category: 'Enhance your environment with our specialized air fragrances.',
+    // publishedAt: {
+    //   date: 8,
+    //   month: 'April',
+    //   year: 2024
+    // },
+    // publishedBy: {
+    //   avatar: avatar9,
+    //   firstName: 'Allen',
+    //   lastName: 'Smith'
+    // },
     image: blogImg7,
+    route: { name: 'blog.single.v2' }
+  },
+  {
+    title: 'Home Care',
+    category: 'Innovative fragrances for all your home care needs',
+   
+    image: blogImg8,
     route: { name: 'blog.single.v2' }
   }
 ]

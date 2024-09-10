@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <article class="card card-img-scale border p-2 h-100">
     <div class="card-img-scale-wrapper position-relative rounded overflow-hidden">
       <img :src="blog.image" class="card-img img-scale" alt="service img" />
@@ -41,4 +41,27 @@ defineProps({
     required: true
   }
 })
+</script> -->
+
+<template>
+  <article class="card bg-transparent">
+    <img :src="blog.image" class="card-img" alt="blog-img" />
+    <b-card-body class="px-0 pb-0">
+      <b-card-title tag="h6">{{ blog.title }}</b-card-title>
+      <b-card-text>{{ blog.category }}</b-card-text>
+    </b-card-body>
+  </article>
+</template>
+
+<script lang="ts" setup>
+import { BIconArrowRight } from "bootstrap-icons-vue";
+import type { BlogType } from "@/types";
+import type { PropType } from "vue";
+
+defineProps({
+  blog: {
+    type: Object as PropType<BlogType>,
+    required: true,
+  },
+});
 </script>

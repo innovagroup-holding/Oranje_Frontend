@@ -5,7 +5,7 @@
       href="#"
       :class="menuItemActive('pages', currentRouteName) && 'active'"
     >
-      Pages
+      About Us
       <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
     </a>
     <div class="dropdown-menu">
@@ -37,20 +37,20 @@
 </template>
 
 <script lang="ts" setup>
-import router from '@/router'
-import { supportLink } from '@/helpers'
-import type { MenuItemType } from '@/helpers/menu'
-import MenuItem from '@/components/topbar/AppMenu/MenuItem.vue'
-import MenuItemWithChildren from '@/components/topbar/AppMenu/MenuItemWithChildren.vue'
-import { menuItemActive } from '@/components/topbar/AppMenu/getActiveClass'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import { BIconLifePreserver } from 'bootstrap-icons-vue'
+import router from "@/router";
+import { supportLink } from "@/helpers";
+import type { MenuItemType } from "@/helpers/menu";
+import MenuItem from "@/components/topbar/AppMenu/MenuItem.vue";
+import MenuItemWithChildren from "@/components/topbar/AppMenu/MenuItemWithChildren.vue";
+import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { BIconLifePreserver } from "bootstrap-icons-vue";
 
 type PagesMenuDropdownProps = {
-  menuItems: MenuItemType[]
-}
+  menuItems: MenuItemType[];
+};
 
-defineProps<PagesMenuDropdownProps>()
+defineProps<PagesMenuDropdownProps>();
 
-const currentRouteName = router.currentRoute.value.name
+const currentRouteName = router.currentRoute.value.name;
 </script>
