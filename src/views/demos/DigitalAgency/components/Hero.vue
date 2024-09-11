@@ -34,13 +34,11 @@
                     >🚀 #World's best software agency</span
                   >
                   <h1 class="text-white display-4 my-4">
-                    Leading the Way in
-                    <span class="text-primary">software</span> innovation
+                    Experience the Essence of
+                    <span class="text-primary">Excellence</span>
                   </h1>
                   <p class="text-white mb-5">
-                    Whether you're a gaming enthusiast or simply seeking an
-                    extraordinary escape from reality, our Virtual VR product is
-                    your portal to endless excitement.
+                    Premium Fragrances and Flavours Crafted to Perfection
                   </p>
                   <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
@@ -75,13 +73,11 @@
               <b-row>
                 <b-col sm="11" lg="8" class="m-auto text-center">
                   <h1 class="text-white display-4 mb-4">
-                    Empower Your <span class="fw-light">Business</span> with
-                    <span class="fw-light">Innovation</span>
+                    Experience the <span class="fw-light">Essence</span> of
+                    <span class="fw-light">Excellence</span>
                   </h1>
                   <p class="text-white mb-5">
-                    Whether you're a gaming enthusiast or simply seeking an
-                    extraordinary escape from reality, our Virtual VR product is
-                    your portal to endless excitement.
+                    Premium Fragrances and Flavours Crafted to Perfection
                   </p>
                   <!-- <a
                     class="btn btn-lg btn-primary icon-link icon-link-hover mb-0"
