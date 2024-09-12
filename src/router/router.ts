@@ -205,7 +205,14 @@ const pagesRoutes = [
     },
     component: () => import('@/views/pages/about/AboutV3/index.vue')
   },
-  
+  {
+    path: '/about-us',
+    name: 'about-us',
+    meta: {
+      title: setTitle('About Us')
+    },
+    component: () => import('@/views/pages/about/About/index.vue')
+  },
   {
     path: '/pages/team',
     name: 'pages.team',
@@ -453,6 +460,30 @@ const portfolioRoutes = [
       title: setTitle('Fine Fragrance')
     },
     component: () => import('@/views/portfolio/FineFragrance/index.vue')
+  },
+  {
+    path: '/portfolio/personal-care',
+    name: 'portfolio.personal-care',
+    meta: {
+      title: setTitle('Personal Care')
+    },
+    component: () => import('@/views/portfolio/PersonalCare/index.vue')
+  },
+  {
+    path: '/portfolio/air-care',
+    name: 'portfolio.air-care',
+    meta: {
+      title: setTitle('Air Care')
+    },
+    component: () => import('@/views/portfolio/AirCare/index.vue')
+  },
+  {
+    path: '/portfolio/home-care',
+    name: 'portfolio.home-care',
+    meta: {
+      title: setTitle('Home Care')
+    },
+    component: () => import('@/views/portfolio/HomeCare/index.vue')
   }
 ]
 

@@ -6,42 +6,6 @@
 
         <AppMenu showContactUs ul-class="mx-auto" />
 
-        <!-- <ul
-          class="nav align-items-center dropdown-hover ms-sm-2"
-        >
-          <ThemeToggleDropdown />
-
-          <b-dropdown
-            variant="link"
-            no-caret
-            menu-class="shadow rounded p-2"
-            end
-            toggleClass="btn-light border btn-round mb-0 flex-centered"
-            class="nav nav-item nav-search px-1 px-lg-3"
-          >
-            <template #button-content>
-              <BIconSearch />
-            </template>
-            <form class="input-group">
-              <input
-                class="form-control border-primary"
-                type="search"
-                placeholder="Search..."
-                aria-label="Search"
-              />
-              <button class="btn btn-primary m-0" type="submit">Search</button>
-            </form>
-          </b-dropdown>
-
-          <li class="nav-item position-relative ms-2 ms-sm-3 d-none d-sm-block">
-            <a class="btn btn-dark mb-0">free consultation</a>
-          </li>
-
-          <li class="nav-item">
-            <MobileNavbarToggler />
-          </li>
-        </ul> -->
-
         <ul class="nav align-items-center dropdown-hover ms-sm-2">
           <ThemeToggleDropdown />
           <li class="d-lg-none d-sm-block">

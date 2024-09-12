@@ -93,7 +93,6 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
                   Say . . .
                 </li>
               </ul>
-
               <div class="mt-auto">
                 <a
                   class="btn btn-lg btn-outline-white icon-link icon-link-hover"

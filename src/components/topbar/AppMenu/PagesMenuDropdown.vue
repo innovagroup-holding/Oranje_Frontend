@@ -2,7 +2,7 @@
   <li class="nav-item dropdown">
     <a
       class="nav-link dropdown-toggle arrow-none d-flex justify-content-between align-items-center w-100"
-      href="#"
+      href="/about-us"
       :class="menuItemActive('pages', currentRouteName) && 'active'"
     >
       About Us

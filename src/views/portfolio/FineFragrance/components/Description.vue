@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-xl-5">
+  <section class="pt-xl-8">
     <b-container class="pt-4 pt-xl-0 position-relative z-index-2">
       <!-- <h1 class="h2 mb-4 mb-sm-6">Description</h1> -->
       <b-row class="g-4 g-xl-6">
@@ -13,7 +13,7 @@
           </CustomGLightbox>
         </b-col>
         <b-col sm="6" class="ms-auto">
-          <h4>The Fine Fragrance</h4>
+          <h4 class="mb-4">The Fine Fragrance</h4>
           <p class="lh-lg">
             <span class="dropcap fs-1 heading-color bg-light rounded px-2"
               >D</span

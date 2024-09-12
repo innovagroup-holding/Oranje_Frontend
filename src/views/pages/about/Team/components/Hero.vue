@@ -18,20 +18,30 @@
             </div>
           </b-card>
         </b-col>
+        <!-- <p class="display-8 d-block text-black">
+          Welcome to Oranje Fragrance & Flavor, where passion meets innovation
+          in the world of scent and taste. Established in 2019, we are a Dutch
+          company dedicated to crafting exceptional fragrances and flavors for a
+          diverse range of applications, including fine fragrances, personal
+          care products, home care solutions, air care, and food flavors. Our
+          mission is to elevate your products with unique and captivating scents
+          while staying ahead of the latest trends and innovations in the
+          industry."
+        </p> -->
       </b-row>
     </b-container>
   </section>
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
-import { jarallax } from 'jarallax'
+import { onMounted } from "vue";
+import { jarallax } from "jarallax";
 
-import bg4Img from '@/assets/images/bg/04.jpg'
+import bg4Img from "@/assets/images/bg/04.jpg";
 
 onMounted(() => {
-  jarallax(document.querySelectorAll('.bg-parallax'), {
-    speed: 0.4
-  })
-})
+  jarallax(document.querySelectorAll(".bg-parallax"), {
+    speed: 0.4,
+  });
+});
 </script>

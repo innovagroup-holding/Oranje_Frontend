@@ -44,9 +44,9 @@ defineProps({
 </script> -->
 
 <template>
-  <article class="card bg-transparent">
+  <article class="card-hover-shadow border h-100 card bg-transparent">
     <img :src="blog.image" class="card-img" alt="blog-img" />
-    <b-card-body class="px-0 pb-0">
+    <b-card-body class="p-4">
       <b-card-title tag="h6">{{ blog.title }}</b-card-title>
       <b-card-text>{{ blog.category }}</b-card-text>
     </b-card-body>
@@ -68,8 +68,7 @@ defineProps({
 <style scoped>
 .card:hover {
   cursor: pointer;
-  padding: 10px;
   transition: 0.3s ease-in-out;
-  border-bottom: 3px solid #de3217;
+  border-bottom: 4px solid #de3217 !important;
 }
 </style>

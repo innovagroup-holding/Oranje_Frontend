@@ -12,14 +12,17 @@
                 <b-card-body>
                   <img :src="client07" class="h-30px mb-4" alt="" />
                   <b-card-title class="mb-4"
-                    ><router-link :to="{ name: 'customer.story-single' }" class="stretched-link"
-                      >See why direct-to-consumer brands choose mizzle dor their email
-                      efforts</router-link
+                    ><router-link
+                      :to="{ name: 'customer.story-single' }"
+                      class="stretched-link"
+                      >See why direct-to-consumer brands choose mizzle dor their
+                      email efforts</router-link
                     ></b-card-title
                   >
                   <p class="mb-4">
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
                   </p>
                   <a href="#" class="btn btn-dark mb-0"
                     >Read more
@@ -40,10 +43,10 @@
 </template>
 
 <script setup lang="ts">
-import { stories } from '@/views/pages/about/CustomerStory/data'
-import { BIconArrowRight } from 'bootstrap-icons-vue'
-import StoryCard from '@/views/pages/about/CustomerStory/components/StoryCard.vue'
+import { stories } from "@/views/pages/about/CustomerStory/data";
+import { BIconArrowRight } from "bootstrap-icons-vue";
+import StoryCard from "@/views/pages/about/CustomerStory/components/StoryCard.vue";
 
-import stories05 from '@/assets/images/stories/05.jpg'
-import client07 from '@/assets/images/client/07.svg'
+import stories05 from "@/assets/images/stories/05.jpg";
+import client07 from "@/assets/images/client/07.svg";
 </script>

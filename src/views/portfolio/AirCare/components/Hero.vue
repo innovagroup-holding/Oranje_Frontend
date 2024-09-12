@@ -25,13 +25,13 @@
                 <li class="breadcrumb-item"><a href="#">Categories</a></li>
 
                 <li class="breadcrumb-item active" aria-current="page">
-                  Fine Fragrance
+                  Air Care
                 </li>
               </ol>
             </nav>
           </div>
 
-          <h1 class="py-3">Fine Fragrance</h1>
+          <h1 class="py-3">Air Care</h1>
         </b-col>
       </b-row>
     </b-container>

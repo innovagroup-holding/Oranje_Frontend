@@ -1,5 +1,5 @@
 <template>
-  <TopNavigationBar11 />
+  <TopNavigationBar11 data-bs-theme="light" />
   <main>
     <Hero />
     <Description />
@@ -8,9 +8,8 @@
 
   <Footer9 />
 </template>
-<!-- fmld, -->
 <script setup lang="ts">
-import TopNavigationBar11 from "@/views/portfolio/FineFragrance/components/TopNavigationBar11.vue";
+import TopNavigationBar11 from "@/views/demos/DigitalAgency/components/TopNavigationBar3.vue";
 import Cta from "@/views/portfolio/FineFragrance/components/Cta.vue";
 import Hero from "@/views/portfolio/FineFragrance/components/Hero.vue";
 import Description from "@/views/portfolio/FineFragrance/components/Description.vue";

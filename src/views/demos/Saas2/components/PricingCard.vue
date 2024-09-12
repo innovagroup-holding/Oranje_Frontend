@@ -1,6 +1,8 @@
 <template>
   <b-card no-body class="bg-light p-4 p-sm-5">
-    <figure class="position-absolute top-0 start-0 translate-middle mt-n4 ms-n5 d-none d-md-block">
+    <figure
+      class="position-absolute top-0 start-0 translate-middle mt-n4 ms-n5 d-none d-md-block"
+    >
       <svg
         class="fill-mode"
         width="86"
@@ -35,7 +37,9 @@
     </b-form>
 
     <span class="mb-4 heading-color">
-      <span class="h2 plan-price">{{ currency }}{{ plan.price }}</span> /{{ duration }}</span
+      <span class="h2 plan-price">{{ currency }}{{ plan.price }}</span> /{{
+        duration
+      }}</span
     >
     <router-link
       class="btn btn-primary icon-link icon-link-hover justify-content-center"
@@ -47,20 +51,20 @@
 </template>
 
 <script lang="ts" setup>
-import type { PricingPlanType } from '@/types'
-import type { PropType } from 'vue'
-import { BIconArrowRight } from 'bootstrap-icons-vue'
+import type { PricingPlanType } from "@/types";
+import type { PropType } from "vue";
+import { BIconArrowRight } from "bootstrap-icons-vue";
 
-import { currency } from '@/helpers'
+import { currency } from "@/helpers";
 
 defineProps({
   plan: {
     type: Object as PropType<PricingPlanType>,
-    required: true
+    required: true,
   },
   duration: {
-    type: String as PropType<'week' | 'month' | 'year'>,
-    required: true
-  }
-})
+    type: String as PropType<"week" | "month" | "year">,
+    required: true,
+  },
+});
 </script>

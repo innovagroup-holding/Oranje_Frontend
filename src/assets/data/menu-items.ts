@@ -470,6 +470,24 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
         parentKey: 'portfolio'
       },
       {
+        key: 'portfolio-personal-care',
+        label: 'Personal Care',
+        route: { name: 'portfolio.personal-care' },
+        parentKey: 'portfolio'
+      },
+      {
+        key: 'portfolio-air-care',
+        label: 'Air Care',
+        route: { name: 'portfolio.air-care' },
+        parentKey: 'portfolio'
+      },
+      {
+        key: 'portfolio-home-care',
+        label: 'Home Care',
+        route: { name: 'portfolio.home-care' },
+        parentKey: 'portfolio'
+      },
+      {
         key: 'portfolio-masonry',
         label: 'Portfolio Masonry',
         route: { name: 'portfolio.masonry' },
