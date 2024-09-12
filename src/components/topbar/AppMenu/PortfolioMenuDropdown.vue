@@ -10,46 +10,6 @@
     </a>
     <div class="dropdown-menu dropdown-menu-center dropdown-menu-size-xl p-3">
       <b-row class="g-xl-3">
-        <b-col xl="8" class="d-none d-xl-block">
-          <div class="d-flex gap-4">
-            <b-card no-body class="bg-transparent">
-              <img :src="portfolioList1Img" class="card-img" alt="" />
-              <b-card-body class="px-0 text-start pb-0">
-                <h6><a href="#">Ceremony Worthy of Time</a></h6>
-                <p class="mb-2 small">
-                  We help our customers better manage their web presence.
-                </p>
-                <router-link
-                  :to="{ name: 'portfolio.case-study.v1' }"
-                  class="icon-link icon-link-hover stretched-link mb-0"
-                >
-                  Learn more
-                  <BIconArrowRight />
-                </router-link>
-              </b-card-body>
-            </b-card>
-
-            <b-card no-body class="bg-transparent">
-              <img :src="portfolioList2Img" class="card-img" alt="" />
-              <b-card-body class="px-0 text-start pb-0">
-                <h6><a href="#">Brushstrokes and Beyond</a></h6>
-                <p class="mb-2 small">
-                  We help our customers better manage their web presence.
-                </p>
-                <router-link
-                  :to="{ name: 'portfolio.case-study.v2' }"
-                  class="icon-link icon-link-hover stretched-link mb-0"
-                >
-                  Learn more
-                  <BIconArrowRight />
-                </router-link>
-              </b-card-body>
-            </b-card>
-
-            <div class="vr ms-2"></div>
-          </div>
-        </b-col>
-
         <b-col xl="4">
           <ul class="list-unstyled">
             <li class="dropdown-header h6">Portfolio Pages</li>

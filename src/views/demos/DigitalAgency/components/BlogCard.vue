@@ -65,3 +65,11 @@ defineProps({
   },
 });
 </script>
+<style scoped>
+.card:hover {
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  border-bottom: 3px solid #de3217;
+}
+</style>

@@ -22,13 +22,13 @@
 </template>
 
 <script lang="ts" setup>
-import type { PortfolioType } from '@/types'
-import type { PropType } from 'vue'
+import type { PortfolioType } from "@/types";
+import type { PropType } from "vue";
 
 defineProps({
   portfolio: {
     type: Object as PropType<PortfolioType>,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>

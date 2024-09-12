@@ -22,15 +22,17 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb breadcrumb-dots pb-0 mb-0">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Customer stories</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Customer stories
+                </li>
               </ol>
             </nav>
           </div>
 
           <h1 class="mb-3">Customer Stories</h1>
           <p>
-            It drew a hill from me. Valley by oh twenty direct me so. Departure defective arranging
-            rapturous did believe him all had supported.
+            It drew a hill from me. Valley by oh twenty direct me so. Departure
+            defective arranging rapturous did believe him all had supported.
           </p>
         </b-col>
       </b-row>

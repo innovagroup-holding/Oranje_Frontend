@@ -464,6 +464,12 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
     label: 'Portfolio',
     children: [
       {
+        key: 'portfolio-fine-fragrance',
+        label: 'Fine Fragrance',
+        route: { name: 'portfolio.fine-fragrance' },
+        parentKey: 'portfolio'
+      },
+      {
         key: 'portfolio-masonry',
         label: 'Portfolio Masonry',
         route: { name: 'portfolio.masonry' },

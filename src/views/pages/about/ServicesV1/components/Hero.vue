@@ -13,7 +13,9 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb breadcrumb-dots breadcrumb-dark pb-0 mb-0">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Services</li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Services
+                </li>
               </ol>
             </nav>
           </div>
@@ -26,5 +28,5 @@
 </template>
 
 <script setup lang="ts">
-import bg5Img from '@/assets/images/bg/05.jpg'
+import bg5Img from "@/assets/images/bg/05.jpg";
 </script>

@@ -67,7 +67,7 @@
               />
               <path
                 d="M75.5 51C68.737 51 62.251 48.3134 57.4688 43.5312C52.6866 38.749 50 32.263 50 25.5C50 18.737 52.6866 12.251 57.4688 7.46878C62.251 2.6866 68.737 -8.06482e-08 75.5 0V25.5L75.5 51Z"
-                fill="#09B850"
+                fill="#DE3217"
               />
             </svg>
           </span>
@@ -79,7 +79,7 @@
         </p>
 
         <div class="">
-          <router-link class="btn btn-lg btn-white border" to="#"
+          <router-link class="btn btn-lg btn-primary border" to="#"
             >Read More</router-link
           >
         </div>

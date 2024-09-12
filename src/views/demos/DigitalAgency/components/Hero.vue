@@ -19,7 +19,7 @@
         <b-card
           no-body
           class="overflow-hidden min-vh-100 rounded-0"
-          :style="`background:url(${backgroundImg10}) no-repeat; background-size:cover; background-position:center;`"
+          :style="`background:url(${backgroundImg8}) no-repeat; background-size:cover; background-position:center;`"
         >
           <div class="bg-overlay bg-linear-overlay"></div>
 
@@ -29,11 +29,7 @@
             <b-container>
               <b-row>
                 <b-col sm="11" lg="8" xl="7" class="text-center m-auto">
-                  <span
-                    class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2"
-                    >🚀 #World's best software agency</span
-                  >
-                  <h1 class="text-white display-4 my-4">
+                  <h1 class="text-white display-4 mb-4">
                     Experience the Essence of
                     <span class="text-primary">Excellence</span>
                   </h1>
@@ -46,11 +42,38 @@
                   >
                     Get a Quote<BIconArrowRight class="bi" />
                   </router-link>
-                  <!-- <a
+                </b-col>
+              </b-row>
+            </b-container>
+          </div>
+        </b-card>
+      </SwiperSlide>
+      <SwiperSlide>
+        <b-card
+          no-body
+          class="overflow-hidden min-vh-100 rounded-0"
+          :style="`background:url(${backgroundImg10}) no-repeat; background-size:cover; background-position:center;`"
+        >
+          <div class="bg-overlay bg-linear-overlay"></div>
+
+          <div
+            class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9"
+          >
+            <b-container>
+              <b-row>
+                <b-col sm="11" lg="8" xl="7" class="text-center m-auto">
+                  <h1 class="text-white display-4 mb-4">
+                    Experience the Essence of Excellence
+                  </h1>
+                  <p class="text-white mb-5">
+                    Premium Fragrances and Flavours Crafted to Perfection
+                  </p>
+                  <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    href="#"
-                    >Get a Quote<BIconArrowRight class="bi" />
-                  </a> -->
+                    :to="{ name: 'contact.v1' }"
+                  >
+                    Get a Quote<BIconArrowRight class="bi" />
+                  </router-link>
                 </b-col>
               </b-row>
             </b-container>
@@ -58,7 +81,7 @@
         </b-card>
       </SwiperSlide>
 
-      <SwiperSlide>
+      <!-- <SwiperSlide>
         <b-card
           no-body
           class="overflow-hidden min-vh-100 rounded-0"
@@ -79,11 +102,7 @@
                   <p class="text-white mb-5">
                     Premium Fragrances and Flavours Crafted to Perfection
                   </p>
-                  <!-- <a
-                    class="btn btn-lg btn-primary icon-link icon-link-hover mb-0"
-                    href="#"
-                    >Get a Quote<BIconArrowRight class="bi" />
-                  </a> -->
+
                   <router-link
                     class="btn btn-lg btn-primary icon-link icon-link-hover mb-0"
                     :to="{ name: 'contact.v1' }"
@@ -95,7 +114,7 @@
             </b-container>
           </div>
         </b-card>
-      </SwiperSlide>
+      </SwiperSlide> -->
 
       <div
         class="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3"
@@ -108,7 +127,7 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { EffectFade, Autoplay, Pagination } from "swiper/modules";
 import { BIconArrowRight } from "bootstrap-icons-vue";
-
-import backgroundImg9 from "@/assets/images/bg/09.jpg";
-import backgroundImg10 from "@/assets/images/bg/10.jpg";
+import backgroundImg8 from "@/assets/images/photo_2024-09-11_17-35-23.jpg";
+import backgroundImg9 from "@/assets/images/photo_2024-09-11_17-22-57.jpg";
+import backgroundImg10 from "@/assets/images/photo_2024-09-11_17-31-26.jpg";
 </script>

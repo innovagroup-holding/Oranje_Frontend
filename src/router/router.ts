@@ -205,6 +205,7 @@ const pagesRoutes = [
     },
     component: () => import('@/views/pages/about/AboutV3/index.vue')
   },
+  
   {
     path: '/pages/team',
     name: 'pages.team',
@@ -444,6 +445,14 @@ const portfolioRoutes = [
       title: setTitle('Portfolio Case Study v.2')
     },
     component: () => import('@/views/portfolio/CaseStudyV2/index.vue')
+  },
+  {
+    path: '/portfolio/fine-fragrance',
+    name: 'portfolio.fine-fragrance',
+    meta: {
+      title: setTitle('Fine Fragrance')
+    },
+    component: () => import('@/views/portfolio/FineFragrance/index.vue')
   }
 ]
 
