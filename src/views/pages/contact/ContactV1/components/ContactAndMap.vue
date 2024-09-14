@@ -3,7 +3,7 @@
     <b-container>
       <b-row class="row-cols-1 row-cols-lg-3 g-4">
         <b-col v-for="(item, idx) in address" :key="idx">
-          <b-card no-body class="card-body bg-light border p-sm-5">
+          <b-card no-body class="card-body bg-light border p-sm-5 card">
             <div class="mb-4">
               <component :is="item.icon" class="fa-xl text-primary" />
             </div>
@@ -49,3 +49,9 @@
 <script setup lang="ts">
 import { address } from "@/views/pages/contact/data";
 </script>
+<style scoped>
+.card {
+  border: 1px solid #de3217 !important;
+  height: 300px;
+}
+</style>
