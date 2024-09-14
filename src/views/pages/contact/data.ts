@@ -21,7 +21,7 @@ type AddreddType = {
 export const address: AddreddType[] = [
   {
     icon: BIconGeoAlt,
-    name: 'Office Address',
+    name: 'Company Address',
     image: usflagImg,
     description: 'US office:'
   },
@@ -29,13 +29,13 @@ export const address: AddreddType[] = [
     icon: BIconEnvelope,
     name: 'Email us',
     description: "We're on top of things and aim to respond to all inquiries within 24 hours.",
-    emailornum: 'example@gmail.com'
+    emailornum: 'info@oranje-fragrance.nl'
   },
   {
     icon: BIconTelephone,
     name: 'Call us',
     description: "Let's work together towards a common goal - get in touch!",
-    emailornum: '(251) 854-6308'
+    emailornum: '+ 31633407737'
   }
 ]
 

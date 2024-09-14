@@ -1,5 +1,5 @@
 <template>
-  <TopNavigationBar9 />
+  <TopNavigationBar3 />
   <main>
     <Hero />
 
@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import TopNavigationBar9 from '@/views/pages/contact/ContactV1/components/TopNavigationBar9.vue'
-import Hero from '@/views/pages/contact/ContactV1/components/Hero.vue'
-import ContactMap from '@/views/pages/contact/ContactV1/components/ContactAndMap.vue'
-import Footer9 from '@/views/pages/contact/ContactV1/components/Footer9.vue'
+import TopNavigationBar3 from "@/views/demos/DigitalAgency/components/TopNavigationBar3.vue";
+import Hero from "@/views/pages/contact/ContactV1/components/Hero.vue";
+import ContactMap from "@/views/pages/contact/ContactV1/components/ContactAndMap.vue";
+import Footer9 from "@/views/pages/contact/ContactV1/components/Footer9.vue";
 </script>

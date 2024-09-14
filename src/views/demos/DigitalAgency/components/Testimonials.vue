@@ -65,7 +65,13 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
 
 <template>
   <section class="pt-0">
-    <b-container>
+    <b-container
+      class="aos"
+      data-aos="zoom-out-up"
+      data-aos-delay="200"
+      data-aos-duration="1200"
+      data-aos-easing="ease-in-out"
+    >
       <div
         class="rounded-3 position-relative overflow-hidden p-4 p-md-6"
         style="background-size: cover; background-position: center"
@@ -152,4 +158,10 @@ import { testimonials } from "@/views/pages/about/AboutV3/data";
 import TestimonialCard from "@/views/pages/about/AboutV3/components/TestimonialCard.vue";
 import { BIconArrowRight } from "bootstrap-icons-vue";
 import bg5Img from "@/assets/images/bg/05.jpg";
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init();
+  AOS.refresh();
+});
 </script>

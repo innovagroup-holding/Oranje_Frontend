@@ -32,7 +32,9 @@
         </svg>
       </figure>
 
-      <figure class="position-absolute bottom-0 start-50 translate-middle-x mb-n6">
+      <figure
+        class="position-absolute bottom-0 start-50 translate-middle-x mb-n6"
+      >
         <svg
           class="fill-body"
           width="1994"
@@ -49,28 +51,36 @@
 
       <div class="inner-container text-center position-relative mb-9 mt-8">
         <h1 class="mt-4 text-white">The Modern Solutions For</h1>
-        <h6 class="h1 cd-headline clip big-clip is-full-width text-primary mb-5">
+        <h6
+          class="h1 cd-headline clip big-clip is-full-width text-primary mb-5"
+        >
           <span class="text-white pt-0">Your </span>
           <ITyped id="type2" :strings="strings" />
         </h6>
 
         <p class="text-white opacity-7 mb-5">
-          Partnering with 500+ Fortune companies and mid-sized firms across enterprises, uniquely
-          customized and scalable workforce solutions.
+          Partnering with 500+ Fortune companies and mid-sized firms across
+          enterprises, uniquely customized and scalable workforce solutions.
         </p>
 
-        <b-form class="inner-container-small bg-white bg-opacity-10 rounded-2 p-2 mb-5">
+        <b-form
+          class="inner-container-small bg-white bg-opacity-10 rounded-2 p-2 mb-5"
+        >
           <div class="input-group">
             <b-form-input
               class="focus-shadow-none text-white bg-transparent border-0 me-1"
               type="email"
               placeholder="Your email address"
             />
-            <button type="button" class="btn btn-white rounded-2 mb-0">Free trial!</button>
+            <button type="button" class="btn btn-white rounded-2 mb-0">
+              Free trial!
+            </button>
           </div>
         </b-form>
 
-        <ul class="list-inline d-flex flex-wrap justify-content-center gap-2 gap-sm-5 mb-0">
+        <ul
+          class="list-inline d-flex flex-wrap justify-content-center gap-2 gap-sm-5 mb-0"
+        >
           <li class="list-inline-item text-white d-flex align-items-center">
             <BIconPatchCheckFill class="text-primary me-2" />Enhance Visibility
           </li>
@@ -105,7 +115,9 @@
 
       <b-row class="mb-7 mb-lg-8">
         <b-col md="10" class="mx-auto position-relative">
-          <figure class="position-absolute top-0 start-0 translate-middle mt-n6">
+          <figure
+            class="position-absolute top-0 start-0 translate-middle mt-n6"
+          >
             <svg
               class="fill-white"
               width="111"
@@ -132,7 +144,11 @@
             </svg>
           </figure>
 
-          <img :src="sassBackground" class="rounded-4 shadow mt-n5" alt="saas-img" />
+          <img
+            :src="sassBackground"
+            class="rounded-4 shadow mt-n5"
+            alt="saas-img"
+          />
 
           <b-col
             cols="4"
@@ -142,8 +158,16 @@
             <img :src="cardImage" alt="credit-card-img" />
           </b-col>
 
-          <b-col cols="2" lg="4" class="position-absolute bottom-0 start-0 ms-lg-n7 mb-n5">
-            <img :src="decorationImage1" class="shadow rounded-4" alt="decoration-img" />
+          <b-col
+            cols="2"
+            lg="4"
+            class="position-absolute bottom-0 start-0 ms-lg-n7 mb-n5"
+          >
+            <img
+              :src="decorationImage1"
+              class="shadow rounded-4"
+              alt="decoration-img"
+            />
           </b-col>
         </b-col>
       </b-row>
@@ -156,13 +180,13 @@
 </template>
 
 <script lang="ts" setup>
-import ITyped from '@/components/ITyped.vue'
-import Clients from '@/views/demos/Saas1/components/Clients.vue'
-import { BIconPatchCheckFill } from 'bootstrap-icons-vue'
+import ITyped from "@/components/ITyped.vue";
+import Clients from "@/views/demos/Saas1/components/Clients.vue";
+import { BIconPatchCheckFill } from "bootstrap-icons-vue";
 
-import sassBackground from '@/assets/images/bg/saas-bg.jpg'
-import cardImage from '@/assets/images/elements/saas-decoration/card.png'
-import decorationImage1 from '@/assets/images/elements/saas-decoration/01.png'
+import sassBackground from "@/assets/images/bg/saas-bg.jpg";
+import cardImage from "@/assets/images/elements/saas-decoration/card.png";
+import decorationImage1 from "@/assets/images/elements/saas-decoration/01.png";
 
-const strings = ['Business', 'Startup', 'Agency']
+const strings = ["Business", "Startup", "Agency"];
 </script>

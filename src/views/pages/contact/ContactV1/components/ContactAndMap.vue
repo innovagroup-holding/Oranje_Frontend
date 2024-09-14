@@ -8,21 +8,29 @@
               <component :is="item.icon" class="fa-xl text-primary" />
             </div>
 
-            <h6 :class="idx >= address.length - 2 ? 'mb-3' : 'mb-4'">{{ item.name }}</h6>
+            <h6 :class="idx >= address.length - 2 ? 'mb-3' : 'mb-4'">
+              {{ item.name }}
+            </h6>
 
             <p v-if="!item.image">{{ item.description }}</p>
             <div v-if="item.image" class="d-flex align-items-center mb-2">
               <div class="avatar avatar-xxs me-2">
-                <img class="avatar-img rounded-circle" :src="item.image" alt="avatar" />
+                <img
+                  class="avatar-img rounded-circle"
+                  :src="item.image"
+                  alt="avatar"
+                />
               </div>
               <span class="heading-color fw-semibold mb-0">US office:</span>
             </div>
             <address v-if="item.image" class="mb-0">
               1421 Coburn Hollow Road Metamora, Near Center Point, IL 61548.
             </address>
-            <a href="#" class="heading-color text-primary-hover text-decoration-underline mb-0">{{
-              item.emailornum
-            }}</a>
+            <a
+              href="#"
+              class="heading-color text-primary-hover text-decoration-underline mb-0"
+              >{{ item.emailornum }}</a
+            >
           </b-card>
         </b-col>
       </b-row>
@@ -39,5 +47,5 @@
 </template>
 
 <script setup lang="ts">
-import { address } from '@/views/pages/contact/data'
+import { address } from "@/views/pages/contact/data";
 </script>

@@ -28,7 +28,16 @@
           >
             <b-container>
               <b-row>
-                <b-col sm="11" lg="8" xl="7" class="text-center m-auto">
+                <b-col
+                  sm="11"
+                  lg="8"
+                  xl="7"
+                  class="text-center m-auto aos"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                  data-aos-duration="1200"
+                  data-aos-easing="ease-in-out"
+                >
                   <h1 class="text-white display-4 mb-4">
                     Experience the Essence of
                     <span class="text-primary">Excellence</span>
@@ -61,7 +70,16 @@
           >
             <b-container>
               <b-row>
-                <b-col sm="11" lg="8" xl="7" class="text-center m-auto">
+                <b-col
+                  sm="11"
+                  lg="8"
+                  xl="7"
+                  class="text-center m-auto aos"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                  data-aos-duration="1200"
+                  data-aos-easing="ease-in-out"
+                >
                   <h1 class="text-white display-4 mb-4">
                     Experience the Essence of Excellence
                   </h1>
@@ -130,4 +148,9 @@ import { BIconArrowRight } from "bootstrap-icons-vue";
 import backgroundImg8 from "@/assets/images/photo_2024-09-11_17-35-23.jpg";
 import backgroundImg9 from "@/assets/images/photo_2024-09-11_17-22-57.jpg";
 import backgroundImg10 from "@/assets/images/photo_2024-09-11_17-31-26.jpg";
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init();
+});
 </script>

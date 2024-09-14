@@ -102,6 +102,7 @@ export type ArticleType = {
   category?: string
   tags?: string[]
   route?: RouteType
+  icon?:string
   publishedBy?: UserType
   publishedAt?: DateType
 }

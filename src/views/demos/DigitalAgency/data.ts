@@ -8,6 +8,10 @@ import serviceImg6 from '@/assets/images/services/4by3/06.jpg'
 import blogImg3 from '@/assets/images/blog/4by3/03.jpg'
 import blogImg7 from '@/assets/images/blog/4by3/07.jpg'
 import blogImg8 from '@/assets/images/blog/4by3/08.jpg'
+import icon1 from '@/assets/icons/incense_3006063.png'
+import icon2 from '@/assets/icons/gel_10786358.png'
+import icon3 from '@/assets/icons/air-refreshener_2797076.png'
+import icon4 from '@/assets/icons/greenhouse_5563132.png'
 
 import project1 from '@/assets/images/portfolio/list/02.jpg'
 import project2 from '@/assets/images/portfolio/list/03.jpg'
@@ -168,20 +172,21 @@ export const blogs: BlogType[] = [
   {
     title: 'Fine Fragrance ',
     category: 'Discover our premium fine fragrances designed to delight.',
-   
+    icon:icon1,
     image: blogImg3,
-    route: { name: 'blog.single.v2' }
+    route: { name: 'portfolio.fine-fragrance' }
   },
   {
     title: 'Personal Care ',
     category: 'Explore fragrances that harmonize with your personal care products',
-   
+    icon:icon2,
     image: blogImg8,
-    route: { name: 'blog.single.v2' }
+    route: { name: 'portfolio.personal-care' }
   },
   {
     title: 'Air Care ',
     category: 'Enhance your environment with our specialized air fragrances.',
+    icon:icon3,
     // publishedAt: {
     //   date: 8,
     //   month: 'April',
@@ -193,13 +198,13 @@ export const blogs: BlogType[] = [
     //   lastName: 'Smith'
     // },
     image: blogImg7,
-    route: { name: 'blog.single.v2' }
+    route: { name: 'portfolio.air-care' }
   },
   {
     title: 'Home Care',
     category: 'Innovative fragrances for all your home care needs',
-   
+    icon:icon4,
     image: blogImg8,
-    route: { name: 'blog.single.v2' }
+    route: { name: 'portfolio.home-care' }
   }
 ]
