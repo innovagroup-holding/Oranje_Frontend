@@ -88,7 +88,10 @@
             </p>
 
             <div class="mt-6">
-              <router-link class="btn btn-lg btn-primary border" to="#"
+              <router-link
+                @click="scrollToTop"
+                class="btn btn-lg btn-primary border"
+                :to="{ name: 'about-us' }"
                 >Read More</router-link
               >
             </div>
@@ -117,4 +120,7 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init();
 });
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>
