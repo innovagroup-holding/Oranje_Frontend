@@ -170,22 +170,22 @@ export const testimonials: TestimonialType[] = [
 
 export const blogs: BlogType[] = [
   {
-    title: 'Fine Fragrance ',
-    category: 'Discover our premium fine fragrances designed to delight.',
+    title: 'categories.fineFragrance.title',
+    category: 'categories.fineFragrance.category',
     icon:icon1,
     image: blogImg3,
     route: { name: 'portfolio.fine-fragrance' }
   },
   {
-    title: 'Personal Care ',
-    category: 'Explore fragrances that harmonize with your personal care products',
+    title: 'categories.personalCare.title',
+    category: 'categories.personalCare.category',
     icon:icon2,
     image: blogImg8,
     route: { name: 'portfolio.personal-care' }
   },
   {
-    title: 'Air Care ',
-    category: 'Enhance your environment with our specialized air fragrances.',
+    title: 'categories.airCare.title',
+    category: 'categories.airCare.category',
     icon:icon3,
     // publishedAt: {
     //   date: 8,
@@ -201,8 +201,8 @@ export const blogs: BlogType[] = [
     route: { name: 'portfolio.air-care' }
   },
   {
-    title: 'Home Care',
-    category: 'Innovative fragrances for all your home care needs',
+    title: 'categories.homeCare.title',
+    category: 'categories.homeCare.category',
     icon:icon4,
     image: blogImg8,
     route: { name: 'portfolio.home-care' }

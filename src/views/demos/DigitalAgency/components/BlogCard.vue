@@ -12,8 +12,8 @@
         <img :src="blog.image" class="card-img-main" alt="blog-img" />
       </div>
       <b-card-body class="p-4">
-        <b-card-title tag="h6">{{ blog.title }}</b-card-title>
-        <b-card-text>{{ blog.category }}</b-card-text>
+        <b-card-title tag="h6">{{ $t(blog.title) }}</b-card-title>
+        <b-card-text>{{ $t(blog.category) }}</b-card-text>
       </b-card-body>
     </article>
   </router-link>

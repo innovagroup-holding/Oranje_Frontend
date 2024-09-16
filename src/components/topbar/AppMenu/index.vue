@@ -12,7 +12,13 @@
       <MegaMenuDropdown v-if="showMegaMenu" />
 
       <li v-if="showContactUs" class="nav-item">
-        <router-link class="nav-link" :to="{ name: 'contact.v1' }"> Contact us </router-link>
+        <router-link
+          class="nav-link"
+          :class="menuItemActive('contact', currentRouteName) && 'active'"
+          :to="{ name: 'contact.v1' }"
+        >
+          {{ $t("nav.contact") }}
+        </router-link>
       </li>
 
       <li v-if="showDocs" class="nav-item">
@@ -29,21 +35,23 @@
 </template>
 
 <script lang="ts" setup>
-import { getAppMenuItems, type MenuItemType } from '@/helpers/menu'
-import DemosMenuDropdown from '@/components/topbar/AppMenu/DemosMenuDropdown.vue'
-import PagesMenuDropdown from '@/components/topbar/AppMenu/PagesMenuDropdown.vue'
-import MegaMenuDropdown from '@/components/topbar/AppMenu/MegaMenuDropdown.vue'
-import PortfolioMenuDropdown from '@/components/topbar/AppMenu/PortfolioMenuDropdown.vue'
-import ResourcesMenuDropdown from '@/components/topbar/AppMenu/ResourcesMenuDropdown.vue'
-
+import { getAppMenuItems, type MenuItemType } from "@/helpers/menu";
+import DemosMenuDropdown from "@/components/topbar/AppMenu/DemosMenuDropdown.vue";
+import PagesMenuDropdown from "@/components/topbar/AppMenu/PagesMenuDropdown.vue";
+import MegaMenuDropdown from "@/components/topbar/AppMenu/MegaMenuDropdown.vue";
+import PortfolioMenuDropdown from "@/components/topbar/AppMenu/PortfolioMenuDropdown.vue";
+import ResourcesMenuDropdown from "@/components/topbar/AppMenu/ResourcesMenuDropdown.vue";
+import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
+import router from "@/router";
 type AppMenuProps = {
-  showMegaMenu?: boolean
-  showResources?: boolean
-  showContactUs?: boolean
-  showDocs?: boolean
-  ulClass?: string
-}
-const menuItems: MenuItemType[] = getAppMenuItems()
+  showMegaMenu?: boolean;
+  showResources?: boolean;
+  showContactUs?: boolean;
+  showDocs?: boolean;
+  ulClass?: string;
+};
+const menuItems: MenuItemType[] = getAppMenuItems();
 
-defineProps<AppMenuProps>()
+defineProps<AppMenuProps>();
+const currentRouteName = router.currentRoute.value.name;
 </script>

@@ -140,6 +140,27 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz"
   integrity sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==
 
+"@intlify/core-base@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/@intlify/core-base/-/core-base-10.0.1.tgz"
+  integrity sha512-6kpRGjhos95ph7QmEtP4tnWFTW102s71CLQAQwfsIGqOAcoJhzcYFpzIQ0gKXzqAIXsMD/hwM5qJ4ewqMHw3gg==
+  dependencies:
+    "@intlify/message-compiler" "10.0.1"
+    "@intlify/shared" "10.0.1"
+
+"@intlify/message-compiler@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/@intlify/message-compiler/-/message-compiler-10.0.1.tgz"
+  integrity sha512-fPeykrcgVT5eOIlshTHiPCN8FV3AZyBOdMS3XaXzfQ6eL5wqfc29I/EdIv5YXVW5X8e/BgYeWjBC0Cuznsl/2g==
+  dependencies:
+    "@intlify/shared" "10.0.1"
+    source-map-js "^1.0.2"
+
+"@intlify/shared@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/@intlify/shared/-/shared-10.0.1.tgz"
+  integrity sha512-b4h7IWdZl710DnAhET8lgfgZ4Y9A2IZx/gbli3Ec/zHtYCoPqLHmiM7kUNBrSZj7d/SSjcMMZHuz5I09x3PYZw==
+
 "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
   resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
@@ -2066,6 +2087,15 @@ vue-eslint-parser@^9.3.1, vue-eslint-parser@^9.4.2:
     lodash "^4.17.21"
     semver "^7.3.6"
 
+vue-i18n@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.npmjs.org/vue-i18n/-/vue-i18n-10.0.1.tgz"
+  integrity sha512-SQVlSm/1S6AaG1wexvwq3ebXUrrkx75ZHD78UAs4/rYD/X3tsQxfm6ElpT4ZPegJQEgRtOJjGripqSrfqAENtg==
+  dependencies:
+    "@intlify/core-base" "10.0.1"
+    "@intlify/shared" "10.0.1"
+    "@vue/devtools-api" "^6.5.0"
+
 vue-multiselect@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/vue-multiselect/-/vue-multiselect-3.1.0.tgz"
@@ -2092,7 +2122,7 @@ vue-tsc@^2.0.6:
     "@vue/language-core" "2.1.6"
     semver "^7.5.4"
 
-"vue@^2.0.0 || >=3.0.0", "vue@^2.6.14 || ^3.3.0", "vue@^3.0.0-0 || ^2.6.0", vue@^3.0.2, vue@^3.0.5, vue@^3.2.0, vue@^3.2.25, vue@^3.4.18, vue@^3.4.21, "vue@>= 3.0.0 < 4", "vue@2 || 3", vue@3.4.21:
+"vue@^2.0.0 || >=3.0.0", "vue@^2.6.14 || ^3.3.0", vue@^3.0.0, "vue@^3.0.0-0 || ^2.6.0", vue@^3.0.2, vue@^3.0.5, vue@^3.2.0, vue@^3.2.25, vue@^3.4.18, vue@^3.4.21, "vue@>= 3.0.0 < 4", "vue@2 || 3", vue@3.4.21:
   version "3.4.21"
   resolved "https://registry.npmjs.org/vue/-/vue-3.4.21.tgz"
   integrity sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==

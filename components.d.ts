@@ -33,6 +33,7 @@ declare module 'vue' {
     HelpNavbar: typeof import('./src/components/HelpNavbar.vue')['default']
     ITyped: typeof import('./src/components/ITyped.vue')['default']
     Jarallax: typeof import('./src/components/Jarallax.vue')['default']
+    LanguageDropdown: typeof import('./src/components/topbar/LanguageDropdown.vue')['default']
     LogoBox: typeof import('./src/components/topbar/LogoBox.vue')['default']
     MegaMenuDropdown: typeof import('./src/components/topbar/AppMenu/MegaMenuDropdown.vue')['default']
     MenuItem: typeof import('./src/components/topbar/AppMenu/MenuItem.vue')['default']

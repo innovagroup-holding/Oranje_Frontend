@@ -38,18 +38,17 @@
                   data-aos-duration="1200"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 class="text-white display-4 mb-4">
-                    Experience the Essence of
-                    <span class="text-primary">Excellence</span>
+                  <h1 class="text-white display-5 mb-4">
+                    {{ $t("hero.title") }}
                   </h1>
                   <p class="text-white mb-5">
-                    Premium Fragrances Crafted to Perfection
+                    {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
                     :to="{ name: 'contact.v1' }"
                   >
-                    Get a Quote<BIconArrowRight class="bi" />
+                    {{ $t("hero.call") }} <BIconArrowRight class="bi" />
                   </router-link>
                 </b-col>
               </b-row>
@@ -80,17 +79,17 @@
                   data-aos-duration="1200"
                   data-aos-easing="ease-in-out"
                 >
-                  <h1 class="text-white display-4 mb-4">
-                    Experience the Essence of Excellence
+                  <h1 class="text-white display-5 mb-4">
+                    {{ $t("hero.title") }}
                   </h1>
                   <p class="text-white mb-5">
-                    Premium Fragrances Crafted to Perfection
+                    {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
                     :to="{ name: 'contact.v1' }"
                   >
-                    Get a Quote<BIconArrowRight class="bi" />
+                    {{ $t("hero.call") }}<BIconArrowRight class="bi" />
                   </router-link>
                 </b-col>
               </b-row>

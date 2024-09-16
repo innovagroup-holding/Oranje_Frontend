@@ -1,7 +1,7 @@
 const setTitle = (pageName?: string) => {
   return pageName
-    ? `${pageName} | Mizzle Vue - Multipurpose Bootstrap Template`
-    : 'Mizzle Vue | Multipurpose Bootstrap Template'
+    ? `${pageName} | Oranje`
+    : 'Oranje'
 }
 
 const demoRoutes = [
@@ -437,14 +437,14 @@ const portfolioRoutes = [
     },
     component: () => import('@/views/portfolio/List/index.vue')
   },
-  {
-    path: '/portfolio/case-study/v1',
-    name: 'portfolio.case-study.v1',
-    meta: {
-      title: setTitle('Portfolio Case Study v.1')
-    },
-    component: () => import('@/views/portfolio/CaseStudyV1/index.vue')
-  },
+  // {
+  //   path: '/portfolio/case-study/v1',
+  //   name: 'portfolio.case-study.v1',
+  //   meta: {
+  //     title: setTitle('Portfolio Case Study v.1')
+  //   },
+  //   component: () => import('@/views/portfolio/CaseStudyV1/index.vue')
+  // },
   {
     path: '/portfolio/case-study/v2',
     name: 'portfolio.case-study.v2',

@@ -191,273 +191,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
   {
     key: 'pages',
     label: 'Pages',
-    children: [
-      {
-        key: 'pages-about',
-        label: 'About',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'about-v1',
-            label: 'About v.1',
-            route: { name: 'about.v1' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-v2',
-            label: 'About v.2',
-            route: { name: 'about.v2' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-v3',
-            label: 'About v.3',
-            route: { name: 'about.v3' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-team',
-            label: 'Team',
-            route: { name: 'pages.team' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-services-v1',
-            label: 'Services v.1',
-            route: { name: 'services.v1' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-services-v2',
-            label: 'Services v.2',
-            route: { name: 'services.v2' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-services-single',
-            label: 'Service Single',
-            route: { name: 'services.single' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-customer-stories',
-            label: 'Customer Stories',
-            route: { name: 'customer.stories' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-customer-story-single',
-            label: 'Customer Story Single',
-            route: { name: 'customer.story-single' },
-            parentKey: 'pages-about'
-          },
-          {
-            key: 'about-career',
-            label: 'Career',
-            route: { name: 'career' },
-            parentKey: 'pages-about',
-            badge: '2 Jobs'
-          },
-          {
-            key: 'about-career-single',
-            label: 'Career Single',
-            route: { name: 'career.single' },
-            parentKey: 'pages-about'
-          }
-        ]
-      },
-      {
-        key: 'pages-contact-1',
-        label: 'Contact v.1',
-        route: { name: 'contact.v1' },
-        parentKey: 'pages'
-      },
-      {
-        key: 'pages-contact-2',
-        label: 'Contact v.2',
-        route: { name: 'contact.v2' },
-        parentKey: 'pages'
-      },
-      {
-        key: 'pages-saas',
-        label: 'SaaS Pages',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'saas-features',
-            label: 'Features',
-            route: { name: 'saas.feature' },
-            parentKey: 'pages-saas'
-          },
-          {
-            key: 'saas-feature-single',
-            label: 'Feature Single',
-            route: { name: 'saas.feature-single' },
-            parentKey: 'pages-saas'
-          },
-          {
-            key: 'saas-integrations',
-            label: 'Integrations',
-            route: { name: 'saas.integrations' },
-            parentKey: 'pages-saas'
-          },
-          {
-            key: 'saas-integration-single',
-            label: 'Integration Single',
-            route: { name: 'saas.integration-single' },
-            parentKey: 'pages-saas'
-          }
-        ]
-      },
-      {
-        key: 'pages-shop',
-        label: 'Shop',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'shop-grid',
-            label: 'Shop Grid',
-            route: { name: 'shop.grid' },
-            parentKey: 'pages-shop'
-          },
-          {
-            key: 'shop-single',
-            label: 'Shop Single',
-            route: { name: 'shop.single', params: { id: '1001' } },
-            parentKey: 'pages-shop'
-          },
-          {
-            key: 'shop-cart',
-            label: 'Shop Cart',
-            route: { name: 'shop.cart' },
-            parentKey: 'pages-shop'
-          },
-          {
-            key: 'shop-empty-cart',
-            label: 'Shop Empty Cart',
-            route: { name: 'shop.empty-cart' },
-            parentKey: 'pages-shop'
-          },
-          {
-            key: 'shop-checkout',
-            label: 'Shop Checkout',
-            route: { name: 'shop.checkout' },
-            parentKey: 'pages-shop'
-          }
-        ]
-      },
-      {
-        key: 'pages-blog',
-        label: 'Blog',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'blog-grid',
-            label: 'Blog Grid',
-            route: { name: 'blog.grid' },
-            parentKey: 'pages-blog'
-          },
-          {
-            key: 'blog-list-sidebar',
-            label: 'Blog List Sidebar',
-            route: { name: 'blog.list-sidebar' },
-            parentKey: 'pages-blog'
-          },
-          {
-            key: 'blog-single-v1',
-            label: 'Blog Single v.1',
-            route: { name: 'blog.single.v1' },
-            parentKey: 'pages-blog'
-          },
-          {
-            key: 'blog-single-v2',
-            label: 'Blog Single v.2',
-            route: { name: 'blog.single.v2' },
-            parentKey: 'pages-blog'
-          }
-        ]
-      },
-      {
-        key: 'pages-specialty',
-        label: 'Specialty Pages',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'specialty-help-center',
-            label: 'Help Center',
-            route: { name: 'help.center' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-help-detail',
-            label: 'Help Center Detail',
-            route: { name: 'help.detail' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-pricing',
-            label: 'Pricing',
-            route: { name: 'pricing' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-faq',
-            label: 'Faqs',
-            route: { name: 'faqs' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-error-404',
-            label: 'Error 404',
-            route: { name: 'not-found' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-coming-soon',
-            label: 'Coming Soon',
-            route: { name: 'coming-soon' },
-            parentKey: 'pages-specialty'
-          },
-          {
-            key: 'specialty-terms-&-conditions',
-            label: 'Terms & Conditions',
-            route: { name: 'terms-conditions' },
-            parentKey: 'pages-specialty'
-          }
-        ]
-      },
-      {
-        key: 'pages-auth',
-        label: 'Authentication',
-        parentKey: 'pages',
-        children: [
-          {
-            key: 'auth-sign-up',
-            label: 'Sign Up',
-            route: { name: 'auth.sign-up' },
-            parentKey: 'pages-auth'
-          },
-          {
-            key: 'auth-sign-in',
-            label: 'Sign In',
-            route: { name: 'auth.sign-in' },
-            parentKey: 'pages-auth'
-          },
-          {
-            key: 'auth-forgot-pass',
-            label: 'Forgot Password',
-            route: { name: 'auth.forgot-password' },
-            parentKey: 'pages-auth'
-          }
-        ]
-      },
-      {
-        key: 'pages-account',
-        label: 'Account',
-        parentKey: 'pages',
-        children: ACCOUNT_VERTICAL_MENU_ITEMS
-      }
-    ]
+  
   },
   {
     key: 'portfolio',
@@ -487,38 +221,35 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
         route: { name: 'portfolio.home-care' },
         parentKey: 'portfolio'
       },
+     
+     
+     
+    ]
+  },
+  {
+    key: 'contact',
+    label: 'contact',
+    children: [
       {
-        key: 'portfolio-masonry',
-        label: 'Portfolio Masonry',
-        route: { name: 'portfolio.masonry' },
-        parentKey: 'portfolio'
-      },
-      {
-        key: 'portfolio-showcase',
-        label: 'Portfolio Showcase',
-        route: { name: 'portfolio.showcase' },
-        parentKey: 'portfolio'
-      },
-      {
-        key: 'portfolio-list',
-        label: 'Portfolio List',
-        route: { name: 'portfolio.list' },
-        parentKey: 'portfolio'
-      },
-      {
-        key: 'portfolio-case-study-v1',
-        label: 'Portfolio Case Study v.1',
-        route: { name: 'portfolio.case-study.v1' },
-        parentKey: 'portfolio'
-      },
-      {
-        key: 'portfolio-case-study-v2',
-        label: 'Portfolio Case Study v.2',
-        route: { name: 'portfolio.case-study.v2' },
-        parentKey: 'portfolio'
+        key: 'contact-1',
+        label: 'Contact v.1',
+        route: { name: 'contact.v1' },
+        parentKey: 'contact'
       }
     ]
-  }
+    },
+    {
+      key: 'about',
+      label: 'about',
+      children: [
+        {
+          key: 'about',
+          label: 'About',
+          route: { name: 'about-us' },
+          parentKey: 'about'
+        }
+      ]
+      }
 ]
 
 export const MEGA_MENU_ITEMS: MegaMenuType = {

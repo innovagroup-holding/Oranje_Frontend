@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "categories": "Categories",
+        "contact": "Contact us",
+        "privacy": "Privacy Policy",
+        "register": "Register",
+        "language": "Language",
+        "theme": "Theme"
+    },
+    "hero":{
+        "title": "Experience the Essence of Excellence",
+        "subtitle": "Premium Fragrances Crafted to Perfection",
+        "call": "Get a Quote"
+      },
+      "aboutSection":{
+      "title1": "Discover",
+      "title2": "Our Story",
+      "subtitle": "Learn about our mission to create exceptional fragrances. Discover our commitment to quality and innovation.",
+      "call": "Read More"
+      },
+    "categories":{
+     "title":"Explore Our Categories",
+     "fineFragrance": {
+      "title": "Fine Fragrance",
+      "category": "Discover our premium fine fragrances designed to delight."
+    },
+    "personalCare": {
+      "title": "Personal Care",
+      "category": "Explore fragrances that harmonize with your personal care products."
+    },
+    "airCare": {
+      "title": "Air Care",
+      "category": "Enhance your environment with our specialized air fragrances."
+    },
+    "homeCare": {
+      "title": "Home Care",
+      "category": "Innovative fragrances for all your home care needs."
+    }
+      },
+      "testimonials":{
+        "title1":"What",
+        "title2":"Our Clients",
+        "title3":"Say "
+      },
+      "call":{
+        "title": "Ready to Transform Your Senses?",
+        "subtitle": "Contact us today to discover how our fragrances.can elevate your products.",
+        "call": "Request a Consultation"
+      },
+    "login": {
+        "signIn": "Sign in",
+        "logIn": "Log in",
+        "phone": "Phone Number",
+        "password": "Password",
+        "register": "Don't have an account? Register",
+        "noAccount": "No account yet?"
+    },
+    "register": {
+        "signUp": "Sign up for an account",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "password": "Password",
+        "login": "Already have an account? Login"
+    }
+   
+}

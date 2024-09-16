@@ -81,10 +81,9 @@
 
         <b-row class="g-4 position-relative">
           <b-col lg="7" class="mx-auto text-center">
-            <h2 class="text-white mb-4">Ready to Transform Your Senses?</h2>
+            <h2 class="text-white mb-4">{{ $t("call.title") }}</h2>
             <p class="text-white mb-4">
-              Contact us today to discover how our fragrances.can elevate your
-              products.
+              {{ $t("call.subtitle") }}
             </p>
             <div
               class="d-flex justify-content-center align-items-center gap-1 gap-sm-2"
@@ -93,7 +92,8 @@
                 @click="scrollToTop"
                 :to="{ name: 'contact.v1' }"
                 class="btn btn-dark icons-center"
-                ><BIconTelephone class="me-2" />Contact us</router-link
+                ><BIconTelephone class="me-2" />
+                {{ $t("call.call") }}</router-link
               >
             </div>
           </b-col>

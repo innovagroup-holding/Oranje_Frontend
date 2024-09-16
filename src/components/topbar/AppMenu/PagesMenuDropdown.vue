@@ -3,36 +3,10 @@
     <a
       class="nav-link dropdown-toggle arrow-none d-flex justify-content-between align-items-center w-100"
       href="/about-us"
-      :class="menuItemActive('pages', currentRouteName) && 'active'"
+      :class="menuItemActive('about', currentRouteName) && 'active'"
     >
-      About Us
-      <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
+      {{ $t("nav.about") }}
     </a>
-    <div class="dropdown-menu">
-      <template v-for="(item, idx) in menuItems" :key="item.key + idx">
-        <MenuItemWithChildren v-if="item.children" :item="item" />
-        <MenuItem v-else :item="item" />
-      </template>
-      <li>
-        <hr class="dropdown-divider" />
-      </li>
-      <li>
-        <a class="dropdown-item" :href="supportLink">
-          <BIconLifePreserver class="me-2" />
-          Support
-        </a>
-      </li>
-      <li>
-        <a
-          class="dropdown-item"
-          href="https://mizzle-vue.vercel.app/docs/index.html"
-          target="_blank"
-        >
-          <b-card-text class="me-2" />
-          Documentation
-        </a>
-      </li>
-    </div>
   </li>
 </template>
 

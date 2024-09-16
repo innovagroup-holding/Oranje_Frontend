@@ -2,7 +2,7 @@
   <section>
     <b-container>
       <div class="inner-container text-center mb-4 mb-sm-6">
-        <h2 class="mb-0">Explore Our Categories</h2>
+        <h2 class="mb-0">{{ $t("categories.title") }}</h2>
       </div>
 
       <b-row class="g-4 g-lg-5">

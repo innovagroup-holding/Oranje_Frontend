@@ -5,14 +5,14 @@
       href="#"
       :class="menuItemActive('portfolio', currentRouteName) && 'active'"
     >
-      Categories
+      {{ $t("nav.categories") }}
+
       <font-awesome-icon :icon="faAngleDown" class="fa-sm ms-1" />
     </a>
     <div class="dropdown-menu dropdown-menu-center dropdown-menu-size-xl p-3">
       <b-row class="g-xl-3">
         <b-col xl="4">
           <ul class="list-unstyled">
-            <li class="dropdown-header h6">Portfolio Pages</li>
             <li v-for="item in menuItems" :key="item.key">
               <router-link
                 class="dropdown-item"
@@ -21,9 +21,6 @@
                 :class="{ active: item.route.name === currentRouteName }"
               >
                 {{ item.label }}
-                <span v-if="item.badge" class="badge text-bg-success ms-2">
-                  {{ item.badge }}
-                </span>
               </router-link>
             </li>
           </ul>

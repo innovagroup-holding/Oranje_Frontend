@@ -86,27 +86,19 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
                 <li
                   class="list-group-item text-white fs-2 fw-semibold d-flex p-0"
                 >
-                  What
+                  {{ $t("testimonials.title1") }}
                 </li>
                 <li
                   class="list-group-item text-white fs-3 fw-semibold d-flex p-0"
                 >
-                  Our Clients
+                  {{ $t("testimonials.title2") }}
                 </li>
                 <li
                   class="list-group-item text-white fs-3 fw-semibold d-flex p-0"
                 >
-                  Say . . .
+                  {{ $t("testimonials.title3") }}. . .
                 </li>
               </ul>
-              <!-- <div class="mt-auto">
-                <a
-                  class="btn btn-lg btn-outline-white icon-link icon-link-hover"
-                  href="#"
-                  >Join our community
-                  <BIconArrowRight class="bi" />
-                </a>
-              </div> -->
             </div>
           </b-col>
 

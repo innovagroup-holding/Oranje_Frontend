@@ -49,7 +49,7 @@
         >
           <div class="inner-container mx-auto">
             <h1 class="mb-4">
-              Discover
+              {{ $t("aboutSection.title1") }}
               <span>
                 <svg
                   width="76"
@@ -80,18 +80,18 @@
                   />
                 </svg>
               </span>
-              Our Story
+              {{ $t("aboutSection.title2") }}
             </h1>
             <p class="my-5">
-              Learn about our mission to create exceptional fragrances. Discover
-              our commitment to quality and innovation.
+              {{ $t("aboutSection.subtitle") }}
             </p>
 
             <div class="mt-6">
               <router-link
                 class="btn btn-lg btn-primary border"
                 :to="{ name: 'about-us' }"
-                >Read More</router-link
+              >
+                {{ $t("aboutSection.call") }}</router-link
               >
             </div>
           </div></b-col

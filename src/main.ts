@@ -18,7 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import '@/assets/scss/style.scss'
 import 'vue-toastification/dist/index.css'
-
+import i18n from './i18n'
 const toastOptions: PluginOptions = {}
 addIcons(FcGoogle)
 const app = createApp(App)
@@ -30,5 +30,5 @@ app.use(router)
 app.use(createBootstrap())
 app.use(BootstrapIconsPlugin)
 app.use(Toast, toastOptions)
-
+app.use(i18n)
 app.mount('#app')

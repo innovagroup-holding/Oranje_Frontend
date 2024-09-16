@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "home": "Startpagina",
+        "about": "Over Ons",
+        "categories": "Categorieën",
+        "contact": "Neem Contact Op",
+        "privacy": "Privacybeleid",
+        "login": "Inloggen",
+        "register": "Registreren",
+        "language": "Taal"
+    },
+    "hero":{
+      "title": "Ervaar de Essentie van Uitmuntendheid",
+      "subtitle": "Premium Geuren, Perfectie in elk Detail",
+      "call": "Vraag een Offerte aan"
+    },
+    "aboutSection":{
+      "title1": "Ontdek",
+      "title2": "Ons Verhaal",
+      "subtitle": "Lees over onze missie om uitzonderlijke geuren en smaken te creëren. Ontdek onze inzet voor kwaliteit en innovatie.",
+      "call": "Lees Meer"
+    },
+    "categories":{
+        "title":"Ontdek Onze Categorieën",
+        "fineFragrance": {
+         "title": "Fijne Geuren",
+         "category": "Ontdek onze premium fijne geuren ontworpen om te verrassen."
+       },
+       "personalCare": {
+         "title": "Persoonlijke Verzorging",
+         "category": "Verken geuren die harmonieus zijn met uw persoonlijke verzorgingsproducten."
+       },
+       "airCare": {
+         "title": "Luchtverzorging",
+         "category": "Verhoog uw omgeving met onze gespecialiseerde luchtgeuren."
+       },
+       "homeCare": {
+         "title": "Huishoudelijke Verzorging",
+         "category": "Innovatieve geuren voor al uw huishoudelijke behoeften."
+       } 
+    },
+    "testimonials":{
+       
+        "title1":"Wat",
+        "title2":"Onze Klanten",
+         "title3":"Zeggen "
+      },
+      "call":{
+      "title": "Klaar om Uw Zintuigen te Transformeren?",
+      "subtitle": "Neem vandaag nog contact met ons op en ontdek hoe onze geuren uw producten naar een hoger niveau kunnen tillen.",
+      "call": "Vraag een Adviesgesprek aan"
+    },
+    "login": {
+        "signIn": "Inschrijven",
+        "logIn": "Inloggen",
+        "phone": "Telefoonnummer",
+        "password": "Wachtwoord",
+        "register": "Nog geen account? Registreren",
+        "noAccount": "Nog geen account?"
+    },
+    "register": {
+        "signUp": "Maak een account aan",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mail",
+        "phone": "Telefoonnummer",
+        "password": "Wachtwoord",
+        "login": "Heeft u al een account? Inloggen"
+    }
+}
