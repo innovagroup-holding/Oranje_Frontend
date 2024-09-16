@@ -2,7 +2,11 @@
   <section class="position-relative z-index-2 py-0 mb-n7">
     <b-container class="position-relative">
       <div
-        class="bg-primary rounded position-relative overflow-hidden p-4 p-sm-5"
+        class="bg-primary rounded position-relative overflow-hidden p-4 p-sm-5 aos"
+        data-aos="flip-up"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
       >
         <figure class="position-absolute top-0 start-0 ms-n8">
           <svg

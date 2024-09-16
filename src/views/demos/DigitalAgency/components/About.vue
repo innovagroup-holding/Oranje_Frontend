@@ -89,7 +89,6 @@
 
             <div class="mt-6">
               <router-link
-                @click="scrollToTop"
                 class="btn btn-lg btn-primary border"
                 :to="{ name: 'about-us' }"
                 >Read More</router-link
@@ -115,12 +114,4 @@
 
 <script lang="ts" setup>
 import icon1 from "@/assets/icons/incense_3006063.png";
-import { onMounted } from "vue";
-import AOS from "aos";
-onMounted(() => {
-  AOS.init();
-});
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-};
 </script>

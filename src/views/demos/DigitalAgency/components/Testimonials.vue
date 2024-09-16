@@ -158,9 +158,4 @@ import { testimonials } from "@/views/demos/DigitalAgency/data";
 import TestimonialCard from "@/views/demos/DigitalAgency/components/TestimonialCard.vue";
 import { BIconArrowRight } from "bootstrap-icons-vue";
 import bg5Img from "@/assets/images/bg/05.jpg";
-import { onMounted } from "vue";
-import AOS from "aos";
-onMounted(() => {
-  AOS.init({ once: true });
-});
 </script>

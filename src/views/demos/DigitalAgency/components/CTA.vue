@@ -90,6 +90,7 @@
               class="d-flex justify-content-center align-items-center gap-1 gap-sm-2"
             >
               <router-link
+                @click="scrollToTop"
                 :to="{ name: 'contact.v1' }"
                 class="btn btn-dark icons-center"
                 ><BIconTelephone class="me-2" />Contact us</router-link
@@ -106,9 +107,7 @@
 import { BIconEnvelope, BIconTelephone } from "bootstrap-icons-vue";
 
 import ctaVectorImg from "@/assets/images/elements/cta-vector.svg";
-import { onMounted } from "vue";
-import AOS from "aos";
-onMounted(() => {
-  AOS.init();
-});
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

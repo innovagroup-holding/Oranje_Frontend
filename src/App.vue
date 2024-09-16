@@ -1,7 +1,9 @@
 <template>
   <!-- <Navbar /> -->
-  <RouterView />
-  <BackToTop />
+  <div @click="scrollToTop">
+    <RouterView />
+    <BackToTop />
+  </div>
   <!-- <Footer /> -->
 </template>
 
@@ -18,4 +20,7 @@ import { useLayoutStore } from "@/stores/layout";
 configureFakeBackend();
 const useLayout = useLayoutStore();
 useLayout.setTheme(useLayout.theme);
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

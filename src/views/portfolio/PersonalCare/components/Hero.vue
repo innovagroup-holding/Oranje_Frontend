@@ -17,7 +17,14 @@
 
     <b-container class="pt-lg-4">
       <b-row class="g-4 g-xxl-5">
-        <b-col lg="7" class="position-relative mx-auto text-center">
+        <b-col
+          lg="7"
+          class="position-relative mx-auto text-center aos"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div class="d-flex justify-content-center mb-3">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb breadcrumb-dots pb-0 mb-0">
@@ -38,4 +45,10 @@
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init({ once: true });
+});
+</script>

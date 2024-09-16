@@ -60,7 +60,6 @@
         <p class="mb-0">
           You can reach us anytime via <a href="#">info@oranje-fragrance.nl </a>
         </p>
-        <!-- this is comment -->
         <div
           class="d-sm-flex gap-3 align-items-center justify-content-center my-5"
         >
@@ -159,7 +158,14 @@
             </svg>
           </figure>
 
-          <b-card no-body class="shadow p-4 p-sm-5 p-md-6">
+          <b-card
+            no-body
+            class="shadow p-4 p-sm-5 p-md-6 aos"
+            data-aos="flip-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <b-card-header class="border-bottom px-0 pt-0 pb-5">
               <nav class="mb-3" aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dots pt-0">
@@ -281,8 +287,12 @@ const types = ref([
   { name: "Air Care" },
   { name: "Home Care" },
 ]);
-
 const selectedTypes = ref([]);
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init({ once: true });
+});
 </script>
 <style scoped>
 .multiselect .multiselect__tags {

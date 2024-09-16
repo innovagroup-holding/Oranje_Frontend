@@ -3,7 +3,14 @@
     <b-container>
       <b-row class="row-cols-1 row-cols-lg-3 g-4">
         <b-col v-for="(item, idx) in address" :key="idx">
-          <b-card no-body class="card-body bg-light border p-sm-5 card">
+          <b-card
+            no-body
+            class="card-body bg-light border p-sm-5 card aos"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <div class="mb-4">
               <component :is="item.icon" class="fa-xl text-primary" />
             </div>

@@ -151,6 +151,6 @@ import backgroundImg10 from "@/assets/images/photo_2024-09-11_17-31-26.jpg";
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
-  AOS.init();
+  AOS.init({ once: true });
 });
 </script>

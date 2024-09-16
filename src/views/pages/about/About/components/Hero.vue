@@ -7,7 +7,13 @@
       <b-row class="h-100 g-0">
         <b-col lg="6" class="m-auto order-2">
           <div class="px-5 px-xxl-8 py-6 py-lg-8">
-            <h1 class="display-8 mb-4 lh-base position-relative">
+            <h1
+              class="display-8 mb-4 lh-base position-relative aos"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               Discover Our
               <span class="position-relative z-index-2">
                 Story
@@ -39,7 +45,13 @@
               </span>
             </h1>
 
-            <p class="mb-5">
+            <p
+              class="mb-5 aos"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+            >
               Welcome to Oranje Fragrance & Flavor, where passion meets
               innovation in the world of scent and taste. Established in 2019,
               we are a Dutch company dedicated to crafting exceptional
@@ -51,7 +63,11 @@
             </p>
             <router-link
               :to="{ name: 'contact.v1' }"
-              class="btn btn-lg btn-primary mb-0"
+              class="btn btn-lg btn-primary mb-0 aos"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="2500"
+              data-aos-easing="ease-in-out"
               >Contact Us</router-link
             >
           </div>
@@ -93,6 +109,10 @@ import { EffectFade, Autoplay, Pagination } from "swiper/modules";
 import backgroundImg7 from "@/assets/images/bg/07.jpg";
 import backgroundImg12 from "@/assets/images/bg/12.jpg";
 import backgroundImg13 from "@/assets/images/bg/13.jpg";
-
+import { onMounted } from "vue";
+import AOS from "aos";
+onMounted(() => {
+  AOS.init({ once: true });
+});
 const swiperImages = [backgroundImg7, backgroundImg12, backgroundImg13];
 </script>
