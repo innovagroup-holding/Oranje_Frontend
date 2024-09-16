@@ -66,7 +66,7 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
 <template>
   <section class="pt-0">
     <b-container
-      class="aos"
+      class="aos overflow-hidden"
       data-aos="zoom-out-up"
       data-aos-delay="200"
       data-aos-duration="1200"
@@ -99,14 +99,14 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
                   Say . . .
                 </li>
               </ul>
-              <div class="mt-auto">
+              <!-- <div class="mt-auto">
                 <a
                   class="btn btn-lg btn-outline-white icon-link icon-link-hover"
                   href="#"
                   >Join our community
                   <BIconArrowRight class="bi" />
                 </a>
-              </div>
+              </div> -->
             </div>
           </b-col>
 
@@ -154,14 +154,13 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
 <script setup lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Pagination } from "swiper/modules";
-import { testimonials } from "@/views/pages/about/AboutV3/data";
-import TestimonialCard from "@/views/pages/about/AboutV3/components/TestimonialCard.vue";
+import { testimonials } from "@/views/demos/DigitalAgency/data";
+import TestimonialCard from "@/views/demos/DigitalAgency/components/TestimonialCard.vue";
 import { BIconArrowRight } from "bootstrap-icons-vue";
 import bg5Img from "@/assets/images/bg/05.jpg";
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
-  AOS.init();
-  AOS.refresh();
+  AOS.init({ once: true });
 });
 </script>

@@ -49,7 +49,7 @@ import { blogs } from "@/views/demos/DigitalAgency/data";
       </div>
 
       <b-row class="g-4 g-lg-5">
-        <b-col md="3" v-for="(blog, idx) in blogs" :key="idx">
+        <b-col md="3" v-for="(blog, idx) in blogs" :key="idx" class="mt-7">
           <BlogCard :blog="blog" />
         </b-col>
       </b-row>

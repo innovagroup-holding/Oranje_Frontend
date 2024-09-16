@@ -1,6 +1,6 @@
 <template>
   <section
-    class="position-relative z-index-2 py-0 mb-n7 aos"
+    class="position-relative z-index-2 py-0 mb-n7 aos overflow-hidden"
     data-aos="flip-up"
     data-aos-delay="200"
     data-aos-duration="1200"
@@ -83,8 +83,8 @@
           <b-col lg="7" class="mx-auto text-center">
             <h2 class="text-white mb-4">Ready to Transform Your Senses?</h2>
             <p class="text-white mb-4">
-              Contact us today to discover how our fragrances and flavours can
-              elevate your products.
+              Contact us today to discover how our fragrances.can elevate your
+              products.
             </p>
             <div
               class="d-flex justify-content-center align-items-center gap-1 gap-sm-2"
@@ -110,6 +110,5 @@ import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
   AOS.init();
-  AOS.refresh();
 });
 </script>

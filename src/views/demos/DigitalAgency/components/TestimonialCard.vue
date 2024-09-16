@@ -79,18 +79,18 @@ defineProps({
   <q class="lead heading-color">{{ testimonial.comment }}</q>
 
   <div class="d-sm-flex align-items-center mt-4">
-    <div class="avatar flex-shrink-0">
+    <!-- <div class="avatar flex-shrink-0">
       <img
         class="avatar-img rounded-circle"
         :src="testimonial.user.avatar"
         alt="avatar"
       />
-    </div>
+    </div> -->
 
     <div class="ms-sm-3 mt-2 mt-sm-0">
-      <span class="heading-color fw-semibold mb-0">{{
-        testimonial.user.username
-      }}</span>
+      <span class="heading-color fw-semibold mb-0"
+        >{{ testimonial.user.firstName }} {{ testimonial.user.lastName }}</span
+      >
       <p class="mb-0 small">{{ testimonial.user.role }}</p>
     </div>
   </div>

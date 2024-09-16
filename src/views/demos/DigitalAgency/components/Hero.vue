@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-0">
+  <section class="pt-0 overflow-hidden">
     <Swiper
       class="overflow-hidden"
       :modules="[EffectFade, Autoplay, Pagination]"
@@ -19,7 +19,7 @@
         <b-card
           no-body
           class="overflow-hidden min-vh-100 rounded-0"
-          :style="`background:url(${backgroundImg8}) no-repeat; background-size:cover; background-position:center;`"
+          :style="`background:url(${backgroundImg8}) no-repeat; background-size:cover; background-position:left center;`"
         >
           <div class="bg-overlay bg-linear-overlay"></div>
 
@@ -43,7 +43,7 @@
                     <span class="text-primary">Excellence</span>
                   </h1>
                   <p class="text-white mb-5">
-                    Premium Fragrances and Flavours Crafted to Perfection
+                    Premium Fragrances Crafted to Perfection
                   </p>
                   <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
@@ -61,7 +61,7 @@
         <b-card
           no-body
           class="overflow-hidden min-vh-100 rounded-0"
-          :style="`background:url(${backgroundImg10}) no-repeat; background-size:cover; background-position:center;`"
+          :style="`background:url(${backgroundImg10}) no-repeat; background-size:cover; background-position:right center;`"
         >
           <div class="bg-overlay bg-linear-overlay"></div>
 
@@ -84,7 +84,7 @@
                     Experience the Essence of Excellence
                   </h1>
                   <p class="text-white mb-5">
-                    Premium Fragrances and Flavours Crafted to Perfection
+                    Premium Fragrances Crafted to Perfection
                   </p>
                   <router-link
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"

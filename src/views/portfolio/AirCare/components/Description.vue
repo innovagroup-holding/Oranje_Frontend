@@ -14,7 +14,7 @@
         <b-col sm="6" class="ms-auto">
           <h4 class="mb-4">The Air Care</h4>
           <p class="lh-lg pt-3">
-            <span class="dropcap fs-1 heading-color bg-light rounded px-2"
+            <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >T</span
             >
             ransform various environments with our specialized air care

@@ -135,7 +135,7 @@ const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 onMounted(() => {
-  AOS.init({ once: true });
+  AOS.init();
 });
 </script>
 

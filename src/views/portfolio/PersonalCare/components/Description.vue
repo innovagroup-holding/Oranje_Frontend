@@ -14,14 +14,14 @@
         <b-col sm="6" class="ms-auto">
           <h4 class="mb-2">The Personal Care</h4>
           <p class="lh-lg">
-            <span class="dropcap fs-1 heading-color bg-light rounded px-2"
+            <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >A</span
             >t
             <span class="text-primary fw-bolder fs-6">Oranje</span>
-            Fragrance & Flavor, we understand the critical importance of
-            fragrance in personal care products. Our personal care scents are
-            meticulously developed to align with the specific needs of hair and
-            skin products. Each fragrance is engineered for stability, skin
+            Fragrance , we understand the critical importance of fragrance in
+            personal care products. Our personal care scents are meticulously
+            developed to align with the specific needs of hair and skin
+            products. Each fragrance is engineered for stability, skin
             compatibility, and environmental sustainability. By partnering with
             industry leaders, we ensure that our fragrances not only meet but
             exceed the quality standards required for consumer satisfaction and

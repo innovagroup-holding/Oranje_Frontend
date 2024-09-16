@@ -4,11 +4,11 @@
       <b-container fluid>
         <LogoBox class-name="me-5" />
 
-        <AppMenu showContactUs ul-class="mx-auto" />
+        <AppMenu showContactUs ul-class="mx-auto" @click="scrollToTop" />
 
         <ul class="nav align-items-center dropdown-hover ms-sm-2">
           <ThemeToggleDropdown />
-          <li class="d-lg-none d-sm-block">
+          <!-- <li class="d-lg-none d-sm-block">
             <b-dropdown
               variant="link"
               no-caret
@@ -45,7 +45,7 @@
                 <BIconSearch />
               </button>
             </form>
-          </li>
+          </li> -->
           <li class="nav-item">
             <MobileNavbarToggler />
           </li>
@@ -62,4 +62,7 @@ import ThemeToggleDropdown from "@/components/topbar/ThemeToggleDropdown.vue";
 import MobileNavbarToggler from "@/components/topbar/MobileNavbarToggler.vue";
 import { BIconSearch } from "bootstrap-icons-vue";
 import AppMenu from "@/components/topbar/AppMenu/index.vue";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

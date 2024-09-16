@@ -290,7 +290,20 @@ const selectedTypes = ref([]);
   flex-wrap: wrap;
   gap: 5px;
 }
-
+.multiselect__tag {
+  background: #de3217 !important;
+  background-color: #de3217 !important;
+}
+.multiselect__option--highlight {
+  background: #de3217 !important;
+}
+.multiselect__option--highlight::after {
+  background: #de3217 !important;
+}
+.multiselect__spinner::after,
+.multiselect__spinner::before {
+  border-color: #de3217 transparent transparent !important;
+}
 @media (max-width: 576px) {
   .multiselect .multiselect__tags {
     flex-direction: column;

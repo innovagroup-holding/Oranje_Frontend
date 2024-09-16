@@ -36,7 +36,7 @@
 
 <script lang="ts" setup></script> -->
 <template>
-  <section class="pb-0 pt-0 position-relative">
+  <section class="pb-0 pt-0 position-relative overflow-hidden">
     <b-container>
       <b-row>
         <b-col
@@ -83,10 +83,8 @@
               Our Story
             </h1>
             <p class="my-5">
-              Learn about our mission to create exceptional fragrances and
-              flavours. Discover our commitment to quality and innovation. Learn
-              about our mission to create exceptional fragrances and flavours.
-              Discover our commitment to quality and innovation.
+              Learn about our mission to create exceptional fragrances. Discover
+              our commitment to quality and innovation.
             </p>
 
             <div class="mt-6">
@@ -118,6 +116,5 @@ import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
   AOS.init();
-  AOS.refresh();
 });
 </script>

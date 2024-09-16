@@ -15,11 +15,11 @@
         <b-col sm="6" class="ms-auto">
           <h4 class="mb-4">The Fine Fragrance</h4>
           <p class="lh-lg">
-            <span class="dropcap fs-1 heading-color bg-light rounded px-2"
+            <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >D</span
             >ive into the sophisticated realm of fine fragrances with
             <span class="text-primary fw-bolder fs-6">Oranje</span>
-            Fragrance & Flavor. We leverage the latest advancements in fragrance
+            Fragrance. We leverage the latest advancements in fragrance
             technology to craft scents that are both luxurious and cutting-edge.
             Our fine fragrances are designed to meet the highest standards of
             quality, offering exceptional value for your brand. Ideal for both

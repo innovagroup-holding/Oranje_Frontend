@@ -139,7 +139,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Louis',
       lastName: 'Ferguson',
       role: 'Web Developer',
-      avatar: avatar4
+      // avatar: avatar4
     }
   },
   {
@@ -151,7 +151,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Emma',
       lastName: 'Watson',
       role: 'Co-Founder',
-      avatar: avatar5
+      // avatar: avatar5
     }
   },
   {
@@ -163,7 +163,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Samuel',
       lastName: 'Bishop',
       role: 'Product designer',
-      avatar: avatar6
+      // avatar: avatar6
     }
   }
 ]
