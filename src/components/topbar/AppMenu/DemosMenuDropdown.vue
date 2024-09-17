@@ -50,16 +50,16 @@
 <script lang="ts" setup>
 import router from "@/router";
 import type { MenuItemType } from "@/helpers/menu";
-import { splitArray } from "@/helpers/array";
+// import { splitArray } from "@/helpers/array";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 
 const currentRouteName = router.currentRoute.value.name;
 
-type DemosMenuDropdownProps = {
-  menuItems: MenuItemType[];
-};
+// type DemosMenuDropdownProps = {
+//   menuItems: MenuItemType[];
+// };
 
-const props = defineProps<DemosMenuDropdownProps>();
-const splitMenuitems = splitArray(props.menuItems, 7);
+// const props = defineProps<DemosMenuDropdownProps>();
+// const splitMenuitems = splitArray(props.menuItems, 7);
 </script>

@@ -23,7 +23,7 @@ type FooterLinkType = {
 export const quickLinks: FooterLinkType[] = [
   {
     name: 'About us',
-    link: 'about.v1'
+    link: 'about-us'
   },
   {
     name: 'Contact us',
@@ -31,11 +31,11 @@ export const quickLinks: FooterLinkType[] = [
   },
   {
     name: 'Categories',
-    link: 'career',
+    link: 'about-us',
   },
   {
     name: 'Privacy Policy',
-    link: 'career.single'
+    link: 'about-us'
   },
   {
     name: 'Terms of Service',
@@ -95,7 +95,7 @@ export const contactDetails = {
 export const footerQuickLinks3: FooterLinkType[] = [
   {
     name: 'About us',
-    link: 'about.v1'
+    link: 'about-us'
   },
   {
     name: 'Contact us',
@@ -138,29 +138,17 @@ export const footerCommunityLinks3 = [
 export const quickLinks6: FooterLinkType[] = [
   {
     name: 'About us',
-    link: 'about.v1'
+    link: 'about-us'
   },
   {
     name: 'Contact us',
     link: 'contact.v1'
   },
-  {
-    name: 'Career',
-    link: 'career'
-  },
-  {
-    name: 'Career detail',
-    link: 'career.single'
-  },
+ 
+
   {
     name: 'Become a partner',
     link: 'contact.v1'
   },
-  {
-    name: 'Sign up',
-    link: 'auth.sign-up'
-  },
-  {
-    name: 'Cookie'
-  }
+  
 ]

@@ -1,5 +1,9 @@
 <template>
-  <router-link class="navbar-brand" :class="className" :to="{ name: 'demos.classic' }">
+  <router-link
+    class="navbar-brand"
+    :class="className"
+    :to="{ name: 'demos.agency.digital' }"
+  >
     <img
       v-if="!onlyLight && !smallLogo"
       class="light-mode-item navbar-brand-item"
@@ -19,14 +23,14 @@
 </template>
 
 <script lang="ts" setup>
-import logoLight from '@/assets/images/logo-light.svg'
-import logo from '@/assets/images/logo.svg'
-import logoIcon from '@/assets/images/logo-icon.svg'
+import logoLight from "@/assets/images/logo-light.svg";
+import logo from "@/assets/images/logo.svg";
+import logoIcon from "@/assets/images/logo-icon.svg";
 
 defineProps<{
-  className?: string
-  onlyLight?: boolean
-  smallLogo?: boolean
-  imageClass?: string
-}>()
+  className?: string;
+  onlyLight?: boolean;
+  smallLogo?: boolean;
+  imageClass?: string;
+}>();
 </script>
