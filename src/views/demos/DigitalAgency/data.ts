@@ -133,38 +133,37 @@ export const statData: StatisticType[] = [
 
 export const testimonials: TestimonialType[] = [
   {
-    title: "Transformed My Agency's Results",
+  
     comment:
-      'As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.',
+      'Our company has been sourcing essential oils in bulk for over a decade, and we’ve never encountered a supplier as reliable as Oranje Fragrance.Their oils are consistently high-quality, and they offer a fantastic range of fragrances that align perfectly with our personal care products. The purity of the oils and their commitment to sustainable sourcing have made them a vital part of our supply chain.',
     rating: 4.5,
     user: {
-      firstName: 'Louis',
-      lastName: 'Ferguson',
-      role: 'Web Developer',
+      firstName: 'Sarah L.,',
+   
+      role: 'Senior Product Development Manager.',
       avatar: avatar4
     }
   },
   {
-    title: "Transformed My Agency's Results",
+    
     comment:
-      'As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.',
+      'Finding a trustworthy supplier for essential oils in bulk was a challenge until we Oranje Fragrance. Their oils have consistently high potency and quality, which is crucial for our care line. Their customer service team is always available to provide advice and ensure timely delivery. Since partnering with Oranje Fragrance, our production process has become more efficient, and we’ve seen improved product performance.',
     rating: 4.5,
     user: {
-      firstName: 'Emma',
-      lastName: 'Watson',
-      role: 'Co-Founder',
+      firstName: 'David R.,',
+      role: 'Head of Procurement',
       avatar: avatar5
     }
   },
   {
-    title: "Transformed My Agency's Results",
+   
     comment:
-      'As an employer, the platform exceeded my expectations. We swiftly found top-tier talent for our company, thanks to the user-friendly interface and the ability to connect with candidates that perfectly fit our requirements.',
+      'We specialize in luxury candles and air fresheners, and the fragrance oils from Oranje Fragrance have been a game-changer for us. The depth and complexity of their scents allow us to create signature products that stand out in a competitive market. The consistency and reliability of their oils give us confidence that every batch will meet our high standards. Our collaboration has been seamless, and we look forward to continuing our partnership',
     rating: 4.5,
     user: {
-      firstName: 'Samuel',
-      lastName: 'Bishop',
-      role: 'Product designer',
+      firstName: 'Emma K.,',
+      
+      role: 'Product Director',
       avatar: avatar6
     }
   }

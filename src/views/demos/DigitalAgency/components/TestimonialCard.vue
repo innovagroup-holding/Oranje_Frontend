@@ -89,8 +89,8 @@ defineProps({
 
     <div class="ms-sm-3 mt-2 mt-sm-0">
       <span class="heading-color fw-semibold mb-0"
-        >{{ testimonial.user.firstName }} {{ testimonial.user.lastName }}</span
-      >
+        >{{ testimonial.user.firstName }}
+      </span>
       <p class="mb-0 small">{{ testimonial.user.role }}</p>
     </div>
   </div>
