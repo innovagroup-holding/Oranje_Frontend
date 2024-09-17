@@ -4,12 +4,12 @@
       class="h-100"
       :modules="[Autoplay, Pagination]"
       :autoplay="{
-        delay: 2000
+        delay: 2000,
       }"
       :loop="true"
       :pagination="{
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       }"
     >
       <SwiperSlide v-for="(swiper, idx) in swiperdata" :key="idx">
@@ -39,7 +39,10 @@
                     <font-awesome-icon :icon="faStar" class="text-white" />
                   </li>
                   <li class="list-inline-item small">
-                    <font-awesome-icon :icon="faStarHalfAlt" class="text-white" />
+                    <font-awesome-icon
+                      :icon="faStarHalfAlt"
+                      class="text-white"
+                    />
                   </li>
                 </ul>
               </div>
@@ -53,8 +56,8 @@
 </template>
 
 <script setup lang="ts">
-import { Autoplay, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { swiperdata } from '@/components/AuthSwiper/data'
-import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { swiperdata } from "@/components/AuthSwiper/data";
+import { faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 </script>

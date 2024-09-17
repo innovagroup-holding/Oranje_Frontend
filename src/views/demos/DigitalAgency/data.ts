@@ -5,9 +5,11 @@ import serviceImg4 from '@/assets/images/services/4by3/04.jpg'
 import serviceImg5 from '@/assets/images/services/4by3/05.jpg'
 import serviceImg6 from '@/assets/images/services/4by3/06.jpg'
 
-import blogImg3 from '@/assets/images/blog/4by3/03.jpg'
-import blogImg7 from '@/assets/images/blog/4by3/07.jpg'
-import blogImg8 from '@/assets/images/blog/4by3/08.jpg'
+import blogImg1 from '@/assets/Fine Fragrance.jpg'
+import blogImg2 from '@/assets/Personal Care.png'
+import blogImg3 from '@/assets/Air Care.png'
+import blogImg4 from '@/assets/home care.png'
+
 import icon1 from '@/assets/icons/incense_3006063.png'
 import icon2 from '@/assets/icons/gel_10786358.png'
 import icon3 from '@/assets/icons/air-refreshener_2797076.png'
@@ -139,7 +141,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Louis',
       lastName: 'Ferguson',
       role: 'Web Developer',
-      // avatar: avatar4
+      avatar: avatar4
     }
   },
   {
@@ -151,7 +153,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Emma',
       lastName: 'Watson',
       role: 'Co-Founder',
-      // avatar: avatar5
+      avatar: avatar5
     }
   },
   {
@@ -163,7 +165,7 @@ export const testimonials: TestimonialType[] = [
       firstName: 'Samuel',
       lastName: 'Bishop',
       role: 'Product designer',
-      // avatar: avatar6
+      avatar: avatar6
     }
   }
 ]
@@ -173,14 +175,14 @@ export const blogs: BlogType[] = [
     title: 'categories.fineFragrance.title',
     category: 'categories.fineFragrance.category',
     icon:icon1,
-    image: blogImg3,
+    image: blogImg1,
     route: { name: 'portfolio.fine-fragrance' }
   },
   {
     title: 'categories.personalCare.title',
     category: 'categories.personalCare.category',
     icon:icon2,
-    image: blogImg8,
+    image: blogImg2,
     route: { name: 'portfolio.personal-care' }
   },
   {
@@ -197,14 +199,14 @@ export const blogs: BlogType[] = [
     //   firstName: 'Allen',
     //   lastName: 'Smith'
     // },
-    image: blogImg7,
+    image: blogImg3,
     route: { name: 'portfolio.air-care' }
   },
   {
     title: 'categories.homeCare.title',
     category: 'categories.homeCare.category',
     icon:icon4,
-    image: blogImg8,
+    image: blogImg4,
     route: { name: 'portfolio.home-care' }
   }
 ]

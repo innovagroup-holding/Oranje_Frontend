@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts" setup>
-import TopNavigationBar3 from "@/views/demos/DigitalAgency/components/TopNavigationBar3.vue";
+import TopNavigationBar3 from "@/components/navbar/BlogNavbar.vue";
 import Hero from "@/views/demos/DigitalAgency/components/Hero.vue";
 import CTA from "@/views/demos/DigitalAgency/components/CTA.vue";
 import Blogs from "@/views/demos/DigitalAgency/components/Blogs.vue";

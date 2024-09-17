@@ -59,20 +59,14 @@ export const communityLinks: FooterLinkType[] = [
     name: 'Supports',
     icon: BIconBoxArrowUpRight
   },
-  {
-    name: 'Faqs',
-    link: 'faqs'
-  },
+ 
   {
     name: 'Privacy Policy'
   },
-  {
-    name: 'News and blogs',
-    link: 'blog.grid'
-  },
+  
   {
     name: 'Terms & condition',
-    link: 'terms-conditions'
+    link: 'about-us'
   }
 ]
 

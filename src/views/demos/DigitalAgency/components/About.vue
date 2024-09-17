@@ -99,13 +99,13 @@
 
         <b-col
           lg="5"
-          class="d-flex align-items-end justify-content-end aos"
+          class="d-flex align-items-end justify-content-end aos d-lg-block d-none"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1200"
           data-aos-easing="ease-in-out"
         >
-          <img :src="icon1" alt="" width="80%" />
+          <img :src="icon1" alt="about-us" width="85%" height="85%" />
         </b-col>
       </b-row>
     </b-container>
@@ -113,5 +113,5 @@
 </template>
 
 <script lang="ts" setup>
-import icon1 from "@/assets/icons/incense_3006063.png";
+import icon1 from "@/assets/about-section-in-home.png";
 </script>

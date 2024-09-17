@@ -1,23 +1,14 @@
 <template>
-  <StickyHeader class-name="header-absolute">
-    <nav class="navbar navbar-expand-xl">
+  <StickyHeader className="header-absolute" data-bs-theme="light">
+    <nav class="navbar navbar-expand-xl bg-light px-lg-5">
       <b-container>
-        <LogoBox class-name="me-0" />
+        <LogoBox class-name="me-5" />
 
-        <AppMenu ulClass="mx-auto" showContactUs showDocs />
+        <AppMenu showContactUs ul-class="mx-auto" @click="scrollToTop" />
 
         <ul class="nav align-items-center dropdown-hover ms-sm-2">
           <ThemeToggleDropdown />
-
-          <li class="nav-item me-2 d-none d-sm-block">
-            <router-link :to="{ name: 'auth.sign-in' }" class="btn btn-sm btn-light mb-0"
-              ><BIconPersonCircle class="me-1" />Sign up</router-link
-            >
-          </li>
-
-          <li class="nav-item d-none d-sm-block">
-            <a :href="buyLink" target="_blank" class="btn btn-sm btn-primary mb-0">Buy now!</a>
-          </li>
+          <LanguageDropdown />
 
           <li class="nav-item">
             <MobileNavbarToggler />
@@ -29,11 +20,21 @@
 </template>
 
 <script lang="ts" setup>
-import { BIconPersonCircle } from 'bootstrap-icons-vue'
-import StickyHeader from '@/components/topbar/StickyHeader.vue'
-import LogoBox from '@/components/topbar/LogoBox.vue'
-import ThemeToggleDropdown from '@/components/topbar/ThemeToggleDropdown.vue'
-import MobileNavbarToggler from '@/components/topbar/MobileNavbarToggler.vue'
-import AppMenu from '@/components/topbar/AppMenu/index.vue'
-import { buyLink } from '@/helpers'
+import StickyHeader from "@/components/topbar/StickyHeader.vue";
+import LogoBox from "@/components/topbar/LogoBox.vue";
+import ThemeToggleDropdown from "@/components/topbar/ThemeToggleDropdown.vue";
+import LanguageDropdown from "@/components/topbar/LanguageDropdown.vue";
+import MobileNavbarToggler from "@/components/topbar/MobileNavbarToggler.vue";
+import { BIconSearch } from "bootstrap-icons-vue";
+import AppMenu from "@/components/topbar/AppMenu/index.vue";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>
+<style scoped>
+.navbar {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100px !important;
+}
+</style>

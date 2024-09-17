@@ -79,13 +79,13 @@ defineProps({
   <q class="lead heading-color">{{ testimonial.comment }}</q>
 
   <div class="d-sm-flex align-items-center mt-4">
-    <!-- <div class="avatar flex-shrink-0">
+    <div class="avatar flex-shrink-0">
       <img
         class="avatar-img rounded-circle"
         :src="testimonial.user.avatar"
         alt="avatar"
       />
-    </div> -->
+    </div>
 
     <div class="ms-sm-3 mt-2 mt-sm-0">
       <span class="heading-color fw-semibold mb-0"

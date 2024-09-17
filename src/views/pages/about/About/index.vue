@@ -10,7 +10,8 @@
 </template>
 
 <script lang="ts" setup>
-import TopNavigationBar3 from "@/views/demos/DigitalAgency/components/TopNavigationBar3.vue";
+import TopNavigationBar3 from "@/components/navbar/BlogNavbar.vue";
+
 import Hero from "@/views/pages/about/About/components/Hero.vue";
 
 import Cards from "@/views/pages/about/About/components/Cards.vue";

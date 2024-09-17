@@ -112,7 +112,7 @@ const swiperAvatars = [avatar9, avatar1, avatar10, avatar5]
                 <Swiper
                   :modules="[Autoplay, Pagination]"
                   :autoplay="{
-                    delay: 2000,
+                    delay: 5000,
                   }"
                   :loop="true"
                   :spaceBetween="30"

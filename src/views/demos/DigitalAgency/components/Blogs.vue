@@ -1,7 +1,7 @@
 <template>
   <section>
     <b-container>
-      <div class="inner-container text-center mb-4 mb-sm-6">
+      <div class="inner-container text-center mb-sm-4">
         <h2 class="mb-0">{{ $t("categories.title") }}</h2>
       </div>
 

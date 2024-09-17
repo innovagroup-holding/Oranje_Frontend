@@ -9,7 +9,9 @@
         <ul class="nav align-items-center dropdown-hover ms-sm-2">
           <ThemeToggleDropdown />
 
-          <li class="nav-item flex-nowrap align-items-center ms-3 d-none d-md-block">
+          <li
+            class="nav-item flex-nowrap align-items-center ms-3 d-none d-md-block"
+          >
             <form class="position-relative">
               <input
                 class="form-control pe-5 bg-light"
@@ -38,11 +40,11 @@
 </template>
 
 <script lang="ts" setup>
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import CartOffcanvas from '@/components/topbar/CartOffcanvas.vue'
-import StickyHeader from '@/components/topbar/StickyHeader.vue'
-import LogoBox from '@/components/topbar/LogoBox.vue'
-import ThemeToggleDropdown from '@/components/topbar/ThemeToggleDropdown.vue'
-import MobileNavbarToggler from '@/components/topbar/MobileNavbarToggler.vue'
-import AppMenu from '@/components/topbar/AppMenu/index.vue'
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import CartOffcanvas from "@/components/topbar/CartOffcanvas.vue";
+import StickyHeader from "@/components/topbar/StickyHeader.vue";
+import LogoBox from "@/components/topbar/LogoBox.vue";
+import ThemeToggleDropdown from "@/components/topbar/ThemeToggleDropdown.vue";
+import MobileNavbarToggler from "@/components/topbar/MobileNavbarToggler.vue";
+import AppMenu from "@/components/topbar/AppMenu/index.vue";
 </script>

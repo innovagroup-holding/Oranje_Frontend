@@ -1,7 +1,7 @@
 <template>
   <section
-    class="vh-xl-auto vh-100 bg-dark py-0 overflow-hidden"
-    data-bs-theme="dark"
+    class="vh-xl-auto vh-100 bg-light py-0 overflow-hidden"
+    data-bs-theme="light"
   >
     <b-container fluid class="h-100 p-0">
       <b-row class="h-100 g-0">
