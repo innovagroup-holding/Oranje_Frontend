@@ -1,10 +1,10 @@
 <template>
   <section
-    class="vh-xl-auto vh-100 bg-light py-0 overflow-hidden"
+    class="vh-xl-auto vh-100 bg-light py-0 overflow-hidden pt-0"
     data-bs-theme="light"
   >
     <b-container fluid class="h-100 p-0">
-      <b-row class="h-100 g-0">
+      <b-row class="h-100 g-0 pt-0 mt-0">
         <b-col lg="6" class="m-auto order-2">
           <div class="px-5 px-xxl-8 py-6 py-lg-8">
             <h1
@@ -86,7 +86,7 @@
             <SwiperSlide v-for="(image, idx) in swiperImages" :key="idx">
               <div
                 class="h-100 scale-img py-9"
-                :style="`background-image:url(${image}); background-position: center left; background-size: cover;`"
+                :style="`background-image:url(${image}); background-position: center top; background-size: cover;`"
               ></div>
             </SwiperSlide>
           </Swiper>
@@ -100,9 +100,9 @@
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { EffectFade, Autoplay, Pagination } from "swiper/modules";
 
-import backgroundImg7 from "@/assets/images/bg/07.jpg";
-import backgroundImg12 from "@/assets/images/bg/12.jpg";
-import backgroundImg13 from "@/assets/images/bg/13.jpg";
+import backgroundImg7 from "@/assets/about us/about us hero 1.jpg";
+import backgroundImg12 from "@/assets/about us/about us hero 2.jpg";
+import backgroundImg13 from "@/assets/about us/about us hero 3.jpg";
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {

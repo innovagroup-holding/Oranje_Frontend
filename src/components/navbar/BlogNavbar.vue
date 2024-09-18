@@ -32,9 +32,9 @@ const scrollToTop = () => {
 };
 </script>
 <style scoped>
-.navbar {
+/* .navbar {
   padding: 0 !important;
   margin: 0 !important;
   height: 70px !important;
-}
+} */
 </style>
