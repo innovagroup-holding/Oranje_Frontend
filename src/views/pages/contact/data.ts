@@ -21,20 +21,20 @@ type AddreddType = {
 export const address: AddreddType[] = [
   {
     icon: BIconGeoAlt,
-    name: 'Company Address',
-    image: usflagImg,
-    description: 'US office:'
+    name: 'contactPage.address',
+    image:webflowImg
+   
   },
   {
     icon: BIconEnvelope,
-    name: 'Email us',
-    description: "We're on top of things and aim to respond to all inquiries within 24 hours.",
+    name: 'contactPage.emailUs',
+    description: "contactPage.textForEmail",
     emailornum: 'info@oranje-fragrance.nl'
   },
   {
     icon: BIconTelephone,
-    name: 'Call us',
-    description: "Let's work together towards a common goal - get in touch!",
+    name: 'contactPage.callUs',
+    description: "contactPage.textForCall",
     emailornum: '+ 31633407737'
   }
 ]

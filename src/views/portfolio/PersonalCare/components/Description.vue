@@ -20,13 +20,13 @@
         </b-col>
         <b-col
           sm="6"
-          class="ms-auto aos"
+          class="ms-auto aos d-flex align-self-center flex-column"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-2">{{ $t("personalCare.title") }}</h4>
+          <h4 class="mb-lg-5">{{ $t("personalCare.title") }}</h4>
           <p class="lh-lg">
             <span
               class="dropcap fs-1 heading-color bg-transparent rounded px-2"
@@ -43,5 +43,5 @@
 
 <script lang="ts" setup>
 import CustomGLightbox from "@/components/CustomGLightbox.vue";
-import backgroundImg10 from "@/assets/images/photo_2024-09-11_17-31-26.jpg";
+import backgroundImg10 from "@/assets/Personal Care.png";
 </script>

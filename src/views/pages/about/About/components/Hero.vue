@@ -55,7 +55,7 @@
               {{ $t("aboutPage.hero.subtitle") }}
             </p>
             <router-link
-              :to="{ name: 'contact.v1' }"
+              :to="{ name: 'contact' }"
               class="btn btn-lg btn-primary mb-0 aos"
               data-aos="fade-up"
               data-aos-delay="200"

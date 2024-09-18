@@ -34,7 +34,8 @@
               class="d-flex justify-content-center align-items-center gap-1 gap-sm-2"
             >
               <router-link
-                :to="{ name: 'contact.v1' }"
+                @click="scrollToTop"
+                :to="{ name: 'contact' }"
                 class="btn btn-dark icons-center"
               >
                 <BIconTelephone class="me-2" />
@@ -51,4 +52,7 @@
 <script lang="ts" setup>
 import { BIconTelephone } from "bootstrap-icons-vue";
 import bg5Img from "@/assets/backgroundForCTA.jpg";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

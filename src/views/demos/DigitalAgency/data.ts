@@ -67,14 +67,14 @@ export const blogs: BlogType[] = [
     category: 'categories.fineFragrance.category',
     icon:icon1,
     image: blogImg1,
-    route: { name: 'portfolio.fine-fragrance' }
+    route: { name: 'fine-fragrance' }
   },
   {
     title: 'categories.personalCare.title',
     category: 'categories.personalCare.category',
     icon:icon2,
     image: blogImg2,
-    route: { name: 'portfolio.personal-care' }
+    route: { name: 'personal-care' }
   },
   {
     title: 'categories.airCare.title',
@@ -91,13 +91,13 @@ export const blogs: BlogType[] = [
     //   lastName: 'Smith'
     // },
     image: blogImg3,
-    route: { name: 'portfolio.air-care' }
+    route: { name: 'air-care' }
   },
   {
     title: 'categories.homeCare.title',
     category: 'categories.homeCare.category',
     icon:icon4,
     image: blogImg4,
-    route: { name: 'portfolio.home-care' }
+    route: { name: 'home-care' }
   }
 ]

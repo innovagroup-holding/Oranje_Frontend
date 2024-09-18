@@ -88,6 +88,7 @@
 
             <div class="mt-6">
               <router-link
+                @click="scrollToTop"
                 class="btn btn-lg btn-primary border"
                 :to="{ name: 'about-us' }"
               >
@@ -114,4 +115,7 @@
 
 <script lang="ts" setup>
 import icon1 from "@/assets/about-section-in-home.png";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

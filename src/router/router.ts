@@ -32,8 +32,8 @@ const pagesRoutes = [
        component: () => import('@/views/pages/about/About/index.vue')
      },
   {
-    path: '/contact/v1',
-    name: 'contact.v1',
+    path: '/contact',
+    name: 'contact',
     meta: {
       title: setTitle('ContactV1')
     },
@@ -53,32 +53,32 @@ const pagesRoutes = [
 const portfolioRoutes = [
 
   {
-    path: '/portfolio/fine-fragrance',
-    name: 'portfolio.fine-fragrance',
+    path: '/fine-fragrance',
+    name: 'fine-fragrance',
     meta: {
       title: setTitle('Fine Fragrance')
     },
     component: () => import('@/views/portfolio/FineFragrance/index.vue')
   },
   {
-    path: '/portfolio/personal-care',
-    name: 'portfolio.personal-care',
+    path: '/personal-care',
+    name: 'personal-care',
     meta: {
       title: setTitle('Personal Care')
     },
     component: () => import('@/views/portfolio/PersonalCare/index.vue')
   },
   {
-    path: '/portfolio/air-care',
-    name: 'portfolio.air-care',
+    path: '/air-care',
+    name: 'air-care',
     meta: {
       title: setTitle('Air Care')
     },
     component: () => import('@/views/portfolio/AirCare/index.vue')
   },
   {
-    path: '/portfolio/home-care',
-    name: 'portfolio.home-care',
+    path: '/home-care',
+    name: 'home-care',
     meta: {
       title: setTitle('Home Care')
     },

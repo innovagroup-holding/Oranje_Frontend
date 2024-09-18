@@ -45,8 +45,9 @@
                     {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
+                    @click="scrollToTop"
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    :to="{ name: 'contact.v1' }"
+                    :to="{ name: 'contact' }"
                   >
                     {{ $t("hero.call") }} <BIconArrowRight class="bi" />
                   </router-link>
@@ -86,8 +87,9 @@
                     {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
+                    @click="scrollToTop"
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    :to="{ name: 'contact.v1' }"
+                    :to="{ name: 'contact' }"
                   >
                     {{ $t("hero.call") }}<BIconArrowRight class="bi" />
                   </router-link>
@@ -127,8 +129,9 @@
                     {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
+                    @click="scrollToTop"
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    :to="{ name: 'contact.v1' }"
+                    :to="{ name: 'contact' }"
                   >
                     {{ $t("hero.call") }}<BIconArrowRight class="bi" />
                   </router-link>
@@ -168,8 +171,9 @@
                     {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
+                    @click="scrollToTop"
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    :to="{ name: 'contact.v1' }"
+                    :to="{ name: 'contact' }"
                   >
                     {{ $t("hero.call") }}<BIconArrowRight class="bi" />
                   </router-link>
@@ -209,8 +213,9 @@
                     {{ $t("hero.subtitle") }}
                   </p>
                   <router-link
+                    @click="scrollToTop"
                     class="btn btn-lg btn-white icon-link icon-link-hover mb-0"
-                    :to="{ name: 'contact.v1' }"
+                    :to="{ name: 'contact' }"
                   >
                     {{ $t("hero.call") }}<BIconArrowRight class="bi" />
                   </router-link>
@@ -241,4 +246,7 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init({ once: true });
 });
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

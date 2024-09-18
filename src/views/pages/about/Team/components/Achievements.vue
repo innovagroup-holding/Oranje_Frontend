@@ -5,15 +5,15 @@
         <b-col lg="5">
           <h2 class="mb-3">Our Lifetime Achievements</h2>
           <p class="mb-4">
-            Join our team Creative Agency Specializing in: Video Production, Web Design, Branding,
-            Brand Strategy.
+            Join our team Creative Agency Specializing in: Video Production, Web
+            Design, Branding, Brand Strategy.
           </p>
 
           <div
             class="text-center d-inline-block bg-light border rounded position-relative px-5 py-3"
           >
             <span class="heading-color">Work with us?</span>
-            <router-link :to="{ name: 'contact.v1' }" class="stretched-link ms-2"
+            <router-link :to="{ name: 'contact' }" class="stretched-link ms-2"
               >Join our community
               <BIconChevronRight class="small" />
             </router-link>
@@ -41,6 +41,6 @@
 </template>
 
 <script setup lang="ts">
-import { achievement } from '@/views/pages/about/Team/data'
-import { BIconChevronRight } from 'bootstrap-icons-vue'
+import { achievement } from "@/views/pages/about/Team/data";
+import { BIconChevronRight } from "bootstrap-icons-vue";
 </script>

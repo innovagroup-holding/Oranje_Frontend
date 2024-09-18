@@ -11,7 +11,7 @@
         <router-link
           class="nav-link"
           :class="menuItemActive('contact', currentRouteName) && 'active'"
-          :to="{ name: 'contact.v1' }"
+          :to="{ name: 'contact' }"
         >
           {{ $t("nav.contact") }}
         </router-link>

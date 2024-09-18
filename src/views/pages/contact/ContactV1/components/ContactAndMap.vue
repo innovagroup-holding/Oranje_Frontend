@@ -16,20 +16,11 @@
             </div>
 
             <h6 :class="idx >= address.length - 2 ? 'mb-3' : 'mb-4'">
-              {{ item.name }}
+              {{ $t(item.name) }}
             </h6>
 
-            <p v-if="!item.image">{{ item.description }}</p>
-            <div v-if="item.image" class="d-flex align-items-center mb-2">
-              <div class="avatar avatar-xxs me-2">
-                <img
-                  class="avatar-img rounded-circle"
-                  :src="item.image"
-                  alt="avatar"
-                />
-              </div>
-              <span class="heading-color fw-semibold mb-0">US office:</span>
-            </div>
+            <p v-if="!item.image">{{ $t(item.description) }}</p>
+            <div v-if="item.image" class="d-flex align-items-center mb-2"></div>
             <address v-if="item.image" class="mb-0">
               1421 Coburn Hollow Road Metamora, Near Center Point, IL 61548.
             </address>

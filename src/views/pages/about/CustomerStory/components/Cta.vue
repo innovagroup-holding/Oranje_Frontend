@@ -23,7 +23,9 @@
               </svg>
             </figure>
 
-            <figure class="position-absolute bottom-0 end-0 mb-n3 me-n3 d-none d-sm-block">
+            <figure
+              class="position-absolute bottom-0 end-0 mb-n3 me-n3 d-none d-sm-block"
+            >
               <svg
                 width="148"
                 height="140"
@@ -34,12 +36,42 @@
                   class="fill-primary"
                   d="m9.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
                 ></path>
-                <circle class="fill-primary" cx="25.86" cy="131.41" r="2.95"></circle>
-                <circle class="fill-primary" cx="44.71" cy="131.41" r="2.95"></circle>
-                <circle class="fill-primary" cx="63.57" cy="131.41" r="2.95"></circle>
-                <circle class="fill-primary" cx="82.43" cy="131.41" r="2.95"></circle>
-                <circle class="fill-primary" cx="101.29" cy="131.41" r="2.95"></circle>
-                <circle class="fill-primary" cx="120.14" cy="131.41" r="2.95"></circle>
+                <circle
+                  class="fill-primary"
+                  cx="25.86"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="44.71"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="63.57"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="82.43"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="101.29"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="120.14"
+                  cy="131.41"
+                  r="2.95"
+                ></circle>
                 <path
                   class="fill-primary"
                   d="m141.95 131.41c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
@@ -48,12 +80,42 @@
                   class="fill-primary"
                   d="m9.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
                 ></path>
-                <circle class="fill-primary" cx="25.86" cy="113.61" r="2.95"></circle>
-                <circle class="fill-primary" cx="44.71" cy="113.61" r="2.95"></circle>
-                <circle class="fill-primary" cx="63.57" cy="113.61" r="2.95"></circle>
-                <circle class="fill-primary" cx="82.43" cy="113.61" r="2.95"></circle>
-                <circle class="fill-primary" cx="101.29" cy="113.61" r="2.95"></circle>
-                <circle class="fill-primary" cx="120.14" cy="113.61" r="2.95"></circle>
+                <circle
+                  class="fill-primary"
+                  cx="25.86"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="44.71"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="63.57"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="82.43"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="101.29"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="120.14"
+                  cy="113.61"
+                  r="2.95"
+                ></circle>
                 <path
                   class="fill-primary"
                   d="m141.95 113.61c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
@@ -62,12 +124,42 @@
                   class="fill-primary"
                   d="m9.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
                 ></path>
-                <circle class="fill-primary" cx="25.86" cy="95.81" r="2.95"></circle>
-                <circle class="fill-primary" cx="44.71" cy="95.81" r="2.95"></circle>
-                <circle class="fill-primary" cx="63.57" cy="95.81" r="2.95"></circle>
-                <circle class="fill-primary" cx="82.43" cy="95.81" r="2.95"></circle>
-                <circle class="fill-primary" cx="101.29" cy="95.81" r="2.95"></circle>
-                <circle class="fill-primary" cx="120.14" cy="95.81" r="2.95"></circle>
+                <circle
+                  class="fill-primary"
+                  cx="25.86"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="44.71"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="63.57"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="82.43"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="101.29"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="120.14"
+                  cy="95.81"
+                  r="2.95"
+                ></circle>
                 <path
                   class="fill-primary"
                   d="m141.95 95.81c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
@@ -172,12 +264,42 @@
                   class="fill-primary"
                   d="m9.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
                 ></path>
-                <circle class="fill-primary" cx="25.86" cy="24.62" r="2.95"></circle>
-                <circle class="fill-primary" cx="44.71" cy="24.62" r="2.95"></circle>
-                <circle class="fill-primary" cx="63.57" cy="24.62" r="2.95"></circle>
-                <circle class="fill-primary" cx="82.43" cy="24.62" r="2.95"></circle>
-                <circle class="fill-primary" cx="101.29" cy="24.62" r="2.95"></circle>
-                <circle class="fill-primary" cx="120.14" cy="24.62" r="2.95"></circle>
+                <circle
+                  class="fill-primary"
+                  cx="25.86"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="44.71"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="63.57"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="82.43"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="101.29"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="120.14"
+                  cy="24.62"
+                  r="2.95"
+                ></circle>
                 <path
                   class="fill-primary"
                   d="m141.95 24.62c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95 2.95 1.32 2.95 2.95z"
@@ -186,12 +308,42 @@
                   class="fill-primary"
                   d="m9.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95c0-1.62 1.32-2.94 2.95-2.94s2.95 1.32 2.95 2.94z"
                 ></path>
-                <circle class="fill-primary" cx="25.86" cy="6.82" r="2.95"></circle>
-                <circle class="fill-primary" cx="44.71" cy="6.82" r="2.95"></circle>
-                <circle class="fill-primary" cx="63.57" cy="6.82" r="2.95"></circle>
-                <circle class="fill-primary" cx="82.43" cy="6.82" r="2.95"></circle>
-                <circle class="fill-primary" cx="101.29" cy="6.82" r="2.95"></circle>
-                <circle class="fill-primary" cx="120.14" cy="6.82" r="2.95"></circle>
+                <circle
+                  class="fill-primary"
+                  cx="25.86"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="44.71"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="63.57"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="82.43"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="101.29"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
+                <circle
+                  class="fill-primary"
+                  cx="120.14"
+                  cy="6.82"
+                  r="2.95"
+                ></circle>
                 <path
                   class="fill-primary"
                   d="m141.95 6.82c0 1.63-1.32 2.95-2.95 2.95s-2.95-1.32-2.95-2.95 1.32-2.95 2.95-2.95c1.63 0.01 2.95 1.33 2.95 2.95z"
@@ -205,10 +357,12 @@
 
                 <h3 class="text-white mb-3">Join our community</h3>
                 <p class="text-white mb-3">
-                  Join the Mizzle revolution today and be part of the millions who've already
-                  embraced a brighter future!
+                  Join the Mizzle revolution today and be part of the millions
+                  who've already embraced a brighter future!
                 </p>
-                <router-link :to="{ name: 'contact.v1' }" class="btn btn-light mb-0"
+                <router-link
+                  :to="{ name: 'contact' }"
+                  class="btn btn-light mb-0"
                   >Apply now</router-link
                 >
               </b-col>
@@ -220,7 +374,9 @@
           <b-card no-body class="overflow-hidden bg-light">
             <b-card-body class="p-4 text-center">
               <span>Read another story</span>
-              <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
+              <h6 class="mt-3 mb-0">
+                Our Customer Canvas gallery of stories that resonate
+              </h6>
             </b-card-body>
 
             <b-card-footer class="position-relative p-0">
@@ -241,6 +397,6 @@
 </template>
 
 <script setup lang="ts">
-import logoIcon from '@/assets/images/logo-icon.svg'
-import stories02 from '@/assets/images/stories/02.jpg'
+import logoIcon from "@/assets/images/logo-icon.svg";
+import stories02 from "@/assets/images/stories/02.jpg";
 </script>

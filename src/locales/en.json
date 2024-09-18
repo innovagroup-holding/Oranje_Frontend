@@ -136,6 +136,37 @@
         "text":"Upgrade your home care product line with our cutting-edge fragrances. Get in Touch to learn how our solutions can meet your business requirements.",
         "btn":"Get in Touch"
         
+      },
+      "contactPage":{
+        "title1":"Get in touch for",
+        "title2":"More ",
+        "dynamicStrings": {
+          "information":"Information",
+          "details":"Details",
+          "offers":"Offers"
+        },
+        "subtitle":"You can reach us anytime via: ",
+        "follow":"Follow us on:",
+        "text":"Let's talk together",
+        "name":"Full Name",
+        "email":"Email Address",
+        "company":"Company Name(optional)",
+        "phone":"Phone Number",
+        "type":"Service Type",
+        "selectTypes": "Select types",
+        "option1": "Fine Fragrance",
+        "option2": "Personal Care",
+        "option3": "Air Care",
+        "option4": "Home Care",
+        "attachment":"Attachment(optional)",
+        "msg":"Message ",
+        "btn":"Contact Us",
+        "address":"Company Address",
+        "emailUs":"Email us",
+        "textForEmail":"We're on top of things and aim to respond to all inquiries within 24 hours.",
+        "callUs":"Call us",
+        "textForCall":"Let's work together towards a common goal - get in touch!"
+        
       }
    
 }

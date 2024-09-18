@@ -23,7 +23,7 @@ type FooterLinkType = {
 export const quickLinks: FooterLinkType[] = [
   {
     name: 'footer.links.link1',
-    link: ''
+    link: 'demos.agency.digital'
   },
   {
     name: 'footer.links.link2',
@@ -31,11 +31,11 @@ export const quickLinks: FooterLinkType[] = [
   },
   {
     name: 'footer.links.link3',
-    link: 'contact.v1'
+    link: 'contact'
   },
   {
     name: 'footer.links.link4',
-    link: 'portfolio.fine-fragrance',
+    link: 'fine-fragrance',
   },
   {
     name: 'footer.links.link5',
@@ -90,19 +90,19 @@ export const footerQuickLinks3: FooterLinkType[] = [
   },
   {
     name: 'Contact us',
-    link: 'contact.v1'
+    link: 'contact'
   },
   {
     name: 'Services',
-    link: 'contact.v1'
+    link: 'contact'
   },
   {
     name: 'Case studies',
-    link: 'contact.v1'
+    link: 'contact'
   },
   {
     name: 'Team',
-    link: 'contact.v1'
+    link: 'contact'
   }
 ]
 
@@ -131,13 +131,13 @@ export const quickLinks6: FooterLinkType[] = [
   },
   {
     name: 'Contact us',
-    link: 'contact.v1'
+    link: 'contact'
   },
  
 
   {
     name: 'Become a partner',
-    link: 'contact.v1'
+    link: 'contact'
   },
   
 ]

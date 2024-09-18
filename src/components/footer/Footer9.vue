@@ -70,6 +70,7 @@
                   :key="idx"
                 >
                   <router-link
+                    @click="scrollToTop"
                     class="nav-link"
                     :class="idx === 0 && 'pt-0'"
                     :to="{ name: item.link }"
@@ -236,4 +237,7 @@ import {
   BIconGeoAlt,
   BIconTelephone,
 } from "bootstrap-icons-vue";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

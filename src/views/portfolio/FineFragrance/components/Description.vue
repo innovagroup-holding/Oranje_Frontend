@@ -11,7 +11,7 @@
           data-aos-easing="ease-in-out"
         >
           <CustomGLightbox
-            :link="showcaseImg5"
+            :link="backgroundImg9"
             data-glightbox
             data-gallery="image-popup"
           >
@@ -20,13 +20,13 @@
         </b-col>
         <b-col
           sm="6"
-          class="ms-auto aos"
+          class="ms-auto aos d-flex align-self-center flex-column"
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-4">{{ $t("fineFragrance.title") }}</h4>
+          <h4 class="mb-lg-5">{{ $t("fineFragrance.title") }}</h4>
           <p class="lh-lg">
             <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >D</span
@@ -43,9 +43,5 @@
 <script lang="ts" setup>
 import CustomGLightbox from "@/components/CustomGLightbox.vue";
 
-import showcaseImg5 from "@/assets/images/portfolio/showcase/05.jpg";
-import showcase1 from "@/assets/images/portfolio/showcase/01.jpg";
-import backgroundImg8 from "@/assets/images/photo_2024-09-11_17-35-23.jpg";
-import backgroundImg9 from "@/assets/images/photo_2024-09-11_17-22-57.jpg";
-import backgroundImg10 from "@/assets/images/photo_2024-09-11_17-31-26.jpg";
+import backgroundImg9 from "@/assets/Fine Fragrance.jpg";
 </script>

@@ -137,5 +137,36 @@
       "text":"Upgrade uw huishoudelijke productlijn met onze geavanceerde geuren. Neem Contact Op om te ontdekken hoe onze oplossingen aan de vereisten van uw bedrijf kunnen voldoen.",
       "btn":"Neem Contact Op"
       
+    },
+    "contactPage":{
+      "title1":"Neem contact op voor",
+      "title2":"Meer ",
+      "dynamicStrings": {
+        "information":"Informatie",
+        "details":"Details",
+        "offers":"Aanbiedingen"
+      },
+      "subtitle":"U kunt ons op elk moment bereiken via: ",   
+      "follow":"Volg ons op:",
+      "text":"Laten we samen praten",
+      "name":"Volledige naam",
+        "email":"E-mailadres",
+        "company":"Bedrijfsnaam(optioneel)",
+        "phone":"Telefoonnummer",
+        "type":"Diensttype",
+        "selectTypes": "Selecteer typen",
+        "option1": "Fijne Geuren",
+        "option2": "Persoonlijke Verzorging",
+        "option3": "Luchtverzorging",
+        "option4": "Huishoudelijke Verzorging",
+        "attachment":"Bijlage(optioneel)",
+        "msg":"Bericht",
+        "btn":"Neem contact op",
+        "address":"Bedrijfsadres",
+        "emailUs":"E-mail ons",
+        "textForEmail":"Wij zijn er bovenop en streven ernaar om binnen 24 uur op alle vragen te reageren.",
+        "callUs":"Bel Ons",
+        "textForCall":"Laten we samen werken aan een gemeenschappelijk doel - neem contact met ons op!"
+      
     }
 }

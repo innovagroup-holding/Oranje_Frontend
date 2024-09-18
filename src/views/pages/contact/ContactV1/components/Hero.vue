@@ -50,20 +50,23 @@
       </figure>
 
       <div class="inner-container text-center position-relative mb-9 mt-8">
-        <h1 class="mt-4 text-white">Get in touch for</h1>
+        <h1 class="mt-4 text-white">{{ $t("contactPage.title1") }}</h1>
         <h6
           class="h1 cd-headline clip big-clip is-full-width text-primary mb-5"
         >
-          <span class="text-white pt-0">More </span>
+          <span class="text-white pt-0">{{ $t("contactPage.title2") }} </span>
           <ITyped id="type2" :strings="strings" />
         </h6>
         <p class="mb-0">
-          You can reach us anytime via <a href="#">info@oranje-fragrance.nl </a>
+          {{ $t("contactPage.subtitle")
+          }}<a href="#">info@oranje-fragrance.nl </a>
         </p>
         <div
           class="d-sm-flex gap-3 align-items-center justify-content-center my-5"
         >
-          <h6 class="mb-3 mb-sm-0 text-white">Follow us on:</h6>
+          <h6 class="mb-3 mb-sm-0 text-white">
+            {{ $t("contactPage.follow") }}
+          </h6>
           <ul
             class="list-inline flex-wrap mb-0 hstack d-sm-flex gap-3 align-items-center justify-content-center"
           >
@@ -169,14 +172,16 @@
             <b-card-header class="border-bottom px-0 pt-0 pb-5">
               <nav class="mb-3" aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dots pt-0">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item">
+                    <a href="#">{{ $t("nav.home") }}</a>
+                  </li>
                   <li class="breadcrumb-item active" aria-current="page">
-                    Contact us
+                    {{ $t("nav.contact") }}
                   </li>
                 </ol>
               </nav>
 
-              <h1 class="mb-3 h3">Let's talk together</h1>
+              <h1 class="mb-3 h3">{{ $t("contactPage.text") }}</h1>
             </b-card-header>
 
             <b-form class="px-0 pb-0 pt-5">
@@ -187,7 +192,7 @@
                   id="floatingName"
                   placeholder="Password"
                 />
-                <label for="floatingName">Your name</label>
+                <label for="floatingName">{{ $t("contactPage.name") }}</label>
               </div>
 
               <div class="input-floating-label form-floating mb-4">
@@ -197,7 +202,7 @@
                   id="floatingInput"
                   placeholder="name@example.com"
                 />
-                <label for="floatingInput">Email address</label>
+                <label for="floatingInput">{{ $t("contactPage.email") }}</label>
               </div>
               <div class="input-floating-label form-floating mb-4">
                 <input
@@ -206,26 +211,30 @@
                   id="floatingInput"
                   placeholder="Company"
                 />
-                <label for="floatingInput">Company Name</label>
+                <label for="floatingInput">{{
+                  $t("contactPage.company")
+                }}</label>
               </div>
 
               <div class="input-floating-label form-floating mb-4">
                 <input
-                  type="number"
+                  type="text"
                   class="form-control bg-transparent"
                   id="floatingNumber"
                   placeholder="Phone number"
                 />
-                <label for="floatingNumber">Phone number</label>
+                <label for="floatingNumber">{{
+                  $t("contactPage.phone")
+                }}</label>
               </div>
               <multiselect
                 v-model="selectedTypes"
-                :options="types"
+                :options="translatedOptions"
                 :multiple="true"
                 :taggable="true"
-                placeholder="Select types"
-                label="name"
+                :placeholder="$t('contactPage.selectTypes')"
                 track-by="name"
+                label="name"
                 class="form-control bg-transparent py-2 px-0"
               >
               </multiselect>
@@ -237,7 +246,9 @@
                   id="floatingFile"
                   placeholder="Upload a file"
                 />
-                <label for="floatingFile">Upload a file or image</label>
+                <label for="floatingFile">{{
+                  $t("contactPage.attachment")
+                }}</label>
               </div>
               <div class="input-floating-label form-floating mb-4">
                 <textarea
@@ -246,12 +257,14 @@
                   id="floatingTextarea2"
                   style="height: 100px"
                 ></textarea>
-                <label for="floatingTextarea2">Message</label>
+                <label for="floatingTextarea2">{{
+                  $t("contactPage.msg")
+                }}</label>
               </div>
 
-              <b-button size="lg" variant="primary" class="mb-0"
-                >Send a message</b-button
-              >
+              <b-button size="lg" variant="primary" class="mb-0">{{
+                $t("contactPage.btn")
+              }}</b-button>
             </b-form>
           </b-card>
         </b-col>
@@ -264,30 +277,37 @@
 
 <script lang="ts" setup>
 import ITyped from "@/components/ITyped.vue";
-import { BIconPatchCheckFill } from "bootstrap-icons-vue";
-
-import sassBackground from "@/assets/images/bg/saas-bg.jpg";
-import cardImage from "@/assets/images/elements/saas-decoration/card.png";
-import decorationImage1 from "@/assets/images/elements/saas-decoration/01.png";
 import {
   BIconFacebook,
   BIconInstagram,
-  BIconDribbble,
   BIconTwitter,
   BIconYoutube,
 } from "bootstrap-icons-vue";
-const strings = ["Information", "Details", "Offers"];
+
+const strings = ["Details"];
+
 import Multiselect from "vue-multiselect";
 import "vue-multiselect/dist/vue-multiselect.min.css";
-import { ref } from "vue";
+import { ref, computed } from "vue";
 
-const types = ref([
-  { name: "Fine Fragrance" },
-  { name: "Personal Care" },
-  { name: "Air Care" },
-  { name: "Home Care" },
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
+interface TypeOption {
+  name: string;
+}
+const selectedTypes = ref<TypeOption[]>([]);
+const types = ref<TypeOption[]>([
+  { name: "contactPage.option1" },
+  { name: "contactPage.option2" },
+  { name: "contactPage.option3" },
+  { name: "contactPage.option4" },
 ]);
-const selectedTypes = ref([]);
+
+const translatedOptions = computed(() => {
+  return types.value.map((type) => ({
+    name: t(`${type.name}`),
+  }));
+});
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {

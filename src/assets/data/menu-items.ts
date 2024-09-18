@@ -199,26 +199,26 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
     children: [
       {
         key: 'portfolio-fine-fragrance',
-        label: 'Fine Fragrance',
-        route: { name: 'portfolio.fine-fragrance' },
+        label: 'categories.fineFragrance.title',
+        route: { name: 'fine-fragrance' },
         parentKey: 'portfolio'
       },
       {
         key: 'portfolio-personal-care',
-        label: 'Personal Care',
-        route: { name: 'portfolio.personal-care' },
+        label: 'categories.personalCare.title',
+        route: { name: 'personal-care' },
         parentKey: 'portfolio'
       },
       {
         key: 'portfolio-air-care',
-        label: 'Air Care',
-        route: { name: 'portfolio.air-care' },
+        label: 'categories.airCare.title',
+        route: { name: 'air-care' },
         parentKey: 'portfolio'
       },
       {
         key: 'portfolio-home-care',
-        label: 'Home Care',
-        route: { name: 'portfolio.home-care' },
+        label: 'categories.homeCare.title',
+        route: { name: 'home-care' },
         parentKey: 'portfolio'
       },
      
@@ -233,7 +233,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
       {
         key: 'contact-1',
         label: 'Contact v.1',
-        route: { name: 'contact.v1' },
+        route: { name: 'contact' },
         parentKey: 'contact'
       }
     ]

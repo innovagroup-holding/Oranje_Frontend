@@ -53,7 +53,8 @@
             </p>
 
             <router-link
-              :to="{ name: 'contact.v1' }"
+              @click="scrollToTop"
+              :to="{ name: 'contact' }"
               class="btn btn-lg btn-dark mb-0"
             >
               {{ $t("personalCare.btn") }}
@@ -71,4 +72,7 @@ import avatar03 from "@/assets/Customer photos/young man3.png";
 import avatar04 from "@/assets/Customer photos/Young woman5.png";
 import avatar05 from "@/assets/Customer photos/Young woman4.png";
 import avatar06 from "@/assets/Customer photos/young man2.png";
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 </script>

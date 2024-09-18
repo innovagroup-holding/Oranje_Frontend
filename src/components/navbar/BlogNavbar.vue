@@ -7,7 +7,7 @@
         <AppMenu showContactUs ul-class="mx-auto" @click="scrollToTop" />
 
         <ul class="nav align-items-center dropdown-hover ms-sm-2">
-          <ThemeToggleDropdown />
+          <!-- <ThemeToggleDropdown /> -->
           <LanguageDropdown />
 
           <li class="nav-item">

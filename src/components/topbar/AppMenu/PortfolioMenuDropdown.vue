@@ -15,12 +15,12 @@
           <ul class="list-unstyled text-center">
             <li v-for="item in menuItems" :key="item.key">
               <router-link
-                class="dropdown-item"
+                class="dropdown-item text-start"
                 v-if="item.route"
                 :to="{ name: item.route.name }"
                 :class="{ active: item.route.name === currentRouteName }"
               >
-                {{ item.label }}
+                {{ $t(item.label) }}
               </router-link>
             </li>
           </ul>
