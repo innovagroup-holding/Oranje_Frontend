@@ -26,20 +26,14 @@
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-2">The Personal Care</h4>
+          <h4 class="mb-2">{{ $t("personalCare.title") }}</h4>
           <p class="lh-lg">
-            <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
-              >A</span
-            >t
+            <span
+              class="dropcap fs-1 heading-color bg-transparent rounded px-2"
+              >{{ $t("personalCare.subtitle1") }}</span
+            >{{ $t("personalCare.subtitle2") }}
             <span class="text-primary fw-bolder fs-6">Oranje</span>
-            Fragrance , we understand the critical importance of fragrance in
-            personal care products. Our personal care scents are meticulously
-            developed to align with the specific needs of hair and skin
-            products. Each fragrance is engineered for stability, skin
-            compatibility, and environmental sustainability. By partnering with
-            industry leaders, we ensure that our fragrances not only meet but
-            exceed the quality standards required for consumer satisfaction and
-            market success.
+            {{ $t("personalCare.subtitle3") }}
           </p>
         </b-col>
       </b-row>

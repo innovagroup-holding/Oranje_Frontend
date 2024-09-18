@@ -26,18 +26,13 @@
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-4">The Home Care</h4>
+          <h4 class="mb-4">{{ $t("homeCare.title") }}</h4>
           <p class="lh-lg">
             <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >O</span
-            >ptimize your home care products with our innovative fragrance
-            solutions. At
+            >{{ $t("homeCare.subtitle1") }}
             <span class="text-primary fw-bolder fs-6">Oranje</span>
-            Fragrance , we develop scents designed to elevate the sensory
-            experience of your products, from cleaning solutions to air
-            fresheners. We continuously explore new trends and technologies to
-            deliver the latest in home care fragrance innovation, ensuring your
-            products stand out in a competitive market.
+            {{ $t("homeCare.subtitle2") }}
           </p>
         </b-col>
       </b-row>

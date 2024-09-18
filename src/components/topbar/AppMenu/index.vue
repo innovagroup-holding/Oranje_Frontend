@@ -1,15 +1,11 @@
 <template>
   <b-collapse id="topbar-appmenu-collapse" class="navbar-collapse">
     <ul class="navbar-nav navbar-nav-scroll dropdown-hover" :class="ulClass">
-      <DemosMenuDropdown :menuItems="menuItems[0].children!" />
+      <DemosMenuDropdown />
 
-      <PagesMenuDropdown :menu-items="menuItems[1].children!" />
-
-      <ResourcesMenuDropdown v-if="showResources" />
+      <PagesMenuDropdown />
 
       <PortfolioMenuDropdown :menu-items="menuItems[2].children!" />
-
-      <MegaMenuDropdown v-if="showMegaMenu" />
 
       <li v-if="showContactUs" class="nav-item">
         <router-link
@@ -20,16 +16,6 @@
           {{ $t("nav.contact") }}
         </router-link>
       </li>
-
-      <li v-if="showDocs" class="nav-item">
-        <a
-          class="nav-link"
-          href="https://mizzle-vue.vercel.app/docs/index.html"
-          target="_blank"
-        >
-          Docs
-        </a>
-      </li>
     </ul>
   </b-collapse>
 </template>
@@ -38,9 +24,7 @@
 import { getAppMenuItems, type MenuItemType } from "@/helpers/menu";
 import DemosMenuDropdown from "@/components/topbar/AppMenu/DemosMenuDropdown.vue";
 import PagesMenuDropdown from "@/components/topbar/AppMenu/PagesMenuDropdown.vue";
-import MegaMenuDropdown from "@/components/topbar/AppMenu/MegaMenuDropdown.vue";
 import PortfolioMenuDropdown from "@/components/topbar/AppMenu/PortfolioMenuDropdown.vue";
-import ResourcesMenuDropdown from "@/components/topbar/AppMenu/ResourcesMenuDropdown.vue";
 import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 import router from "@/router";
 type AppMenuProps = {

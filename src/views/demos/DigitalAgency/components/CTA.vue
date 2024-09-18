@@ -8,8 +8,12 @@
   >
     <b-container class="position-relative">
       <div
-        class="bg-primary rounded position-relative overflow-hidden p-4 p-sm-5"
+        class="rounded position-relative overflow-hidden p-4 p-sm-5"
+        style="background-size: cover; background-position: center"
+        :style="{ backgroundImage: `url('${bg5Img}')` }"
       >
+        <div class="bg-overlay bg-dark bg-opacity-25"></div>
+
         <figure class="position-absolute top-0 start-0 ms-n8">
           <svg
             width="371"
@@ -74,11 +78,6 @@
             </defs>
           </svg>
         </figure>
-
-        <div class="position-absolute end-0 bottom-0 me-sm-5">
-          <img :src="ctaVectorImg" class="h-200px" alt="vector-img" />
-        </div>
-
         <b-row class="g-4 position-relative">
           <b-col lg="7" class="mx-auto text-center">
             <h2 class="text-white mb-4">{{ $t("call.title") }}</h2>
@@ -99,12 +98,21 @@
           </b-col>
         </b-row>
       </div>
+
+      <!-- <div
+        class="rounded-3 position-relative overflow-hidden p-4 p-md-6"
+        style="background-size: cover; background-position: center"
+        :style="{ backgroundImage: `url('${bg5Img}')` }"
+      >
+        <div class="bg-overlay bg-dark bg-opacity-75"></div>
+      </div> -->
     </b-container>
   </section>
 </template>
 
 <script lang="ts" setup>
 import { BIconEnvelope, BIconTelephone } from "bootstrap-icons-vue";
+import bg5Img from "@/assets/backgroundForCTA.jpg";
 
 import ctaVectorImg from "@/assets/images/elements/cta-vector.svg";
 const scrollToTop = () => {

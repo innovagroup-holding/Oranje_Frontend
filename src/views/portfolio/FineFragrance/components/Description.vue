@@ -26,19 +26,13 @@
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-4">The Fine Fragrance</h4>
+          <h4 class="mb-4">{{ $t("fineFragrance.title") }}</h4>
           <p class="lh-lg">
             <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >D</span
-            >ive into the sophisticated realm of fine fragrances with
+            >{{ $t("fineFragrance.subtitle1") }}
             <span class="text-primary fw-bolder fs-6">Oranje</span>
-            Fragrance. We leverage the latest advancements in fragrance
-            technology to craft scents that are both luxurious and cutting-edge.
-            Our fine fragrances are designed to meet the highest standards of
-            quality, offering exceptional value for your brand. Ideal for both
-            personal use and commercial applications, our scents are crafted to
-            elevate your product offerings and set new benchmarks in olfactory
-            excellence.
+            {{ $t("fineFragrance.subtitle2") }}
           </p>
         </b-col>
       </b-row>

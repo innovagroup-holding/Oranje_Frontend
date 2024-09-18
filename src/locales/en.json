@@ -63,9 +63,7 @@
         "contact": "Contact Information",
         "follow":"Follow on"
       },
-     
-
-
+    
       "aboutPage": {
         "hero": {
           "title1":"Discover Our",
@@ -98,6 +96,46 @@
           "subtitle": "To learn more about how Oranje Fragrance & Flavor can enhance your products with exceptional scents and flavors, please contact us today. We look forward to partnering with you on your next project.",
           "call": "Contact Us"
         }
+      },
+
+
+
+
+      "fineFragrance":{
+        "mainTitle":"Fine Fragrance",
+        "title":"The Fine Fragrance",
+        "subtitle1":"ive into the sophisticated realm of fine fragrances with  ",
+        "subtitle2":"Fragrance. We leverage the latest advancements in fragrance technology to craft scents that are both luxurious and cutting-edge. Our fine fragrances are designed to meet the highest standards of quality, offering exceptional value for your brand. Ideal for both personal use and commercial applications, our scents are crafted to elevate your product offerings and set new benchmarks in olfactory excellence.",
+        "text":"Enhance your product line with our premium fragrances. Request a Sample and experience the sophistication we can bring to your brand.",
+        "btn":"Request a Sample"
+        
+      },
+      "personalCare":{
+        "mainTitle":"Personal Care",
+        "title":"The Personal Care",
+        "subtitle1":"A",
+        "subtitle2":"t",
+        "subtitle3":"Fragrance , we understand the critical importance of fragrance in personal care products. Our personal care scents are meticulously developed to align with the specific needs of hair and skin products. Each fragrance is engineered for stability, skin compatibility, and environmental sustainability. By partnering with industry leaders, we ensure that our fragrances not only meet but exceed the quality standards required for consumer satisfaction and market success.",
+        "text":"Elevate your personal care range with our expertly crafted fragrances. Request a Sample today and discover how our tailored solutions can enhance your product line.",
+        "btn":"Request a Sample"
+        
+      },
+      "airCare":{
+        "mainTitle":"Air Care",
+        "title":"The Air Care",
+        "subtitle":"ransform various environments with our specialized air care fragrances. Whether it's for upscale hotels, busy airports, or modern fitness centers, our air fragrances are crafted to leave a lasting impression. We focus on creating bespoke scents that enhance any space, including both traditional and contemporary air fragrance solutions. Our goal is to provide your business with aromas that not only refresh but also create a memorable atmosphere.",
+        "text":"Create a lasting impression with our unique air care solutions. Explore Our Offerings and see how our fragrances can enhance your commercial spaces.",
+        "btn":"Request a Sample"
+        
+      },
+      "homeCare":{
+        "mainTitle":"Home Care",
+        "title":"The Home Care",
+        "subtitle1":"ptimize your home care products with our innovative fragrance solutions. At",
+        "subtitle2":"Fragrance , we develop scents designed to elevate the sensory experience of your products, from cleaning solutions to air fresheners. We continuously explore new trends and technologies to deliver the latest in home care fragrance innovation, ensuring your products stand out in a competitive market.",
+        "text":"Upgrade your home care product line with our cutting-edge fragrances. Get in Touch to learn how our solutions can meet your business requirements.",
+        "btn":"Get in Touch"
+        
       }
    
 }

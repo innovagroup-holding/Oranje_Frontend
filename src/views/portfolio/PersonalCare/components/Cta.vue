@@ -49,16 +49,14 @@
             </ul>
 
             <p class="mb-4">
-              Elevate your personal care range with our expertly crafted
-              fragrances. Request a Sample today and discover how our tailored
-              solutions can enhance your product line.
+              {{ $t("personalCare.text") }}
             </p>
 
             <router-link
               :to="{ name: 'contact.v1' }"
               class="btn btn-lg btn-dark mb-0"
             >
-              Request a Sample
+              {{ $t("personalCare.btn") }}
             </router-link>
           </b-col>
         </b-row>
@@ -68,9 +66,9 @@
 </template>
 
 <script setup lang="ts">
-import avatar02 from "@/assets/images/avatar/02.jpg";
-import avatar03 from "@/assets/images/avatar/03.jpg";
-import avatar04 from "@/assets/images/avatar/04.jpg";
-import avatar05 from "@/assets/images/avatar/05.jpg";
-import avatar06 from "@/assets/images/avatar/06.jpg";
+import avatar02 from "@/assets/Customer photos/Young woman3.png";
+import avatar03 from "@/assets/Customer photos/young man3.png";
+import avatar04 from "@/assets/Customer photos/Young woman5.png";
+import avatar05 from "@/assets/Customer photos/Young woman4.png";
+import avatar06 from "@/assets/Customer photos/young man2.png";
 </script>

@@ -99,5 +99,43 @@
         "subtitle": "Om meer te weten te komen over hoe Oranje Fragrance uw producten kan verrijken met uitzonderlijke geuren en smaken, neem vandaag nog contact met ons op. We kijken ernaar uit om met u samen te werken aan uw volgende project.",
         "call": "Contacteer ons"
       }
+    },
+
+    "fineFragrance":{
+      "mainTitle":"Fijne Geuren",
+      "title":"De Fijne Geur",
+      "subtitle1":"uik in de verfijnde wereld van fijne geuren met ",
+      "subtitle2":"Fragrance. We maken gebruik van de nieuwste vooruitgangen in geurtechnologie om geuren te creëren die zowel luxueus als innovatief zijn. Onze fijne geuren zijn ontworpen om aan de hoogste kwaliteitsnormen te voldoen en bieden uw merk uitzonderlijke waarde. Ideaal voor zowel persoonlijk gebruik als commerciële toepassingen, onze geuren zijn ontwikkeld om uw productaanbod te verbeteren en nieuwe maatstaven te zetten op het gebied van olfactorische perfectie.",
+      "text":"Verhoog uw productlijn met onze premium geuren. Vraag een Monster aan en ervaar de verfijning die wij aan uw merk kunnen toevoegen.",
+      "btn":"Vraag een Monster aan"
+      
+    },
+    "personalCare":{
+      "mainTitle":"Persoonlijke Verzorging",
+      "title":"De Persoonlijke Verzorging",
+      "subtitle1":"B",
+      "subtitle2":"ij",
+      "subtitle3":"Fragrance & Flavor begrijpen we het cruciale belang van geur in persoonlijke verzorgingsproducten. Onze persoonlijke verzorgingsgeuren worden zorgvuldig ontwikkeld om aan te sluiten bij de specifieke behoeften van haar- en huidproducten. Elke geur is ontworpen voor stabiliteit, huidcompatibiliteit en milieuduurzaamheid. Door samen te werken met marktleiders, zorgen we ervoor dat onze geuren niet alleen voldoen aan, maar ook de kwaliteitsnormen overtreffen die nodig zijn voor klanttevredenheid en marktsucces.",
+      "text":"Verhoog uw persoonlijke verzorgingslijn met onze vakkundig samengestelde geuren. Vraag vandaag nog een Monster aan en ontdek hoe onze op maat gemaakte oplossingen uw productlijn kunnen verbeteren.",
+      "btn":"Vraag een Monster aan"
+      
+    },
+    "airCare":{
+      "mainTitle":"Luchtverzorging",
+      "title":"De Luchtverzorging",
+      "subtitle":"ransformeer verschillende omgevingen met onze gespecialiseerde luchtverzorgingsgeuren. Of het nu gaat om luxe hotels, drukke luchthavens of moderne fitnesscentra, onze luchtgeuren zijn ontwikkeld om een blijvende indruk achter te laten. We richten ons op het creëren van unieke geuren die elke ruimte verbeteren, inclusief zowel traditionele als eigentijdse luchtverzorgingsoplossingen. Ons doel is om uw bedrijf te voorzien van aroma's die niet alleen verfrissen, maar ook een gedenkwaardige sfeer creëren.",
+    
+      "text":"Maak een blijvende indruk met onze unieke luchtverzorgingsoplossingen. Ontdek Ons Aanbod en zie hoe onze geuren uw commerciële ruimtes kunnen verbeteren",
+      "btn":"Ontdek Ons Aanbod"
+      
+    },
+    "homeCare":{
+      "mainTitle":"Huishoudelijke Verzorging",
+      "title":"De Huishoudelijke Verzorging",
+      "subtitle1":"ptimaliseer uw huishoudelijke producten met onze innovatieve geur oplossingen. Bij ",
+      "subtitle2":"Fragrance & Flavor ontwikkelen we geuren die zijn ontworpen om de zintuiglijke ervaring van uw producten te verbeteren, van schoonmaakoplossingen tot luchtverfrissers. We verkennen continu nieuwe trends en technologieën om de nieuwste innovaties op het gebied van huishoudelijke geuren te leveren, zodat uw producten opvallen in een concurrerende markt.",
+      "text":"Upgrade uw huishoudelijke productlijn met onze geavanceerde geuren. Neem Contact Op om te ontdekken hoe onze oplossingen aan de vereisten van uw bedrijf kunnen voldoen.",
+      "btn":"Neem Contact Op"
+      
     }
 }

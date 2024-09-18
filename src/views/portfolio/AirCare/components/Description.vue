@@ -26,18 +26,12 @@
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
         >
-          <h4 class="mb-4">The Air Care</h4>
+          <h4 class="mb-4">{{ $t("airCare.title") }}</h4>
           <p class="lh-lg pt-3">
             <span class="dropcap fs-1 heading-color bg-transparent rounded px-2"
               >T</span
             >
-            ransform various environments with our specialized air care
-            fragrances. Whether it's for upscale hotels, busy airports, or
-            modern fitness centers, our air fragrances are crafted to leave a
-            lasting impression. We focus on creating bespoke scents that enhance
-            any space, including both traditional and contemporary air fragrance
-            solutions. Our goal is to provide your business with aromas that not
-            only refresh but also create a memorable atmosphere.
+            {{ $t("airCare.subtitle") }}
           </p>
         </b-col>
       </b-row>

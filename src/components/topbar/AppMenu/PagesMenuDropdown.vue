@@ -20,11 +20,11 @@ import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { BIconLifePreserver } from "bootstrap-icons-vue";
 
-type PagesMenuDropdownProps = {
-  menuItems: MenuItemType[];
-};
+// type PagesMenuDropdownProps = {
+//   menuItems: MenuItemType[];
+// };
 
-defineProps<PagesMenuDropdownProps>();
+// defineProps<PagesMenuDropdownProps>();
 
 const currentRouteName = router.currentRoute.value.name;
 </script>

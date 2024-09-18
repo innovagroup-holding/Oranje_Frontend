@@ -28,17 +28,21 @@
           <div class="d-flex justify-content-center mb-3">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb breadcrumb-dots pb-0 mb-0">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Categories</a></li>
+                <li class="breadcrumb-item">
+                  <a href="/">{{ $t("nav.home") }}</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">{{ $t("nav.categories") }}</a>
+                </li>
 
                 <li class="breadcrumb-item active" aria-current="page">
-                  Home Care
+                  {{ $t("homeCare.mainTitle") }}
                 </li>
               </ol>
             </nav>
           </div>
 
-          <h1 class="py-3">Home Care</h1>
+          <h1 class="py-3">{{ $t("homeCare.mainTitle") }}</h1>
         </b-col>
       </b-row>
     </b-container>
