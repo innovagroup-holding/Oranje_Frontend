@@ -3,7 +3,7 @@
     <ul class="navbar-nav navbar-nav-scroll dropdown-hover" :class="ulClass">
       <DemosMenuDropdown />
 
-      <PagesMenuDropdown />
+      <AboutPage />
 
       <PortfolioMenuDropdown :menu-items="menuItems[2].children!" />
 
@@ -23,7 +23,7 @@
 <script lang="ts" setup>
 import { getAppMenuItems, type MenuItemType } from "@/helpers/menu";
 import DemosMenuDropdown from "@/components/topbar/AppMenu/DemosMenuDropdown.vue";
-import PagesMenuDropdown from "@/components/topbar/AppMenu/PagesMenuDropdown.vue";
+import AboutPage from "@/components/topbar/AppMenu/AboutPage.vue";
 import PortfolioMenuDropdown from "@/components/topbar/AppMenu/PortfolioMenuDropdown.vue";
 import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 import router from "@/router";

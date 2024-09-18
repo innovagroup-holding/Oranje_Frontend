@@ -97,101 +97,15 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
   {
     key: 'demos',
     label: 'Demos',
-    // children: [
-    //   {
-    //     key: 'demo-classic-default',
-    //     label: 'Classic Default',
-    //     route: { name: 'demos.classic' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-creative-agency',
-    //     label: 'Creative Agency',
-    //     route: { name: 'demos.agency.creative' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-digital-agency',
-    //     label: 'Digital Agency',
-    //     route: { name: 'demos.agency.digital' },
-    //     parentKey: 'demos',
-    //     badge: 'New'
-    //   },
-    //   {
-    //     key: 'demo-design-agency',
-    //     label: 'Design Agency',
-    //     route: { name: 'demos.agency.design' },
-    //     parentKey: 'demos',
-    //     badge: 'New'
-    //   },
-    //   {
-    //     key: 'demo-seo-agency',
-    //     label: 'SEO Agency',
-    //     route: { name: 'demos.agency.seo' },
-    //     parentKey: 'demos',
-    //     badge: 'New'
-    //   },
-    //   {
-    //     key: 'demo-product-landing',
-    //     label: 'Product Landing',
-    //     route: { name: 'demos.product-landing' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-mobile-app',
-    //     label: 'Mobile App Showcase',
-    //     route: { name: 'demos.mobile-app' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-saas-v1',
-    //     label: 'SaaS v.1',
-    //     route: { name: 'saas.v1' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-saas-v2',
-    //     label: 'SaaS v.2',
-    //     route: { name: 'saas.v2' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-saas-v3',
-    //     label: 'SaaS v.3',
-    //     route: { name: 'saas.v3' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-saas-v4',
-    //     label: 'SaaS v.4',
-    //     route: { name: 'saas.v4' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-saas-v5',
-    //     label: 'SaaS v.5',
-    //     route: { name: 'saas.v5' },
-    //     parentKey: 'demos'
-    //   },
-    //   {
-    //     key: 'demo-finance-consulting',
-    //     label: 'Finance Consulting',
-    //     route: { name: 'demos.finance-consulting' },
-    //     parentKey: 'demos',
-    //     badge: 'New'
-    //   },
-    //   {
-    //     key: 'demo-shop-index',
-    //     label: 'Index Shop',
-    //     route: { name: 'shop.index' },
-    //     parentKey: 'demos'
-    //   }
-    // ]
-  },
-  {
-    key: 'pages',
-    label: 'Pages',
-  
+    children: [
+      {
+        key: 'demos-agency-digital',
+        label: 'demos',
+        route: { name: 'demos.agency.digital' },
+        parentKey: 'demos'
+      }
+    ]
+          
   },
   {
     key: 'portfolio',
@@ -220,10 +134,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
         label: 'categories.homeCare.title',
         route: { name: 'home-care' },
         parentKey: 'portfolio'
-      },
-     
-     
-     
+      },   
     ]
   },
   {

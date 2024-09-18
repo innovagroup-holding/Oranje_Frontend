@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AboutPage: typeof import('./src/components/topbar/AppMenu/AboutPage.vue')['default']
     AppMenu: typeof import('./src/components/topbar/AppMenu/index.vue')['default']
     AuthSwiper: typeof import('./src/components/AuthSwiper/AuthSwiper.vue')['default']
     BackToTop: typeof import('./src/components/BackToTop.vue')['default']
