@@ -12,7 +12,7 @@
         style="background-size: cover; background-position: center"
         :style="{ backgroundImage: `url('${bg5Img}')` }"
       >
-        <div class="bg-overlay bg-dark bg-opacity-25"></div>
+        <div class="bg-overlay bg-dark bg-opacity-50"></div>
 
         <figure class="position-absolute top-0 start-0 ms-n8">
           <svg
@@ -48,7 +48,7 @@
                 <stop
                   offset="0.0569271"
                   stop-color="#D9D9D9"
-                  stop-opacity="0.5"
+                  stop-opacity="0.6"
                 ></stop>
                 <stop
                   offset="0.998202"
@@ -67,7 +67,7 @@
                 <stop
                   offset="0.0569271"
                   stop-color="#D9D9D9"
-                  stop-opacity="0.2"
+                  stop-opacity="0.4"
                 ></stop>
                 <stop
                   offset="0.998202"
@@ -80,8 +80,16 @@
         </figure>
         <b-row class="g-4 position-relative">
           <b-col lg="7" class="mx-auto text-center">
-            <h2 class="text-white mb-4">{{ $t("call.title") }}</h2>
-            <p class="text-white mb-4">
+            <h2
+              class="text-white mb-4"
+              style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6)"
+            >
+              {{ $t("call.title") }}
+            </h2>
+            <p
+              class="text-white mb-4"
+              style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6)"
+            >
               {{ $t("call.subtitle") }}
             </p>
             <div
@@ -91,21 +99,14 @@
                 @click="scrollToTop"
                 :to="{ name: 'contact.v1' }"
                 class="btn btn-dark icons-center"
-                ><BIconTelephone class="me-2" />
-                {{ $t("call.call") }}</router-link
               >
+                <BIconTelephone class="me-2" />
+                {{ $t("call.call") }}
+              </router-link>
             </div>
           </b-col>
         </b-row>
       </div>
-
-      <!-- <div
-        class="rounded-3 position-relative overflow-hidden p-4 p-md-6"
-        style="background-size: cover; background-position: center"
-        :style="{ backgroundImage: `url('${bg5Img}')` }"
-      >
-        <div class="bg-overlay bg-dark bg-opacity-75"></div>
-      </div> -->
     </b-container>
   </section>
 </template>
@@ -113,8 +114,8 @@
 <script lang="ts" setup>
 import { BIconEnvelope, BIconTelephone } from "bootstrap-icons-vue";
 import bg5Img from "@/assets/backgroundForCTA.jpg";
-
 import ctaVectorImg from "@/assets/images/elements/cta-vector.svg";
+
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
