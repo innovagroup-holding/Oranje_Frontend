@@ -4,7 +4,7 @@
     <RouterView />
     <BackToTop />
   </div>
-  <!-- <Footer /> -->
+  <Footer />
 </template>
 
 <script setup lang="ts">

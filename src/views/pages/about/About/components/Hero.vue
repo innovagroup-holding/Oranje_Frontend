@@ -14,9 +14,9 @@
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
-              Discover Our
+              {{ $t("aboutPage.hero.title1") }}
               <span class="position-relative z-index-2">
-                Story
+                {{ $t("aboutPage.hero.title2") }}
                 <span
                   class="w-100 h-auto bg-primary p-1 p-md-2 position-absolute bottom-0 start-0 mb-2 mb-sm-3 z-index-n1"
                 ></span>
@@ -52,14 +52,7 @@
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
             >
-              Welcome to Oranje Fragrance & Flavor, where passion meets
-              innovation in the world of scent and taste. Established in 2019,
-              we are a Dutch company dedicated to crafting exceptional
-              fragrances and flavors for a diverse range of applications,
-              including fine fragrances, personal care products, home care
-              solutions, air care, and food flavors. Our mission is to elevate
-              your products with unique and captivating scents while staying
-              ahead of the latest trends and innovations in the industry.
+              {{ $t("aboutPage.hero.subtitle") }}
             </p>
             <router-link
               :to="{ name: 'contact.v1' }"
@@ -68,7 +61,8 @@
               data-aos-delay="200"
               data-aos-duration="2500"
               data-aos-easing="ease-in-out"
-              >Contact Us</router-link
+            >
+              {{ $t("aboutPage.hero.call") }}</router-link
             >
           </div>
         </b-col>

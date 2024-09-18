@@ -1,5 +1,8 @@
 <template>
-  <footer class="bg-dark position-relative overflow-hidden pt-6" data-bs-theme="dark">
+  <footer
+    class="bg-dark position-relative overflow-hidden pt-6"
+    data-bs-theme="dark"
+  >
     <figure class="position-absolute top-0 start-0 mt-n8 ms-n9">
       <svg
         class="fill-mode"
@@ -47,72 +50,112 @@
     </div>
 
     <b-container class="position-relative mt-5">
-      <b-row class="g-4 justify-content-between">
+      <b-row class="g-4 justify-content-between mb-4">
         <b-col lg="3">
           <LogoBox className="me-0" imageClass="h-40px" />
 
           <p class="mt-4 mb-2">
-            A Bootstrap theme that's both stylish and functional, perfect for any type of technology
-            or corporate website.
+            {{ $t("footer.text") }}
           </p>
         </b-col>
 
         <b-col lg="8" xxl="7">
           <b-row class="g-4">
             <b-col cols="6" md="4">
-              <h6 class="mb-2 mb-md-4">Quick links</h6>
+              <h6 class="mb-2 mb-md-4">{{ $t("footer.links.title") }}</h6>
               <ul class="nav flex-column">
-                <li class="nav-item" v-for="(item, idx) in quickLinks" :key="idx">
+                <li
+                  class="nav-item"
+                  v-for="(item, idx) in quickLinks"
+                  :key="idx"
+                >
                   <router-link
                     class="nav-link"
                     :class="idx === 0 && 'pt-0'"
                     :to="{ name: item.link }"
-                    >{{ item.name }}
-                    <span v-if="item.badge" class="badge text-bg-danger ms-2">{{
-                      item.badge
-                    }}</span></router-link
-                  >
-                </li>
-              </ul>
-            </b-col>
-
-            <b-col cols="6" md="4">
-              <h6 class="mb-2 mb-md-4">Community</h6>
-              <ul class="nav flex-column">
-                <li class="nav-item" v-for="(item, idx) in communityLinks" :key="idx">
-                  <router-link class="nav-link" :class="!idx && 'pt-0'" :to="{ name: item.link }"
-                    >{{ item.name }}
-                    <component :is="item.icon" class="small ms-1" />
+                    >{{ $t(item.name) }}
                   </router-link>
                 </li>
               </ul>
             </b-col>
-
-            <b-col md="4">
-              <h6 class="mb-2 mb-md-4">App available on</h6>
-              <b-row class="g-2 mt-2 mb-4 mb-sm-5">
-                <b-col cols="5" sm="4" md="6">
-                  <router-link to="#"><img :src="googlePlay" alt="" /></router-link>
-                </b-col>
-                <b-col cols="5" sm="4" md="6">
-                  <router-link to="#"><img :src="appStore" alt="app-store" /></router-link>
-                </b-col>
-              </b-row>
-
-              <h6 class="mb-2 mb-md-4">Follow on</h6>
+            <b-col md="3" cols="6" class="d-lg-none d-sm-block">
+              <h6 class="mb-2 mb-md-4">{{ $t("footer.follow") }}</h6>
 
               <ul class="list-inline mb-0 mt-3 d-flex align-items-center gap-1">
-                <li class="list-inline-item" v-for="(item, idx) in followOnIcons" :key="idx">
-                  <a class="btn btn-xs btn-icon btn-light" href="#">
-                    <font-awesome-icon :icon="item.icon" class="fa-fw lh-base" />
-                  </a>
+                <li
+                  class="list-inline-item"
+                  v-for="(item, idx) in followOnIcons"
+                  :key="idx"
+                >
+                  <a class="btn btn-xs btn-icon btn-light" href="#"
+                    ><font-awesome-icon :icon="item.icon" class="fa-fw lh-base"
+                  /></a>
+                </li>
+              </ul>
+            </b-col>
+            <b-col cols="12" md="5">
+              <h6 class="mb-2 mb-md-4">{{ $t("footer.contact") }}</h6>
+
+              <div class="d-flex justify-content-md-start">
+                <div
+                  class="icon-md bg-body rounded-circle flex-shrink-0 flex-centered"
+                >
+                  <BIconTelephone class="heading-color d-inline" />
+                </div>
+                <div class="flex-column ps-3">
+                  <p class="fw-semibold mt-1 mb-0">
+                    <a href="#" class="heading-color text-primary-hover p-0">{{
+                      contactDetails.number
+                    }}</a>
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-md-start mt-4">
+                <div
+                  class="icon-md bg-body rounded-circle flex-shrink-0 flex-centered"
+                >
+                  <BIconEnvelope class="heading-color" />
+                </div>
+                <div class="flex-column ps-3">
+                  <p class="fw-semibold mt-1 mb-0">
+                    <a href="#" class="heading-color text-primary-hover p-0">{{
+                      contactDetails.email
+                    }}</a>
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-md-start mt-4">
+                <div
+                  class="icon-md bg-body rounded-circle flex-shrink-0 flex-centered"
+                >
+                  <BIconGeoAlt class="heading-color" />
+                </div>
+                <div class="nav flex-column ps-3">
+                  <p class="fw-semibold heading-color mt-1 mb-0">
+                    {{ contactDetails.address }}
+                  </p>
+                </div>
+              </div>
+            </b-col>
+            <b-col md="3" cols="6" class="d-none d-lg-block">
+              <h6 class="mb-2 mb-md-4">{{ $t("footer.follow") }}</h6>
+
+              <ul class="list-inline mb-0 mt-3 d-flex align-items-center gap-1">
+                <li
+                  class="list-inline-item"
+                  v-for="(item, idx) in followOnIcons"
+                  :key="idx"
+                >
+                  <a class="btn btn-xs btn-icon btn-light" href="#"
+                    ><font-awesome-icon :icon="item.icon" class="fa-fw lh-base"
+                  /></a>
                 </li>
               </ul>
             </b-col>
           </b-row>
         </b-col>
       </b-row>
-
+      <!-- 
       <hr class="mt-4 mb-0" />
 
       <div
@@ -120,9 +163,11 @@
       >
         <div class="text-body">
           Copyrights ©{{ currentYear }} Mizzle. Build by
-          <a :href="developedByLink" target="_blank" class="text-body text-primary-hover">{{
-            developedBy
-          }}</a
+          <a
+            :href="developedByLink"
+            target="_blank"
+            class="text-body text-primary-hover"
+            >{{ developedBy }}</a
           >.
         </div>
         <b-dropdown
@@ -133,8 +178,10 @@
           class="text-center text-md-end mt-3 mt-md-0"
         >
           <template #button-content>
-            <font-awesome-icon :icon="faGlobe" class="me-2" /><span class="icons-center"
-              >Language <font-awesome-icon class="ms-2 fa-sm" :icon="faChevronUp" />
+            <font-awesome-icon :icon="faGlobe" class="me-2" /><span
+              class="icons-center"
+              >Language
+              <font-awesome-icon class="ms-2 fa-sm" :icon="faChevronUp" />
             </span>
           </template>
           <li>
@@ -144,31 +191,49 @@
           </li>
           <li>
             <b-dropdown-item class="me-4" href="#"
-              ><img class="fa-fw me-2" :src="grFlag" alt="" />German</b-dropdown-item
+              ><img
+                class="fa-fw me-2"
+                :src="grFlag"
+                alt=""
+              />German</b-dropdown-item
             >
           </li>
           <li>
             <b-dropdown-item class="me-4" href="#"
-              ><img class="fa-fw me-2" :src="spFlag" alt="" />French</b-dropdown-item
+              ><img
+                class="fa-fw me-2"
+                :src="spFlag"
+                alt=""
+              />French</b-dropdown-item
             >
           </li>
         </b-dropdown>
-      </div>
+      </div> -->
     </b-container>
   </footer>
 </template>
 
 <script lang="ts" setup>
-import LogoBox from '@/components/topbar/LogoBox.vue'
-import { currentYear, developedBy, developedByLink } from '@/helpers'
-import { quickLinks, communityLinks, followOnIcons } from '@/assets/data/footer-items'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import LogoBox from "@/components/topbar/LogoBox.vue";
+import { currentYear, developedBy, developedByLink } from "@/helpers";
+import {
+  quickLinks,
+  communityLinks,
+  followOnIcons,
+} from "@/assets/data/footer-items";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-import ukFlag from '@/assets/images/flags/uk.svg'
-import grFlag from '@/assets/images/flags/gr.svg'
-import spFlag from '@/assets/images/flags/sp.svg'
-import appStore from '@/assets/images/elements/app-store.svg'
-import googlePlay from '@/assets/images/elements/google-play.svg'
-import pattern2 from '@/assets/images/elements/decoration-pattern-2.svg'
+import ukFlag from "@/assets/images/flags/uk.svg";
+import grFlag from "@/assets/images/flags/gr.svg";
+import spFlag from "@/assets/images/flags/sp.svg";
+import appStore from "@/assets/images/elements/app-store.svg";
+import googlePlay from "@/assets/images/elements/google-play.svg";
+import pattern2 from "@/assets/images/elements/decoration-pattern-2.svg";
+import { contactDetails } from "@/assets/data/footer-items";
+import {
+  BIconEnvelope,
+  BIconGeoAlt,
+  BIconTelephone,
+} from "bootstrap-icons-vue";
 </script>

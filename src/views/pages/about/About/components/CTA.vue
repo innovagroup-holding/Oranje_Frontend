@@ -79,12 +79,9 @@
 
         <b-row class="g-4 position-relative">
           <b-col lg="7" class="mx-auto text-center">
-            <h2 class="text-white mb-4">Create new innovation together</h2>
+            <h2 class="text-white mb-4">{{ $t("aboutPage.call.title") }}</h2>
             <p class="text-white mb-4">
-              To learn more about how Oranje Fragrance & Flavor can enhance your
-              products with exceptional scents and flavors, please contact us
-              today. We look forward to partnering with you on your next
-              project."
+              {{ $t("aboutPage.call.subtitle") }}
             </p>
             <div
               class="d-flex justify-content-center align-items-center gap-1 gap-sm-2"
@@ -92,7 +89,8 @@
               <router-link
                 :to="{ name: 'contact.v1' }"
                 class="btn btn-dark icons-center"
-                ><BIconTelephone class="me-2" />Contact us</router-link
+                ><BIconTelephone class="me-2" />
+                {{ $t("aboutPage.call.call") }}</router-link
               >
             </div>
           </b-col>

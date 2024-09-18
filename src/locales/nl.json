@@ -45,26 +45,59 @@
         "title2":"Onze Klanten",
          "title3":"Zeggen "
       },
-      "call":{
+    "call":{
       "title": "Klaar om Uw Zintuigen te Transformeren?",
       "subtitle": "Neem vandaag nog contact met ons op en ontdek hoe onze geuren uw producten naar een hoger niveau kunnen tillen.",
       "call": "Vraag een Adviesgesprek aan"
     },
-    "login": {
-        "signIn": "Inschrijven",
-        "logIn": "Inloggen",
-        "phone": "Telefoonnummer",
-        "password": "Wachtwoord",
-        "register": "Nog geen account? Registreren",
-        "noAccount": "Nog geen account?"
-    },
-    "register": {
-        "signUp": "Maak een account aan",
-        "firstName": "Voornaam",
-        "lastName": "Achternaam",
-        "email": "E-mail",
-        "phone": "Telefoonnummer",
-        "password": "Wachtwoord",
-        "login": "Heeft u al een account? Inloggen"
+    "footer":{
+        "text": "Neem vandaag nog contact met ons op en ontdek hoe onze geuren uw producten naar een hoger niveau kunnen tillen.",
+        "links": {
+          "title":"Snelle links",
+          "link1":"Startpagina",
+          "link2":"Over Ons",
+          "link3":"Neem Contact Op",
+          "link4":"Categorieën",
+          "link5":"Privacybeleid",
+          "link6":"Servicevoorwaarden"
+        },
+        "contact": "Contactgegevens",
+        "follow":"Volg ons op"
+      },
+
+
+
+    "aboutPage": {
+      "hero": {
+        "title1":"Ontdek Ons",
+        "title2":"Verhaal",
+        "subtitle":"Welkom bij Oranje Fragrance & Flavor, waar passie en innovatie samenkomen in de wereld van geur en smaak. Opgericht in 2019, zijn wij een Nederlands bedrijf dat zich toelegt op het creëren van uitzonderlijke geuren en smaken voor diverse toepassingen, waaronder fijne geuren, persoonlijke verzorgingsproducten, huishoudelijke oplossingen, luchtverzorging en voedingssmaken. Onze missie is om uw producten te verrijken met unieke en boeiende geuren, terwijl we voorop blijven lopen in de nieuwste trends en innovaties in de industrie.",
+        "call":"Contacteer ons"
+      },
+       "section1":{
+         "title":"Onze Expertise:",
+        "subtitle":"Bij Oranje Fragrance & Flavor zijn we trots op onze expertise in het ontwikkelen van onderscheidende geuren en smaken. Onze creaties worden zorgvuldig samengesteld om ervoor te zorgen dat ze niet alleen voldoen aan, maar ook de hoogste kwaliteitsnormen overtreffen. We gebruiken geavanceerde technieken en best practices uit de industrie om uitzonderlijke geur- en smaaksoplossingen op maat te leveren."
+       },
+       "section2":{
+        "title":"Onze Uitbreiding:",
+       "subtitle":"In november 2022 breidde Oranje Fragrance & Flavor haar bereik uit om een belangrijke distributeur te worden in Nederland, Saoedi-Arabië en Turkije. Deze strategische stap heeft ons in staat gesteld om onze unieke producten en innovatieve oplossingen naar nieuwe markten te brengen, waardoor we onze toewijding aan het bedienen van een wereldwijde klantenkring met uitmuntendheid en betrouwbaarheid hebben versterkt."
+      },
+      "section3":{
+        "title":"Onze Toewijding:",
+       "subtitle":"We zijn toegewijd aan het bijdragen aan het succes van onze klanten door het bieden van eersteklas geur- en smaaksoplossingen. Wetende dat elk product een unieke aanpak vereist, bieden we op maat gemaakte oplossingen die aansluiten bij marktbehoeften en klantwensen. Of het nu gaat om het ontwikkelen van een signature geur voor fijne geuren of het creëren van een onderscheidende smaak voor voedingsproducten, ons team zet zich in voor uitmuntendheid in elk project."
+      },
+      "section4":{
+        "title":"Innovatie en Trends:",
+       "subtitle":"Voorop blijven lopen in industrietrends is cruciaal voor ons succes. Bij Oranje Fragrance & Flavor verkennen we voortdurend nieuwe ontwikkelingen op het gebied van geur- en smaaktechnologie om ervoor te zorgen dat ons aanbod cutting-edge blijft. We zijn toegewijd aan het leveren van oplossingen die de nieuwste trends weerspiegelen en voldoen aan de veranderende behoeften van onze klanten."
+      },
+      "section5":{
+        "title":"Visie en Waarden:",
+       "subtitle":"Onze visie is om een wereldleider te zijn in de geur- en smaakindustrie, bekend om onze creativiteit, kwaliteit en toewijding aan uitmuntendheid. We hechten waarde aan integriteit, samenwerking en klanttevredenheid, en streven ernaar om langdurige relaties op te bouwen met onze klanten op basis van vertrouwen en wederzijds succes."
+      },
+      "call":{
+        "title": "Samen nieuwe innovaties creëren",
+        "subtitle": "Om meer te weten te komen over hoe Oranje Fragrance uw producten kan verrijken met uitzonderlijke geuren en smaken, neem vandaag nog contact met ons op. We kijken ernaar uit om met u samen te werken aan uw volgende project.",
+        "call": "Contacteer ons"
+      }
     }
 }

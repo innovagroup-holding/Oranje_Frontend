@@ -18,8 +18,10 @@
 
       <b-col lg="6">
         <b-card-body class="h-100 px-0 p-xl-5">
-          <b-card-title class="mb-5 px-1">{{ item.title }}</b-card-title>
-          <p class="card-text mb-3 mb-lg-4 fs-6 px-1">{{ item.description }}</p>
+          <b-card-title class="mb-5 px-1">{{ $t(item.title) }}</b-card-title>
+          <p class="card-text mb-3 mb-lg-4 fs-6 px-1">
+            {{ $t(item.description) }}
+          </p>
         </b-card-body>
       </b-col>
     </b-row>

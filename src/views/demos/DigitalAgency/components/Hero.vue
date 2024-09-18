@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-0 overflow-hidden">
+  <section class="pt-0">
     <Swiper
       class="overflow-hidden"
       :modules="[EffectFade, Autoplay, Pagination]"

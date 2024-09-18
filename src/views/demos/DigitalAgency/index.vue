@@ -8,8 +8,6 @@
 
     <CTA />
   </main>
-
-  <Footer3 />
 </template>
 
 <script lang="ts" setup>
@@ -19,5 +17,4 @@ import CTA from "@/views/demos/DigitalAgency/components/CTA.vue";
 import Blogs from "@/views/demos/DigitalAgency/components/Blogs.vue";
 import Testimonials from "@/views/demos/DigitalAgency/components/Testimonials.vue";
 import About from "@/views/demos/DigitalAgency/components/About.vue";
-import Footer3 from "@/views/demos/DigitalAgency/components/Footer3.vue";
 </script>

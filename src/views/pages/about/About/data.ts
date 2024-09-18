@@ -12,33 +12,33 @@ export type CardCaseType = {
 
 export const cardCases: CardCaseType[] = [
   {
-    title: 'Our Expertise:',
+    title: 'aboutPage.section1.title',
     description:
-      'At Oranje Fragrance & Flavor, we pride ourselves on our expertise in developing distinctive scents and flavors. Our creations are carefully crafted to ensure they not only meet but exceed the highest standards of quality. We employ advanced techniques and industry best practices to deliver exceptional fragrance and flavor solutions tailored to your needs.',
+      'aboutPage.section1.subtitle',
     image: portfolio2,
   },
   {
-    title: 'Our Expansion:',
+    title: 'aboutPage.section2.title',
     description:
-      'In November 2022, Oranje Fragrance & Flavor expanded its reach to become a key distributor in the Netherlands, Saudi Arabia, and Turkey. This strategic move has allowed us to bring our unique products and innovative solutions to new markets, strengthening our commitment to serving a global clientele with excellence and reliability.',
+      'aboutPage.section2.subtitle',
     image: portfolio1,
   },
   {
-    title: 'Our Commitment:',
+    title: 'aboutPage.section3.title',
     description:
-      'We are dedicated to contributing to the success of our clients by providing top-tier fragrance and flavor solutions. Understanding that each product requires a unique approach, we offer tailored solutions that align with market demands and client needs. Whether developing a signature scent for fine fragrances or crafting a distinctive flavor for food products, our team is committed to achieving excellence in every project.',
+      'aboutPage.section3.subtitle',
     image: portfolio3
   },
   {
-    title: 'Innovation and Trends:',
+    title: 'aboutPage.section4.title',
     description:
-      'Staying ahead of industry trends is crucial to our success. At Oranje Fragrance & Flavor, we continuously explore new advancements in fragrance and flavor technology to ensure our offerings remain at the cutting edge. We are committed to providing solutions that reflect the latest trends and meet the evolving needs of our clients.',
+      'aboutPage.section4.subtitle',
     image: portfolio4
   },
   {
-    title: 'Vision and Values:',
+    title: 'aboutPage.section5.title',
     description:
-      'Our vision is to be a global leader in the fragrance and flavor industry, known for our creativity, quality, and commitment to excellence. We value integrity, collaboration, and customer satisfaction, and we strive to build long-lasting relationships with our clients based on trust and mutual success.',
+      'aboutPage.section5.subtitle',
     image: portfolio4
   }
 ]

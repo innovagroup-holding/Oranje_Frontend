@@ -1,6 +1,6 @@
 <template>
   <StickyHeader className="header-absolute" data-bs-theme="light">
-    <nav class="navbar navbar-expand-xl bg-light px-lg-5">
+    <nav class="navbar navbar-expand-xl bg-light px-lg-5" data-bs-theme="light">
       <b-container>
         <LogoBox class-name="me-5" />
 
@@ -35,6 +35,6 @@ const scrollToTop = () => {
 .navbar {
   padding: 0 !important;
   margin: 0 !important;
-  height: 100px !important;
+  height: 70px !important;
 }
 </style>

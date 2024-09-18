@@ -76,7 +76,7 @@ defineProps({
     </li>
   </ul>
 
-  <q class="lead heading-color">{{ testimonial.comment }}</q>
+  <q class="lead heading-color fs-6 lh-sm">{{ testimonial.comment }}</q>
 
   <div class="d-sm-flex align-items-center mt-4">
     <div class="avatar flex-shrink-0">

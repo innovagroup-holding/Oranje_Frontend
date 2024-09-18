@@ -22,33 +22,30 @@ type FooterLinkType = {
 
 export const quickLinks: FooterLinkType[] = [
   {
-    name: 'About us',
+    name: 'footer.links.link1',
+    link: ''
+  },
+  {
+    name: 'footer.links.link2',
     link: 'about-us'
   },
   {
-    name: 'Contact us',
+    name: 'footer.links.link3',
     link: 'contact.v1'
   },
   {
-    name: 'Categories',
-    link: 'about-us',
+    name: 'footer.links.link4',
+    link: 'portfolio.fine-fragrance',
   },
   {
-    name: 'Privacy Policy',
-    link: 'about-us'
+    name: 'footer.links.link5',
+    link: ''
   },
   {
-    name: 'Terms of Service',
-    link: 'contact.v1'
+    name: 'footer.links.link6',
+    link: ''
   },
-  // {
-  //   name: 'Sign in',
-  //   link: 'auth.sign-in'
-  // },
-  // {
-  //   name: 'Sign up',
-  //   link: 'auth.sign-up'
-  // }
+ 
 ]
 
 export const communityLinks: FooterLinkType[] = [
@@ -97,17 +94,15 @@ export const footerQuickLinks3: FooterLinkType[] = [
   },
   {
     name: 'Services',
-    link: 'services.v1'
+    link: 'contact.v1'
   },
- 
- 
   {
     name: 'Case studies',
-    link: 'portfolio.showcase'
+    link: 'contact.v1'
   },
   {
     name: 'Team',
-    link: 'pages.team'
+    link: 'contact.v1'
   }
 ]
 

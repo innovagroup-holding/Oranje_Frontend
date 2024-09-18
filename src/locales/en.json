@@ -49,22 +49,55 @@
         "subtitle": "Contact us today to discover how our fragrances.can elevate your products.",
         "call": "Request a Consultation"
       },
-    "login": {
-        "signIn": "Sign in",
-        "logIn": "Log in",
-        "phone": "Phone Number",
-        "password": "Password",
-        "register": "Don't have an account? Register",
-        "noAccount": "No account yet?"
-    },
-    "register": {
-        "signUp": "Sign up for an account",
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "email": "Email",
-        "phone": "Phone Number",
-        "password": "Password",
-        "login": "Already have an account? Login"
-    }
+      "footer":{
+        "text": "Contact us today to discover how our fragrances.can elevate your products.",
+        "links": {
+          "title":"Quick links",
+          "link1":"Home",
+          "link2":"About us",
+          "link3":"Contact us",
+          "link4":"Categories",
+          "link5":"Privacy Policy",
+          "link6":"Terms of Service"
+        },
+        "contact": "Contact Information",
+        "follow":"Follow on"
+      },
+     
+
+
+      "aboutPage": {
+        "hero": {
+          "title1":"Discover Our",
+          "title2":"Story",
+          "subtitle":"Welcome to Oranje Fragrance & Flavor, where passion meets innovation in the world of scent and taste. Established in 2019, we are a Dutch company dedicated to crafting exceptional fragrances and flavors for a diverse range of applications, including fine fragrances, personal care products, home care solutions, air care, and food flavors. Our mission is to elevate your products with unique and captivating scents while staying ahead of the latest trends and innovations in the industry.",
+          "call":"Contact Us"
+        },
+         "section1":{
+           "title":"Our Expertise:",
+          "subtitle":"At Oranje Fragrance & Flavor, we pride ourselves on our expertise in developing distinctive scents and flavors. Our creations are carefully crafted to ensure they not only meet but exceed the highest standards of quality. We employ advanced techniques and industry best practices to deliver exceptional fragrance and flavor solutions tailored to your needs."
+         },
+         "section2":{
+          "title":"Our Expansion:",
+         "subtitle":"In November 2022, Oranje Fragrance & Flavor expanded its reach to become a key distributor in the Netherlands, Saudi Arabia, and Turkey. This strategic move has allowed us to bring our unique products and innovative solutions to new markets, strengthening our commitment to serving a global clientele with excellence and reliability."
+        },
+        "section3":{
+          "title":"Our Commitment:",
+         "subtitle":"We are dedicated to contributing to the success of our clients by providing top-tier fragrance and flavor solutions. Understanding that each product requires a unique approach, we offer tailored solutions that align with market demands and client needs. Whether developing a signature scent for fine fragrances or crafting a distinctive flavor for food products, our team is committed to achieving excellence in every project."
+        },
+        "section4":{
+          "title":"Innovation and Trends:",
+         "subtitle":"Staying ahead of industry trends is crucial to our success. At Oranje Fragrance & Flavor, we continuously explore new advancements in fragrance and flavor technology to ensure our offerings remain at the cutting edge. We are committed to providing solutions that reflect the latest trends and meet the evolving needs of our clients."
+        },
+        "section5":{
+          "title":"Vision and Values:",
+         "subtitle":"Our vision is to be a global leader in the fragrance and flavor industry, known for our creativity, quality, and commitment to excellence. We value integrity, collaboration, and customer satisfaction, and we strive to build long-lasting relationships with our clients based on trust and mutual success."
+        },
+        "call":{
+          "title": "Create new innovation together",
+          "subtitle": "To learn more about how Oranje Fragrance & Flavor can enhance your products with exceptional scents and flavors, please contact us today. We look forward to partnering with you on your next project.",
+          "call": "Contact Us"
+        }
+      }
    
 }

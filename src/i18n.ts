@@ -8,9 +8,9 @@ const messages = {
 };
 
 const i18n = createI18n({
-    locale: 'en', // set locale
-    fallbackLocale: 'en', // set fallback locale
-    messages, // set locale messages
+    locale: 'en', 
+    fallbackLocale: 'en', 
+    messages, 
 });
 
 export default i18n;

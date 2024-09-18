@@ -5,8 +5,6 @@
     <Cards />
     <CTA />
   </main>
-
-  <Footer4 />
 </template>
 
 <script lang="ts" setup>
@@ -16,6 +14,4 @@ import Hero from "@/views/pages/about/About/components/Hero.vue";
 
 import Cards from "@/views/pages/about/About/components/Cards.vue";
 import CTA from "@/views/pages/about/About/components/CTA.vue";
-
-import Footer4 from "@/views/pages/about/About/components/Footer4.vue";
 </script>
