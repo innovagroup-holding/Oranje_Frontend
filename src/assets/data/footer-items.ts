@@ -23,7 +23,7 @@ type FooterLinkType = {
 export const quickLinks: FooterLinkType[] = [
   {
     name: 'footer.links.link1',
-    link: 'demos.agency.digital'
+    link: 'home'
   },
   {
     name: 'footer.links.link2',

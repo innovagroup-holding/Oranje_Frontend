@@ -7,15 +7,15 @@ const setTitle = (pageName?: string) => {
 const demoRoutes = [
   {
     path: '/',
-    redirect: { name: 'demos.agency.digital' },
+    redirect: { name: 'home' },
     name: 'index'
   },
 
   {
     path: '/',
-    name: 'demos.agency.digital',
+    name: 'home',
     meta: {
-      title: setTitle('Digital Agency')
+      title: setTitle('Home')
     },
     component: () => import('@/views/demos/DigitalAgency/index.vue')
   },
@@ -35,7 +35,7 @@ const pagesRoutes = [
     path: '/contact',
     name: 'contact',
     meta: {
-      title: setTitle('ContactV1')
+      title: setTitle('Contact')
     },
     component: () => import('@/views/pages/contact/ContactV1/index.vue')
   },

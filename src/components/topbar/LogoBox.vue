@@ -2,7 +2,7 @@
   <router-link
     class="navbar-brand"
     :class="className"
-    :to="{ name: 'demos.agency.digital' }"
+    :to="{ name: 'home' }"
   >
     <img
       v-if="!onlyLight && !smallLogo"

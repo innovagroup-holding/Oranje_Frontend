@@ -101,7 +101,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
       {
         key: 'demos-agency-digital',
         label: 'demos',
-        route: { name: 'demos.agency.digital' },
+        route: { name: 'home' },
         parentKey: 'demos'
       }
     ]

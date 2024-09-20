@@ -12,9 +12,7 @@
     <p class="mb-4">Your password has been changed successfully.</p>
 
     <div class="d-grid text-center">
-      <router-link
-        :to="{ name: 'demos.agency.digital' }"
-        class="btn btn-dark mb-0"
+      <router-link :to="{ name: 'home' }" class="btn btn-dark mb-0"
         >Back to main page</router-link
       >
     </div>
