@@ -50,8 +50,9 @@
       @include media-breakpoint-up($next) {
         .navbar-brand .navbar-brand-item {
           height: $navbar-brand-height;
+          width:$navbar-brand-width;
           display: block;
-          width: auto;
+          // width: auto;
         }
 
         // Custom dropdown toggle icon
@@ -130,6 +131,7 @@
 
         .navbar-brand .navbar-brand-item {
           height: $navbar-mobile-brand-height;
+          width: $navbar-mobile-brand-width;
         }
         .navbar-brand {
           padding: $navbar-mobile-brand-padding-y 0;
