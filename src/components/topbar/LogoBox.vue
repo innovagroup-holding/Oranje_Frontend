@@ -23,8 +23,8 @@
 </template>
 
 <script lang="ts" setup>
-import logoLight from "@/assets/images/logo-light.svg";
-import logo from "@/assets/images/logo.svg";
+import logoLight from "@/assets/logo Oranje Fragrance footer.png";
+import logo from "@/assets/logo Oranje Fragrance.png";
 import logoIcon from "@/assets/images/logo-icon.svg";
 
 defineProps<{

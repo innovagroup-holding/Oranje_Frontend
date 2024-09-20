@@ -37,7 +37,7 @@ import { menuItemActive } from "@/components/topbar/AppMenu/getActiveClass";
 
 import { BIconArrowRight } from "bootstrap-icons-vue";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
-
+import { APP_MENU_ITEMS } from "@/assets/data/menu-items";
 import portfolioList1Img from "@/assets/images/portfolio/list/01.jpg";
 import portfolioList2Img from "@/assets/images/portfolio/list/02.jpg";
 
@@ -46,6 +46,5 @@ type PortfolioMenuDropdownProps = {
 };
 
 defineProps<PortfolioMenuDropdownProps>();
-
 const currentRouteName = router.currentRoute.value.name;
 </script>

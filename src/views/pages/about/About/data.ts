@@ -1,8 +1,8 @@
-import portfolio1 from '@/assets/images/portfolio/list/01.jpg'
-import portfolio2 from '@/assets/images/portfolio/list/02.jpg'
-import portfolio3 from '@/assets/images/portfolio/list/03.jpg'
-import portfolio4 from '@/assets/images/portfolio/list/04.jpg'
-
+import card1 from '@/assets/about us sections/1.jpg'
+import card2 from '@/assets/about us sections/2.jpg'
+import card3 from '@/assets/about us sections/3.jpg'
+import card4 from '@/assets/about us sections/4.jpg'
+import card5 from '@/assets/about us sections/5.jpg'
 export type CardCaseType = {
   title: string
   description: string
@@ -15,31 +15,31 @@ export const cardCases: CardCaseType[] = [
     title: 'aboutPage.section1.title',
     description:
       'aboutPage.section1.subtitle',
-    image: portfolio2,
+    image: card1,
   },
   {
     title: 'aboutPage.section2.title',
     description:
       'aboutPage.section2.subtitle',
-    image: portfolio1,
+    image: card2,
   },
   {
     title: 'aboutPage.section3.title',
     description:
       'aboutPage.section3.subtitle',
-    image: portfolio3
+    image: card3
   },
   {
     title: 'aboutPage.section4.title',
     description:
       'aboutPage.section4.subtitle',
-    image: portfolio4
+    image: card4
   },
   {
     title: 'aboutPage.section5.title',
     description:
       'aboutPage.section5.subtitle',
-    image: portfolio4
+    image: card5
   }
 ]
 
