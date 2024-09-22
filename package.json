@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite --host 0.0.0.0",
     "safe-build": "run-p type-check \"build {@}\" --",
     "preview": "vite preview",
     "build": "vite build",

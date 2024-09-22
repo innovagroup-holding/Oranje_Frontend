@@ -239,17 +239,31 @@
               >
               </multiselect>
 
-              <div class="input-floating-label form-floating mb-4 mt-6">
+              <!-- <div class="input-floating-label form-floating mb-4 mt-4">
+                <label class="input-group-text" for="floatingFile">{{
+                  $t("contactPage.attachment")
+                }}</label>
                 <input
                   type="file"
                   class="form-control bg-transparent"
                   id="floatingFile"
                   placeholder="Upload a file"
                 />
-                <label for="floatingFile">{{
+               
+              </div> -->
+              <div class="input-group mb-4 mt-4">
+                <label class="input-group-text" for="floatingFile">{{
                   $t("contactPage.attachment")
                 }}</label>
+                <input
+                  type="file"
+                  class="form-control bg-transparent"
+                  id="floatingFile"
+                  @change="updateFileName"
+                  ref="fileInput"
+                />
               </div>
+
               <div class="input-floating-label form-floating mb-4">
                 <textarea
                   class="form-control bg-transparent"
@@ -313,6 +327,16 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init({ once: true });
 });
+const fileName = ref("");
+
+const updateFileName = (event: Event) => {
+  const input = event.target as HTMLInputElement;
+  if (input.files && input.files[0]) {
+    fileName.value = input.files[0].name;
+  } else {
+    fileName.value = "";
+  }
+};
 </script>
 <style scoped>
 .multiselect .multiselect__tags {
@@ -322,7 +346,7 @@ onMounted(() => {
 }
 
 .multiselect__tags {
-  min-height: 50p !important;
+  min-height: 50px !important;
 }
 .multiselect__tag {
   background: #de3217 !important;
