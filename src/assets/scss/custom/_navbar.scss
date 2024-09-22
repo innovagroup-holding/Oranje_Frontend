@@ -50,9 +50,9 @@
       @include media-breakpoint-up($next) {
         .navbar-brand .navbar-brand-item {
           height: $navbar-brand-height;
-          width:$navbar-brand-width;
+          // width:$navbar-brand-width;
           display: block;
-          // width: auto;
+          width: auto;
         }
 
         // Custom dropdown toggle icon
@@ -131,7 +131,7 @@
 
         .navbar-brand .navbar-brand-item {
           height: $navbar-mobile-brand-height;
-          width: $navbar-mobile-brand-width;
+          // width: $navbar-mobile-brand-width;
         }
         .navbar-brand {
           padding: $navbar-mobile-brand-padding-y 0;
@@ -266,7 +266,7 @@
     display: none !important;
   }
   header.header-sticky-on .navbar-brand {
-    padding: $navbar-brand-padding-y-sticky 0;
+    // padding: $navbar-brand-padding-y-sticky 0;
   }
   header.header-sticky-on .navbar-brand .navbar-brand-item {
     height: $navbar-brand-height-sticky;

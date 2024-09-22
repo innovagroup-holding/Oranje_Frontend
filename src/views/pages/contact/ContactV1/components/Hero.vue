@@ -235,7 +235,7 @@
                 :placeholder="$t('contactPage.selectTypes')"
                 track-by="name"
                 label="name"
-                class="form-control bg-transparent py-2 px-0"
+                class="bg-transparent py-2 px-0"
               >
               </multiselect>
 
@@ -320,6 +320,10 @@ onMounted(() => {
   flex-wrap: wrap;
   gap: 5px;
 }
+
+.multiselect__tags {
+  min-height: 50p !important;
+}
 .multiselect__tag {
   background: #de3217 !important;
   background-color: #de3217 !important;
@@ -334,6 +338,7 @@ onMounted(() => {
 .multiselect__spinner::before {
   border-color: #de3217 transparent transparent !important;
 }
+
 @media (max-width: 576px) {
   .multiselect .multiselect__tags {
     flex-direction: column;
