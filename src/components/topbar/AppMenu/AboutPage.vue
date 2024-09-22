@@ -1,12 +1,5 @@
 <template>
   <li class="nav-item dropdown">
-    <!-- <a
-      class="nav-link dropdown-toggle arrow-none d-flex justify-content-between align-items-center w-100"
-      href="/about-us"
-      :class="menuItemActive('about', currentRouteName) && 'active'"
-    >
-      {{ $t("nav.about") }}
-    </a> -->
     <router-link
       class="nav-link dropdown-toggle arrow-none d-flex justify-content-between align-items-center w-100"
       :class="menuItemActive('about', currentRouteName) && 'active'"
