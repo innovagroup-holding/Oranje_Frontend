@@ -1,9 +1,5 @@
 <template>
-  <router-link
-    class="navbar-brand"
-    :class="className"
-    :to="{ name: 'home' }"
-  >
+  <router-link class="navbar-brand" :class="className" :to="{ name: 'home' }">
     <img
       v-if="!onlyLight && !smallLogo"
       class="light-mode-item navbar-brand-item"

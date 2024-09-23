@@ -104,8 +104,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
         route: { name: 'home' },
         parentKey: 'demos'
       }
-    ]
-          
+    ]      
   },
   {
     key: 'about',
